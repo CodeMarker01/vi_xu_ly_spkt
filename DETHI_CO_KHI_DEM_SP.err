@@ -1,7 +1,0 @@
->>> Warning 225 "DETHI_CO_KHI_DEM_SP.c" Line 12(13,21): Duplicate #define
->>> Warning 225 "DETHI_CO_KHI_DEM_SP.c" Line 13(13,21): Duplicate #define
->>> Warning 206 "DETHI_CO_KHI_DEM_SP.c" Line 82(1,1): Variable of this data type is never greater than this constant
->>> Warning 204 "DETHI_CO_KHI_DEM_SP.c" Line 82(1,1): Condition always FALSE
-      Memory usage:   ROM=3%      RAM=2% - 2%
-      0 Errors,  4 Warnings.
-Build Successful.

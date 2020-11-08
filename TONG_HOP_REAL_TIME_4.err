@@ -1,9 +1,0 @@
->>> Warning 216 "TONG_HOP_REAL_TIME_4.c" Line 211(1,2): Interrupts disabled during call to prevent re-entrancy:  (XUAT_GLCD_LCD)
->>> Warning 216 "TONG_HOP_REAL_TIME_4.c" Line 211(1,2): Interrupts disabled during call to prevent re-entrancy:  (GLCD_COMMAND)
->>> Warning 216 "TONG_HOP_REAL_TIME_4.c" Line 211(1,2): Interrupts disabled during call to prevent re-entrancy:  (@MUL1616)
->>> Warning 216 "TONG_HOP_REAL_TIME_4.c" Line 211(1,2): Interrupts disabled during call to prevent re-entrancy:  (HIEN_THI_8LED_7DOAN_QUET_ALL1)
->>> Warning 216 "TONG_HOP_REAL_TIME_4.c" Line 211(1,2): Interrupts disabled during call to prevent re-entrancy:  (GLCD_DATA)
->>> Warning 216 "TONG_HOP_REAL_TIME_4.c" Line 211(1,2): Interrupts disabled during call to prevent re-entrancy:  (GDRAM_VDK_TO_GDRAM_GLCD_ALL)
-      Memory usage:   ROM=16%      RAM=53% - 56%
-      0 Errors,  6 Warnings.
-Build Successful.

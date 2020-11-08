@@ -1,7 +1,0 @@
->>> Warning 225 "BAI_337_TONGHOP_UP_DN_CLR_NHAPNHAY_COUNTER.c" Line 5(11,15): Duplicate #define
->>> Warning 225 "BAI_337_TONGHOP_UP_DN_CLR_NHAPNHAY_COUNTER.c" Line 6(11,15): Duplicate #define
->>> Warning 225 "BAI_337_TONGHOP_UP_DN_CLR_NHAPNHAY_COUNTER.c" Line 7(12,16): Duplicate #define
---- Info 300 "BAI_337_TONGHOP_UP_DN_CLR_NHAPNHAY_COUNTER.c" Line 11(15,17): More info:   First Declaration of T0
-*** Error 31 "BAI_337_TONGHOP_UP_DN_CLR_NHAPNHAY_COUNTER.c" Line 26(15,17): Identifier is already used in this scope
-      1 Errors,  3 Warnings.
-Build Failed.

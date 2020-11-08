@@ -1,8 +1,0 @@
->>> Warning 202 "BTC4_BOXUNG_T2.c" Line 14(31,37): Variable never used:   TR_SEG
->>> Warning 202 "BTC4_BOXUNG_T2.c" Line 15(31,37): Variable never used:   TR_LCD
->>> Warning 202 "BTC4_BOXUNG_T2.c" Line 16(33,40): Variable never used:   TR_GLCD
->>> Warning 202 "BTC4_BOXUNG_T2.c" Line 17(37,46): Variable never used:   TR_LCDBig
->>> Warning 202 "BTC4_BOXUNG_T2.c" Line 19(15,17): Variable never used:   mp
-      Memory usage:   ROM=11%      RAM=53% - 53%
-      0 Errors,  5 Warnings.
-Build Successful.

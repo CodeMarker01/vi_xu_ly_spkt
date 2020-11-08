@@ -1,5 +1,0 @@
->>> Warning 225 "DETHI_CO_KHI_DEM_SP_2.c" Line 10(13,21): Duplicate #define
->>> Warning 225 "DETHI_CO_KHI_DEM_SP_2.c" Line 11(13,21): Duplicate #define
-      Memory usage:   ROM=5%      RAM=3% - 3%
-      0 Errors,  2 Warnings.
-Build Successful.

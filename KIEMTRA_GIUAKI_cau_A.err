@@ -1,8 +1,0 @@
->>> Warning 202 "KIEMTRA_GIUAKI_cau_A.c" Line 10(39,48): Variable never used:   CHUC_GLCD
->>> Warning 202 "KIEMTRA_GIUAKI_cau_A.c" Line 10(50,60): Variable never used:   DONVI_GLCD
->>> Warning 202 "KIEMTRA_GIUAKI_cau_A.c" Line 10(62,64): Variable never used:   MP
->>> Warning 202 "KIEMTRA_GIUAKI_cau_A.c" Line 11(15,20): Variable never used:   TT_HT
->>> Warning 202 "KIEMTRA_GIUAKI_cau_A.c" Line 21(13,17): Variable never used:   GIAY
-      Memory usage:   ROM=5%      RAM=56% - 57%
-      0 Errors,  5 Warnings.
-Build Successful.

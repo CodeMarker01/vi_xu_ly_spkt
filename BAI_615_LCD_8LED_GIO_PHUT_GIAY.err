@@ -1,7 +1,0 @@
->>> Warning 225 "BAI_615_LCD_8LED_GIO_PHUT_GIAY.c" Line 6(12,37): Duplicate #define
->>> Warning 225 "BAI_615_LCD_8LED_GIO_PHUT_GIAY.c" Line 7(12,21): Duplicate #define
->>> Warning 225 "BAI_615_LCD_8LED_GIO_PHUT_GIAY.c" Line 8(13,21): Duplicate #define
->>> Warning 225 "BAI_615_LCD_8LED_GIO_PHUT_GIAY.c" Line 9(13,21): Duplicate #define
-      Memory usage:   ROM=6%      RAM=3% - 3%
-      0 Errors,  4 Warnings.
-Build Successful.

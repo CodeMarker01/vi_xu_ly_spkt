@@ -1,4 +1,0 @@
->>> Warning 202 "BAI_504_HIENTHI_8SO_CACH3.c" Line 2(15,21): Variable never used:   LED7DQ
-      Memory usage:   ROM=1%      RAM=2% - 2%
-      0 Errors,  1 Warnings.
-Build Successful.

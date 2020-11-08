@@ -1,7 +1,0 @@
->>> Warning 225 "BAI_516_GIO_PHUT_GIAY_KEY_CAITIEN.c" Line 4(12,37): Duplicate #define
->>> Warning 225 "BAI_516_GIO_PHUT_GIAY_KEY_CAITIEN.c" Line 5(12,21): Duplicate #define
->>> Warning 225 "BAI_516_GIO_PHUT_GIAY_KEY_CAITIEN.c" Line 6(13,21): Duplicate #define
->>> Warning 225 "BAI_516_GIO_PHUT_GIAY_KEY_CAITIEN.c" Line 7(13,21): Duplicate #define
-      Memory usage:   ROM=4%      RAM=2% - 3%
-      0 Errors,  4 Warnings.
-Build Successful.
