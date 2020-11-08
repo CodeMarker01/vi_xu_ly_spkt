@@ -1,0 +1,26 @@
+[PROJECT]
+Target=BAI_664_GLCD_DEM_SP_T0_HIENTHI_COT_v2.hex
+Processor_Text=PIC18F4550
+CCSVersion=5.015
+Compiler=PCH
+[Target Data]
+FileList=BAI_664_GLCD_DEM_SP_T0_HIENTHI_COT_v2.c
+[Directories]
+Include=C:\Program Files (x86)\PICC\Devices\;C:\Program Files (x86)\PICC\Drivers\
+[BAI_664_GLCD_DEM_SP_T0_HIENTHI_COT_v2.c]
+Type=4
+[mru-list]
+1=BAI_664_GLCD_DEM_SP_T0_HIENTHI_COT_v2.c
+[Opened Files]
+1=..\BAI_TAP_VXL\BAI_301_CHOPTAT_8LED.c
+2=BAI_616_LCD_4LED_DEM_SP_T0_XOA_0_VN.c
+3=..\..\..\..\..\Program Files (x86)\PICC\Drivers\GRAPHICS.C
+4=BAI_664_GLCD_DEM_SP_T0_HIENTHI_COT_v2.c
+5=BAI_653_GLTD_DEM_SP_TO.c
+6=TV_PICKIT2_SHIFT_GLCD128X64.C
+7=BTC4_BOXUNG_T2.c
+8=
+9=
+[Units]
+Count=1
+1=BAI_664_GLCD_DEM_SP_T0_HIENTHI_COT_v2 (main)

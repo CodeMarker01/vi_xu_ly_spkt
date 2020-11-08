@@ -1,0 +1,293 @@
+000     @SCRATCH
+001     @SCRATCH
+001     _RETURN_
+002     @SCRATCH
+003     @SCRATCH
+004     TIN_HIEU_DK_74573_A
+004.2   G_LCDA
+004.4   G_32A
+004.6   G_4A
+005     TIN_HIEU_DK_74573_B
+005.2   G_RBDCB
+005.4   G_8B
+005.6   G_MTB
+006     DL_BTN
+007-008 RBDC
+007.0   STEP_MOTOR_ENABLE
+007.1   STEP_MOTOR_IN1
+007.2   STEP_MOTOR_IN2
+007.3   STEP_MOTOR_IN3
+007.4   STEP_MOTOR_IN4
+007.5   DC_ENABLE
+007.6   PWRKEY
+008.0   BUZZER
+008.1   TRIAC_1
+008.2   TRIAC_2
+008.3   RELAY_1
+008.4   RELAY_2
+009     DONVI4
+00A     CHUC4
+00B     TRAM4
+00C     NGAN4
+00D     LCDDATA
+00E     LCDCONTROL
+00F     GLCDDATA
+010     GLCDCONTROL
+011-018 LED_7DQ
+019     TT8LED
+01A     MPT1
+01B     MPT2
+01C     LCD_CONTROL
+01C.0   LCD_E
+01C.1   LCD_RW
+01C.2   LCD_RS
+01C.3   LCD_P
+01D     GLCD_CONTROL
+01D.0   GLCD_CS1
+01D.1   GLCD_CS2
+01D.2   GLCD_E
+01D.3   GLCD_RW
+01D.4   GLCD_RS
+01D.5   GLCD_P
+01E     DOC
+01F     NGANG
+020-420 gdram_vdk
+421     t0
+422     t0_tam
+423     chuc
+424     donvi
+425     sp
+426.0   TT_DC
+426.1   TT_HT
+426.2   doi_hinh
+426.3   tt
+427     mp
+428     chuclcd
+429     donvilcd
+42A     I
+42B     chuc_glcd
+42C     GLCD_MAU_NEN.GLCD_COLOR
+42C     KEY_NHAN.MAPHIM
+42C     glcd_circle.x
+42C     XUAT_8LED_7DOAN_QUET_1.MA
+42C     SETUP_GLCD.GLCD_FUNCTION_SET_MODE
+42C     HIEN_THI_8LED_7DOAN_QUET.@SCRATCH1
+42C     GDRAM_VDK_TO_GDRAM_GLCD_ALL.@SCRATCH1
+42C     glcd_hienthi_t0_thuan.@SCRATCH1
+42C     @PSTRINGC_853.@SCRATCH1
+42C     glcd_hienthi_t0_nguoc.@SCRATCH1
+42C     LCD_TO_THUAN.@SCRATCH1
+42C     LCD_TO_nguoc.@SCRATCH1
+42C     giai_ma_gan_cho_8led_quet_nguoc.@SCRATCH1
+42C     giai_ma_gan_cho_8led_quet_thuan.@SCRATCH1
+42C     hienthi_thuan.@SCRATCH1
+42C     hienthi_nguoc.@SCRATCH1
+42C     hienthi_thuan_LCD_nho.@SCRATCH1
+42C     @PSTRINGC_824.@SCRATCH1
+42C     hienthi_nguoc_LCD_nho.@SCRATCH1
+42C     MAIN.@SCRATCH1
+42D     lcd_hienthi_so_z_toado_xy.lcd_so
+42D     glcd_circle.Y
+42D     GLCD_COMMAND.GLCD_DATA2
+42D     @DIV88.P1
+42D     XUAT_8LED_7DOAN_QUET_2.THUTULED
+42D     KEY_NHAN.HANG
+42D     XUAT_8LED_7DOAN_QUET_1.SO_HTHI
+42D-42E GLCD_MAU_NEN.d
+42D     @delay_ms1.P1
+42D     XUAT_4LED_7DOAN_4SO.BL743
+42D     GDRAM_VDK_TO_GDRAM_GLCD_ALL.@SCRATCH2
+42D     @PSTRINGC_853.@SCRATCH2
+42D     @PSTRINGC_824.@SCRATCH2
+42E     KEY_NHAN.COT
+42E     glcd_circle.radius
+42E     lcd_hienthi_so_z_toado_xy.x1
+42E     @DIV88.P1
+42E     XUAT_4LED_7DOAN_4SO.BL742
+42E     XUAT_8LED_7DOAN_QUET_2.SO_HTHI
+42E     XUAT_8LED_7DOAN_QUET_1.@SCRATCH1
+42E     GDRAM_VDK_TO_GDRAM_GLCD_ALL.@SCRATCH3
+42F     lcd_hienthi_so_z_toado_xy.y1
+42F     XUAT_4LED_7DOAN_4SO.BL741
+42F     GLCD_DATA.GLCD_DATA3
+42F     glcd_circle.fill
+42F     XUAT_8LED_7DOAN_QUET_2.@SCRATCH1
+42F     KEY_NHAN.@SCRATCH1
+42F     GLCD_MAU_NEN.@SCRATCH1
+42F     @DIV88.@SCRATCH1
+430     glcd_circle.color
+430     GLCD_XUAT_8BIT.GLCD_DATA1
+430     XUAT_4LED_7DOAN_4SO.BL740
+430     GLCD_MAU_NEN.@SCRATCH2
+430     lcd_hienthi_so_z_toado_xy.@SCRATCH1
+431     LCD_DATA.LCD_DATA_X
+431     LCD_GOTO_XY.x
+431     glcd_circle.a
+431     XUAT_GLCD128X64.GLCD_SIGNAL
+431     GLCD_MAU_NEN.@SCRATCH3
+431     lcd_hienthi_so_z_toado_xy.@SCRATCH2
+432     LCD_GOTO_XY.Y
+432     XUAT_GLCD128X64.GLCD_INS_HTHI
+432     glcd_circle.b
+432     GLCD_MAU_NEN.@SCRATCH4
+433     glcd_circle.P
+433     LCD_GOTO_XY.@SCRATCH1
+434     LCD_COMMAND.LCD_DATA_X
+434     glcd_circle.@SCRATCH1
+435     LCD_XUAT_8BIT.LCD_DATA_X
+435     @MUL88.P1
+435     glcd_circle.@SCRATCH2
+436     XUAT_LCD20X4.LCD_SIGNAL
+436     @MUL88.P1
+436     glcd_circle.@SCRATCH3
+437     XUAT_LCD20X4.LCD_INS_HTHI
+437     glcd_circle.@SCRATCH4
+438     glcd_line.x1
+438     XUAT_1BYTE.BYTEXUAT
+439     XUAT_1BYTE.SB
+439     glcd_line.y1
+43A     XUAT_1BYTE.x
+43A     glcd_line.x2
+43A.7   XUAT_1BYTE.BSERI
+43B     glcd_line.y2
+43C     glcd_line.color
+43D-43E glcd_line.dy
+43F-440 glcd_line.dx
+441     glcd_line.addx
+442     glcd_line.addy
+443-444 glcd_line.P
+445-446 glcd_line.diff
+447     glcd_line.I
+448     glcd_pixel.x
+448     glcd_line.@SCRATCH1
+449     glcd_pixel.Y
+44A     glcd_pixel.color
+44B     glcd_pixel.b
+44C-44D @MUL1616.P1
+44C     glcd_pixel.@SCRATCH1
+44D     glcd_pixel.@SCRATCH2
+44E-44F @MUL1616.P1
+450     @MUL1616.@SCRATCH1
+F83     PSP_DATA
+FB4.6   C1OUT
+FB4.7   C2OUT
+FBB     CCP_2
+FBB     CCP_2_LOW
+FBC     CCP_2_HIGH
+FBE     CCP_1
+FBE     CCP_1_LOW
+FBF     CCP_1_HIGH
+FE1-FE2 @READ_PACKED_MEMORY.P1
+FE1-FE2 @WRITE_PACKED_MEMORY.P2
+FE9-FEA @WRITE_PACKED_MEMORY.P1
+FE9-FEA @READ_PROGRAM_MEMORY.P2
+FE9-FEA @READ_PACKED_MEMORY.P3
+FE9-FEA @WRITE_PROGRAM_MEMORY.P4
+FF6-FF8 @WRITE_PROGRAM_MEMORY.P1
+FF6-FF8 @READ_PROGRAM_MEMORY.P2
+
+ROM Allocation:
+000004  MA7DOAN.call
+000014  MA7DOAN.data
+000024  TTLEDQUET.call
+000034  TTLEDQUET.data
+00003C  MAQUETKEY.call
+00004C  MAQUETKEY.data
+000050  LCD_SO_X.call
+000060  LCD_SO_X.data
+0000A8  LCD_MA_8DOAN.call
+0000B8  LCD_MA_8DOAN.data
+0000F8  LCD_VITRI.call
+000108  LCD_VITRI.data
+00010C  @const997.call
+000110  @const1000.call
+000114  @const1012.call
+000118  @const1015.call
+00011C  @const1021.call
+00012C  SET_UP_PORT_IC_CHOT
+00014A  XUAT_1BYTE
+000178  MO_IC_74573_A_THONG_DL
+0001A6  XUAT_4LED_7DOAN_4SO
+0001D0  @DIV88
+0001FC  hienthi_thuan
+000264  XUAT_GLCD_LCD
+00028E  XUAT_LCD20X4
+0002A2  LCD_XUAT_8BIT
+0002BC  LCD_COMMAND
+0002D2  @delay_ms1
+0002FA  SETUP_LCD
+000356  LCD_DATA
+00036C  LCD_GOTO_XY
+00038E  @PSTRINGC_824
+0003AE  XUAT_GLCD128X64
+0003C2  GLCD_XUAT_8BIT
+0003DC  GLCD_COMMAND
+0003E6  SETUP_GLCD
+00043E  @MUL1616
+000460  GLCD_MAU_NEN
+0004DC  glcd_pixel
+0005E8  glcd_line
+00071E  @MUL88
+00076C  glcd_circle
+00097E  GLCD_DATA
+000988  GDRAM_VDK_TO_GDRAM_GLCD_ALL
+000A6E  MO_IC_74573_B_THONG_DL
+000A9C  XUAT_8LED_7DOAN_QUET_2
+000AEA  XUAT_8LED_7DOAN_QUET_1
+000B22  XUAT_8LED_7DOAN_QUET_TAT_LED
+000B30  HIEN_THI_8LED_7DOAN_QUET
+000B7A  KEY_NHAN
+000C02  key_4x4_dw_QUET
+000C42  dem_len
+000C62  dem_xuong
+000C80  hienthi_thuan_LCD_nho
+000D04  giai_ma_gan_cho_8led_quet_thuan
+000D5E  lcd_hienthi_so_z_toado_xy
+000DDA  LCD_TO_THUAN
+000E66  @PSTRINGC_853
+000E86  glcd_hienthi_t0_thuan
+000EEC  hienthi_nguoc
+000F5C  hienthi_nguoc_LCD_nho
+000FE0  LCD_TO_nguoc
+00106C  giai_ma_gan_cho_8led_quet_nguoc
+0010C4  glcd_hienthi_t0_nguoc
+00112A  MAIN
+00112A  @cinit1
+00114A  @cinit2
+
+Project Directory:
+    C:\Users\tsqua\OneDrive - student.mtsac.edu\Desktop\BAI_TAP_VXL_NEW_3\
+
+Project Files:
+    demxung_hienthi_caitien.c                               [05-Jul-20 11:57  CRC=CAF2A418]
+    tv_pickit2_shift_1.c                                    [15-Jun-20 14:54  CRC=9A8C78EB]
+    ..\..\..\..\..\Program Files (x86)\PICC\Devices\18F4550.H [12-Nov-13 14:35  CRC=5337E248]
+    TV_pickit2_shift_key4x4_138.c                           [25-May-20 14:18  CRC=9632A510]
+    tv_pickit2_shift_lcd.c                                  [29-Jun-20 14:01  CRC=EA8A74AE]
+    tv_pickit2_shift_glcd128x64.c                           [26-Jun-15 16:55  CRC=DA2DF7A2]
+    ..\..\..\..\..\Program Files (x86)\PICC\Drivers\graphics.c [06-Jul-10 08:49  CRC=70BB89DE]
+
+Source signature=F5192467
+
+Units:
+    demxung_hienthi_caitien (main)
+
+Compiler Settings:
+    Processor:      PIC18F4550
+    Pointer Size:   16
+    ADC Range:      0-1023
+    Opt Level:      9
+    Short,Int,Long: UNSIGNED: 1,8,16
+    Float,Double:   32,32
+
+Output Files:
+    XREF file:   demxung_hienthi_caitien.xsym
+    Errors:      demxung_hienthi_caitien.err
+    Ext Symbols: demxung_hienthi_caitien.esym
+    INHX32:      demxung_hienthi_caitien.hex
+    Symbols:     demxung_hienthi_caitien.sym
+    List:        demxung_hienthi_caitien.lst
+    Debug/COFF:  demxung_hienthi_caitien.cof
+    Project:     demxung_hienthi_caitien.ccspjt
+    Call Tree:   demxung_hienthi_caitien.tre
+    Statistics:  demxung_hienthi_caitien.STA

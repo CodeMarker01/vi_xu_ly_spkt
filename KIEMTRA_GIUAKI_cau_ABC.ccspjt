@@ -1,0 +1,28 @@
+[PROJECT]
+Target=KIEMTRA_GIUAKI_cau_ABC.hex
+Processor_Text=PIC18F4550
+CCSVersion=5.015
+Compiler=PCH
+[Target Data]
+FileList=KIEMTRA_GIUAKI_cau_ABC.c
+[Directories]
+Include=C:\Program Files (x86)\PICC\Devices\;C:\Program Files (x86)\PICC\Drivers\
+[KIEMTRA_GIUAKI_cau_ABC.c]
+Type=4
+[mru-list]
+1=KIEMTRA_GIUAKI_cau_ABC.c
+[Opened Files]
+1=KIEM_TRA.c
+2=BTC4_BOXUNG_T2.c
+3=DEM_LEN_DEM_XUONG_V2.c
+4=demxung_hienthi_caitien.c
+5=tv_pickit2_shift_lcd.c
+6=BAI_672_TONGHOP_5_MODULE.c
+7=Extra_004_BAI_GIANG_TUAN_4_BO_SUNG_2_HT_4_MODULE.c
+8=KIEMTRA_GIUAKI_cau_ABC_v2.c
+9=KIEMTRA_GIUAKI_cau_ABC.c
+10=KIEMTRA_GIUAKI.c
+11=
+[Units]
+Count=1
+1=KIEMTRA_GIUAKI_cau_ABC (main)

@@ -1,0 +1,66 @@
+
+ROM used:   1416/32768 (4%)
+            1416/32768 (4%) including unused fragments
+
+            0.8 Average locations per line
+            3.7 Average locations per statement
+
+RAM used:   1062/2048 (52%) at main() level
+            1071/2048 (52%) worst case
+
+Stack used: 6 worst case (6 in main + 0 for interrupts)
+Stack size: 31
+
+Lines Stmts  %   Files
+----- ----- ---  -----
+  104    48  13  BAI_653_GLTD_DEM_SP_TO.c
+  702   244  64  TV_PICKIT2_SHIFT_1.C
+  837     0   0  ..\..\..\..\..\Program Files (x86)\PICC\Devices\18F4550.H
+  240    88  23  TV_PICKIT2_SHIFT_GLCD128X64.C
+----- -----
+ 1883   380 Total
+
+Page ROM  %  RAM   Vol Diff  Functions:
+---- --- --- ---   --- ----  ----------
+0     42   1    1             @delay_ms1
+0     32   1    0             @const686
+0     46   2    3   271  4.3  XUAT_1BYTE
+0     30   1    0   152  1.8  SET_UP_PORT_IC_CHOT
+0     46   2    0   119  1.7  MO_IC_74573_A_THONG_DL
+0     44   2    4   231  2.3  XUAT_4LED_7DOAN_4SO
+0    342  12    5   465  4.8  XUAT_4LED_7DOAN_GIAIMA_XOA_SO0
+0     70   2    5             @DIV1616
+0     44   2    0   172  1.8  XUAT_GLCD_LCD
+0     20   1    2    80  2.7  XUAT_GLCD128X64
+0     26   1    1   102  2.1  GLCD_XUAT_8BIT
+0     10   0    1    43  1.5  GLCD_COMMAND
+0     10   0    1    43  1.5  GLCD_DATA
+0     90   3    1   292  1.7  SETUP_GLCD
+0    124   4    7   338  5.1  GLCD_MAU_NEN
+0     36   1    5             @MUL1616
+0    140   5    4   374  4.1  HIENTHI_GLCD_T0
+0     44   2    3   292  1.7  @DIV88
+0    168   6    0   450  4.1  MAIN
+0     14   0    0  1587 11.7  @const881
+0     34   1    2   374  4.1  @PSTRINGC_812
+ Inline         0   374  4.1  @cinit1
+
+Program metrics:
+    Functions               18
+    Statements              380
+    Comments                371
+    Volume (V)              9753
+    Difficulty (D)          60.9
+    Effort to implement (E) 594280
+    Time to implement (T)   9 hours, 10 minutes
+    Est Delivered Bugs (B)  2
+    Cyclomatic Complexity   26
+    Maintainability (MI)    123
+
+ Segment     Used  Free
+-----------  ----  ----
+00000-00002     4  0  
+00004-07FFE  1412  31352  
+
+
+

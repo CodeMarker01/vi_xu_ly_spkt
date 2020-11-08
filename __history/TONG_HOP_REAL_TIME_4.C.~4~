@@ -1,0 +1,212 @@
+#include <tv_pickit2_shift_1.c>
+
+#include <TV_PICKIT2_SHIFT_DS13B07_I2C.c>
+
+#include <tv_pickit2_shift_glcd128x64.c>
+#include <graphics.c>
+
+UNSIGNED INT1 TT_HINH;
+
+signed INT8 i;// LCD TO
+unsigned INT8 dv_giay,ch_giay,ch_phut,dv_phut,dv_gio,ch_gio;//DS1307
+
+//QUet led dung ngat
+VOID HIEN_THI_8LED_7DOAN_QUET_ALL1()
+{     
+      FOR(TT8LED=0;TT8LED<8;TT8LED++)         
+         {           
+            XUAT_8LED_7DOAN_QUET_2(TT8LED, LED_7DQ[TT8LED]);
+            DELAY_US(900);
+            XUAT_8LED_7DOAN_QUET_TAT_LED();  
+            GDRAM_VDK_TO_GDRAM_GLCD_ALL ();
+         }
+}
+
+#INT_timer3
+
+void NGAT_TIMER3 ()
+{
+   hien_thi_8led_7doan_quet_all1 ();
+   set_timer3 (-6000);
+}
+//End quet led dung ngat
+//*******************************************************************
+
+VOID TRON_VUONG()
+{
+   IF (!INPUT(BT0))
+   {
+      DELAY_MS(20);
+      IF (!INPUT(BT0))
+      {
+         TT_HINH = ~TT_HINH;
+         WHILE (!INPUT(BT0));
+      }
+   }
+}
+void giai_ma_gan_cho_8led_quet()// LED QUET
+{
+   led_7dq[0] = ma7doan [GIAY_DS13%16];
+   led_7dq[1] = ma7doan [GIAY_DS13/16];
+   led_7dq[2] = 0XBF;
+   led_7dq[3] = ma7doan [PHUT_DS13%16 ];
+   led_7dq[4] = ma7doan [PHUT_DS13/16 ];
+   led_7dq[5] = 0XBF;
+   led_7dq[6] = ma7doan [GIO_DS13%16];
+   led_7dq[7] = ma7doan [GIO_DS13/16 ];
+}
+
+void lcd_hienthi_so_z_toado_xy(SIGNED int8 lcd_so, x1, y1)//LCD TO
+{
+   lcd_GOTO_xy(x1,y1);
+   FOR (i=0;i<6;i++)
+   {
+      IF (i==3) lcd_goto_xy(x1+1,y1);
+      lcd_data(lcd_so_x[lcd_so][i]);
+   }
+}
+
+void giaima_hienthi_to()//LCD TO
+{
+ch_giay=GIAY_DS13/16; 
+dv_giay=GIAY_DS13%16; 
+
+ch_phut=PHUT_DS13/16 ;
+dv_phut=PHUT_DS13%16 ;
+
+ch_gio=GIO_DS13/16  ;
+dv_gio=GIO_DS13%16 ;
+
+}
+void HT_DS1307_to( )//LCD TO
+{     
+      lcd_command(0x82);
+      lcd_data("GIO");
+      lcd_command(0x88);
+      lcd_data("PHUT");
+      lcd_command(0x8F);
+      lcd_data("GIAY");
+      lcd_hienthi_so_z_toado_xy(ch_gio,2,0);lcd_hienthi_so_z_toado_xy(dv_gio,2,3);
+      
+     // lcd_hienthi_so_z_toado_xy(19,2,6);
+      
+      lcd_hienthi_so_z_toado_xy(ch_phut,2,7);lcd_hienthi_so_z_toado_xy(dv_phut,2,10);
+      
+     //  lcd_hienthi_so_z_toado_xy(19,2,12);
+       
+      lcd_hienthi_so_z_toado_xy(ch_giay,2,14);lcd_hienthi_so_z_toado_xy(dv_giay,2,17);
+   
+}
+
+
+void HT_DS1307 ( )
+{     
+      LCD_COMMAND (0x8C);   
+      LCD_DATA(GIO_DS13/16  +0X30);    LCD_DATA(GIO_DS13%16  +0X30);
+      LCD_DATA(' ');
+      LCD_DATA(PHUT_DS13/16 +0X30);    LCD_DATA(PHUT_DS13%16 +0X30);
+      LCD_DATA(' ');
+      LCD_DATA(GIAY_DS13/16 +0X30);    LCD_DATA(GIAY_DS13%16 +0X30);
+      LCD_COMMAND (0xC6);
+      LCD_DATA("THU");
+      LCD_DATA(THU_DS13 +0X30); 
+      LCD_COMMAND (0xCC);  
+      LCD_DATA(NGAY_DS13/16 +0X30);    LCD_DATA(NGAY_DS13%16 +0X30);
+      LCD_DATA(' ');
+      LCD_DATA(THANG_DS13/16 +0X30);   LCD_DATA(THANG_DS13%16 +0X30);
+      LCD_DATA(' ');
+      LCD_DATA(NAM_DS13/16 +0X30);     LCD_DATA(NAM_DS13%16 +0X30); 
+}
+
+void main()
+{
+   set_up_port_ic_chot();
+   setup_lcd () ;// LCD
+   
+   //setup ngat led quet
+   setup_timer_3 (T3_internal|T3_div_by_8);
+   set_timer3 (-6000);
+   enable_interrupts (global);
+   enable_interrupts (INT_timer3);   
+   //end ngat led quet
+   
+   doc_thoi_gian_tu_realtime () ;// DS1307
+   lcd_command(0x40);// LCD TO
+   FOR (i=0;i<64;i++) { lcd_data(lcd_ma_8doan[i]); }//LCD TO
+   
+   IF (ma_ds13 != ma_ds)//DS1307
+   {
+      thiet_lap_thoi_gian_hien_tai () ;
+      NAP_THOI_GIAN_HTAI_VAO_DS13B07 () ;
+   }
+
+   doc_thoi_gian_tu_realtime();//DS1307
+   giaytam = giay_ds13;//DS1307
+
+/////////////////////////////////////////////////////
+//GLCD
+//!   SETUP_GLCD (GLCD_CLEAR_DISPLAY);
+   SETUP_GLCD (GLCD_GRAPHIC_MODE);
+   SETUP_GLCD (GLCD_TEXT_MODE);
+   GLCD_MAU_NEN (0);
+//////////////////////////////////////////////////
+  TT_HINH = 0;
+   WHILE (true)
+   {
+      doc_thoi_gian_tu_realtime () ; // DS1307
+
+      IF (giaytam != giay_ds13)//DS1307
+      {
+         giaytam = giay_ds13;
+//!         HT_DS1307();
+          giai_ma_gan_cho_8led_quet();// LED QUET
+        
+      }
+//!       for(int i=0;i<200;i++)
+//!       {
+//!       hien_thi_8led_7doan_quet();// LED QUET
+//!       }
+HIEN_THI_8LED_7DOAN_QUET_ALL1();
+       
+       giaima_hienthi_to();// LCD TO
+       HT_DS1307_to( );// LCD TO
+ //////////////////////////////////////////
+ // GLCD HIEN THI
+   glcd_command(glcd_text_mode);
+   glcd_command (glcd_addr_line3+1);
+   glcd_data (GIO_DS13/16  +0X30);
+   glcd_data (GIO_DS13%16  +0X30);
+   
+   glcd_command(glcd_text_mode);
+   glcd_command (glcd_addr_line3 + 3);
+   glcd_data (PHUT_DS13/16 +0X30);
+   glcd_data (PHUT_DS13%16 +0X30);
+    
+   glcd_command(glcd_text_mode);
+   glcd_command (glcd_addr_line3 + 6);
+   glcd_data (GIAY_DS13/16 +0X30);
+   glcd_data (GIAY_DS13%16 +0X30);
+ ///////////////////////////////////////////   
+    
+     IF (TT_HINH == 0)
+      {
+         SETUP_GLCD (GLCD_GRAPHIC_MODE);
+         GLCD_MAU_NEN (0);
+         glcd_circle(23, 40, 15, 0, 1);
+         glcd_rect(88, 28, 120, 53, 0, 1) ;
+         GDRAM_VDK_TO_GDRAM_GLCD_ALL ();
+      }
+      ELSE
+      {
+         SETUP_GLCD (GLCD_GRAPHIC_MODE);
+         GLCD_MAU_NEN (0);
+         glcd_rect(14, 28, 35, 48, 0, 1) ;
+         glcd_circle(105, 38, 15, 0, 1);
+         GDRAM_VDK_TO_GDRAM_GLCD_ALL ();
+      }
+      TRON_VUONG();
+    
+    
+   }
+}
+

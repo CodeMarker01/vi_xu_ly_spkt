@@ -1,0 +1,59 @@
+
+ROM used:   890/32768 (3%)
+            890/32768 (3%) including unused fragments
+
+            0.6 Average locations per line
+            3.2 Average locations per statement
+
+RAM used:   48/2048 (2%) at main() level
+            55/2048 (3%) worst case
+
+Stack used: 5 worst case (4 in main + 1 for interrupts)
+Stack size: 31
+
+Lines Stmts  %   Files
+----- ----- ---  -----
+   65    36  13  BAI_514_DEM_GIO_PHUT_GIAY_CX.c
+  702   244  87  TV_PICKIT2_SHIFT_1.C
+  837     0   0  ..\..\..\..\..\Program Files (x86)\PICC\Devices\18F4550.H
+----- -----
+ 1604   280 Total
+
+Page ROM  %  RAM   Vol Diff  Functions:
+---- --- --- ---   --- ----  ----------
+0     42   2    0             @const686
+0     42   2    3   271  4.3  XUAT_1BYTE
+0     30   2    0   152  1.8  SET_UP_PORT_IC_CHOT
+0     46   3    0   119  1.7  MO_IC_74573_B_THONG_DL
+0     44   2    3   172  2.7  XUAT_8LED_7DOAN_QUET_1
+0     10   1    0    25  1.2  XUAT_8LED_7DOAN_QUET_TAT_LED
+0     34   2    0             @const753
+0     60   3    3   190  3.1  XUAT_8LED_7DOAN_QUET_2
+0     76   4    1   178  4.9  HIEN_THI_8LED_7DOAN_QUET
+0     16   1    0    29  1.2  INTERRUPT_TIMER1
+0    176  10    1   356  3.8  GIAI_MA_GAN_CHO_8LED_QUET
+0     40   2    3   104  3.2  @DIV88
+0    128   7    0   584  5.7  MAIN
+ Inline         0   467  7.4  @cinit1
+
+Program metrics:
+    Functions               12
+    Statements              280
+    Comments                330
+    Volume (V)              4389
+    Difficulty (D)          41.7
+    Effort to implement (E) 183099
+    Time to implement (T)   2 hours, 50 minutes
+    Est Delivered Bugs (B)  1
+    Cyclomatic Complexity   17
+    Maintainability (MI)    137
+
+ Segment     Used  Free
+-----------  ----  ----
+00000-00002     4  0  
+00004-00006     0  4  
+00008-00094   142  0  
+00096-07FFE   744  31874  
+
+
+

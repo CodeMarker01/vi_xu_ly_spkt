@@ -1,0 +1,16 @@
+[PROJECT]
+Target=BAI_641_LCD_SO_0.hex
+Processor_Text=PIC18F4550
+CCSVersion=5.015
+Compiler=PCH
+[Target Data]
+FileList=BAI_641_LCD_SO_0.c
+[Directories]
+Include=C:\Program Files (x86)\PICC\Devices\;C:\Program Files (x86)\PICC\DriversC:\Program Files (x86)\PICC\Devices\;C:\Program Files (x86)\PICC\Drivers\
+[BAI_641_LCD_SO_0.c]
+Type=4
+[mru-list]
+1=BAI_641_LCD_SO_0.c
+[Units]
+Count=1
+1=BAI_641_LCD_SO_0 (main)

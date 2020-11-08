@@ -1,0 +1,16 @@
+[PROJECT]
+Target=BAI_604_LCD_HT_2HANG_DICH_TRAI.hex
+Processor_Text=PIC18F4550
+CCSVersion=5.015
+Compiler=PCH
+[Target Data]
+FileList=BAI_604_LCD_HT_2HANG_DICH_TRAI.c
+[Directories]
+Include=C:\Program Files (x86)\PICC\Devices\;C:\Program Files (x86)\PICC\Drivers\
+[BAI_604_LCD_HT_2HANG_DICH_TRAI.c]
+Type=4
+[mru-list]
+1=BAI_604_LCD_HT_2HANG_DICH_TRAI.c
+[Units]
+Count=1
+1=BAI_604_LCD_HT_2HANG_DICH_TRAI (main)

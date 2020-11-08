@@ -1,0 +1,3833 @@
+CCS PCH C Compiler, Version 5.015, 5967               15-Aug-20 14:00
+
+               Filename:   C:\Users\tsqua\OneDrive - student.mtsac.edu\Desktop\BAI_TAP_VXL_NEW_3\TONG_HOP_REAL_TIME.lst
+
+               ROM used:   4316 bytes (13%)
+                           Largest free fragment is 28452
+               RAM used:   1073 (52%) at main() level
+                           1110 (54%) worst case
+               Stack used: 8 locations
+               Stack size: 31
+
+*
+0000:  GOTO   0EF4
+.................... #include <tv_pickit2_shift_1.c> 
+.................... #INCLUDE    <18F4550.H> 
+.................... //////////// Standard Header file for the PIC18F4550 device //////////////// 
+.................... /////////////////////////////////////////////////////////////////////////// 
+.................... ////        (C) Copyright 1996, 2013 Custom Computer Services          //// 
+.................... //// This source code may only be used by licensed users of the CCS C  //// 
+.................... //// compiler.  This source code may only be distributed to other      //// 
+.................... //// licensed users of the CCS C compiler.  No other use, reproduction //// 
+.................... //// or distribution is permitted without written permission.          //// 
+.................... //// Derivative programs created using this software in object code    //// 
+.................... //// form are not restricted in any way.                               //// 
+.................... /////////////////////////////////////////////////////////////////////////// 
+.................... #device PIC18F4550 
+0004:  CLRF   FF7
+0006:  ADDLW  14
+0008:  MOVWF  FF6
+000A:  MOVLW  00
+000C:  ADDWFC FF7,F
+000E:  TBLRD*+
+0010:  MOVF   FF5,W
+0012:  RETURN 0
+0014:  DATA C0,F9
+0016:  DATA A4,B0
+0018:  DATA 99,92
+001A:  DATA 82,F8
+001C:  DATA 80,90
+001E:  DATA 88,83
+0020:  DATA C6,A1
+0022:  DATA 86,8E
+0024:  CLRF   FF7
+0026:  ADDLW  34
+0028:  MOVWF  FF6
+002A:  MOVLW  00
+002C:  ADDWFC FF7,F
+002E:  TBLRD*+
+0030:  MOVF   FF5,W
+0032:  RETURN 0
+0034:  DATA 7F,BF
+0036:  DATA DF,EF
+0038:  DATA F7,FB
+003A:  DATA FD,FE
+003C:  CLRF   FF7
+003E:  ADDLW  4C
+0040:  MOVWF  FF6
+0042:  MOVLW  00
+0044:  ADDWFC FF7,F
+0046:  TBLRD*+
+0048:  MOVF   FF5,W
+004A:  RETURN 0
+004C:  DATA 00,01
+004E:  DATA 02,05
+0050:  DATA 03,04
+0052:  DATA 01,02
+0054:  DATA 20,03
+0056:  DATA 07,03
+0058:  DATA 06,06
+005A:  DATA 02,05
+005C:  DATA 03,03
+005E:  DATA 06,06
+0060:  DATA 02,03
+0062:  DATA 03,04
+0064:  DATA 07,03
+0066:  DATA 07,20
+0068:  DATA 20,07
+006A:  DATA 07,06
+006C:  DATA 06,03
+006E:  DATA 03,04
+0070:  DATA 00,06
+0072:  DATA 06,05
+0074:  DATA 03,04
+0076:  DATA 01,01
+0078:  DATA 07,20
+007A:  DATA 20,07
+007C:  DATA 00,06
+007E:  DATA 02,05
+0080:  DATA 03,04
+0082:  DATA 00,06
+0084:  DATA 02,03
+0086:  DATA 03,04
+0088:  DATA 20,20
+008A:  DATA 20,20
+008C:  DATA 20,20
+008E:  DATA 00,06
+0090:  DATA 02,05
+0092:  DATA 20,20
+0094:  DATA 20,20
+0096:  DATA 20,20
+0098:  DATA 07,20
+009A:  CLRF   FF7
+009C:  ADDLW  AA
+009E:  MOVWF  FF6
+00A0:  MOVLW  00
+00A2:  ADDWFC FF7,F
+00A4:  TBLRD*+
+00A6:  MOVF   FF5,W
+00A8:  RETURN 0
+00AA:  DATA 07,0F
+00AC:  DATA 1F,1F
+00AE:  DATA 1F,1F
+00B0:  DATA 1F,1F
+00B2:  DATA 1F,1F
+00B4:  DATA 1F,00
+00B6:  DATA 00,00
+00B8:  DATA 00,00
+00BA:  DATA 1C,1E
+00BC:  DATA 1F,1F
+00BE:  DATA 1F,1F
+00C0:  DATA 1F,1F
+00C2:  DATA 00,00
+00C4:  DATA 00,00
+00C6:  DATA 00,1F
+00C8:  DATA 1F,1F
+00CA:  DATA 1F,1F
+00CC:  DATA 1F,1F
+00CE:  DATA 1F,1F
+00D0:  DATA 1E,1C
+00D2:  DATA 1F,1F
+00D4:  DATA 1F,1F
+00D6:  DATA 1F,1F
+00D8:  DATA 0F,07
+00DA:  DATA 1F,1F
+00DC:  DATA 1F,00
+00DE:  DATA 00,00
+00E0:  DATA 1F,1F
+00E2:  DATA 1F,1F
+00E4:  DATA 1F,1F
+00E6:  DATA 1F,1F
+00E8:  DATA 1F,1F
+00EA:  CLRF   FF7
+00EC:  ADDLW  FA
+00EE:  MOVWF  FF6
+00F0:  MOVLW  00
+00F2:  ADDWFC FF7,F
+00F4:  TBLRD*+
+00F6:  MOVF   FF5,W
+00F8:  RETURN 0
+00FA:  DATA 80,C0
+00FC:  DATA 94,D4
+00FE:  DATA 47,49
+0100:  DATA 4F,00
+0102:  DATA 50,48
+0104:  DATA 55,54
+0106:  DATA 00,00
+0108:  DATA 47,49
+010A:  DATA 41,59
+010C:  DATA 00,00
+010E:  DATA 54,48
+0110:  DATA 55,00
+*
+055C:  MOVLB  4
+055E:  MOVF   x51,W
+0560:  MULWF  x53
+0562:  MOVFF  FF3,01
+0566:  MOVFF  FF4,00
+056A:  MULWF  x54
+056C:  MOVF   FF3,W
+056E:  ADDWF  00,F
+0570:  MOVF   x52,W
+0572:  MULWF  x53
+0574:  MOVF   FF3,W
+0576:  ADDWFC 00,W
+0578:  MOVWF  02
+057A:  MOVLB  0
+057C:  RETURN 0
+*
+083C:  CLRF   00
+083E:  CLRF   01
+0840:  MOVLB  4
+0842:  MOVF   x3A,W
+0844:  BCF    FD8.0
+0846:  BTFSC  x3B.0
+0848:  ADDWF  00,F
+084A:  RRCF   00,F
+084C:  RRCF   01,F
+084E:  BTFSC  x3B.1
+0850:  ADDWF  00,F
+0852:  RRCF   00,F
+0854:  RRCF   01,F
+0856:  BTFSC  x3B.2
+0858:  ADDWF  00,F
+085A:  RRCF   00,F
+085C:  RRCF   01,F
+085E:  BTFSC  x3B.3
+0860:  ADDWF  00,F
+0862:  RRCF   00,F
+0864:  RRCF   01,F
+0866:  BTFSC  x3B.4
+0868:  ADDWF  00,F
+086A:  RRCF   00,F
+086C:  RRCF   01,F
+086E:  BTFSC  x3B.5
+0870:  ADDWF  00,F
+0872:  RRCF   00,F
+0874:  RRCF   01,F
+0876:  BTFSC  x3B.6
+0878:  ADDWF  00,F
+087A:  RRCF   00,F
+087C:  RRCF   01,F
+087E:  BTFSC  x3B.7
+0880:  ADDWF  00,F
+0882:  RRCF   00,F
+0884:  RRCF   01,F
+0886:  MOVLB  0
+0888:  RETURN 0
+*
+0D84:  TBLRD*+
+0D86:  MOVF   FF5,F
+0D88:  BZ    0DA4
+0D8A:  MOVFF  FF6,431
+0D8E:  MOVFF  FF7,432
+0D92:  MOVFF  FF5,435
+0D96:  CALL   0400
+0D9A:  MOVFF  431,FF6
+0D9E:  MOVFF  432,FF7
+0DA2:  BRA    0D84
+0DA4:  RETURN 0
+....................  
+.................... #list 
+....................  
+.................... #DEVICE     ADC=10 
+.................... #FUSES      NOWDT,PUT,HS,NOPROTECT,NOLVP,CPUDIV1 
+.................... #USE        I2C(MASTER,SLOW,SDA=PIN_B0,SCL=PIN_B1) 
+*
+0280:  MOVLW  08
+0282:  MOVWF  01
+0284:  NOP   
+0286:  BCF    F8A.1
+0288:  BCF    F93.1
+028A:  NOP   
+028C:  MOVLB  4
+028E:  RLCF   x31,F
+0290:  BCF    F8A.0
+0292:  BTFSC  FD8.0
+0294:  BSF    F93.0
+0296:  BTFSS  FD8.0
+0298:  BCF    F93.0
+029A:  BSF    F93.1
+029C:  BTFSS  F81.1
+029E:  BRA    029C
+02A0:  DECFSZ 01,F
+02A2:  BRA    02A6
+02A4:  BRA    02AA
+02A6:  MOVLB  0
+02A8:  BRA    0284
+02AA:  NOP   
+02AC:  BCF    F8A.1
+02AE:  BCF    F93.1
+02B0:  NOP   
+02B2:  BSF    F93.0
+02B4:  NOP   
+02B6:  NOP   
+02B8:  BSF    F93.1
+02BA:  BTFSS  F81.1
+02BC:  BRA    02BA
+02BE:  CLRF   01
+02C0:  NOP   
+02C2:  BTFSC  F81.0
+02C4:  BSF    01.0
+02C6:  BCF    F8A.1
+02C8:  BCF    F93.1
+02CA:  BCF    F8A.0
+02CC:  BCF    F93.0
+02CE:  MOVLB  0
+02D0:  RETURN 0
+02D2:  MOVLW  08
+02D4:  MOVLB  4
+02D6:  MOVWF  x32
+02D8:  MOVFF  00,433
+02DC:  BSF    F93.0
+02DE:  NOP   
+02E0:  BSF    F93.1
+02E2:  BTFSS  F81.1
+02E4:  BRA    02E2
+02E6:  BTFSC  F81.0
+02E8:  BSF    FD8.0
+02EA:  BTFSS  F81.0
+02EC:  BCF    FD8.0
+02EE:  RLCF   01,F
+02F0:  NOP   
+02F2:  BCF    F93.1
+02F4:  BCF    F8A.1
+02F6:  DECFSZ x32,F
+02F8:  BRA    02DC
+02FA:  BSF    F93.0
+02FC:  NOP   
+02FE:  BCF    F8A.0
+0300:  MOVF   x33,W
+0302:  BTFSS  FD8.2
+0304:  BCF    F93.0
+0306:  NOP   
+0308:  BSF    F93.1
+030A:  BTFSS  F81.1
+030C:  BRA    030A
+030E:  NOP   
+0310:  BCF    F8A.1
+0312:  BCF    F93.1
+0314:  NOP   
+0316:  BCF    F8A.0
+0318:  BCF    F93.0
+031A:  MOVLB  0
+031C:  RETURN 0
+.................... #USE        DELAY(CLOCK=20000000) 
+*
+01FC:  MOVLW  04
+01FE:  MOVWF  FEA
+0200:  MOVLW  32
+0202:  MOVWF  FE9
+0204:  MOVF   FEF,W
+0206:  BZ    0222
+0208:  MOVLW  06
+020A:  MOVWF  01
+020C:  CLRF   00
+020E:  DECFSZ 00,F
+0210:  BRA    020E
+0212:  DECFSZ 01,F
+0214:  BRA    020C
+0216:  MOVLW  7B
+0218:  MOVWF  00
+021A:  DECFSZ 00,F
+021C:  BRA    021A
+021E:  DECFSZ FEF,F
+0220:  BRA    0208
+0222:  RETURN 0
+.................... //#USE        rs232(baud=9600, xmit=PIN_C6,rcv=PIN_C7) 
+.................... //NUT NHAN: 
+.................... #DEFINE  BT0     PIN_B5 
+.................... #DEFINE  BT1     PIN_B4 
+.................... #DEFINE  BT2     PIN_B3 
+.................... #DEFINE  BT3     PIN_B2 
+....................  
+.................... #DEFINE  ON      BT0       //DK LED DON, MOTOR 
+.................... #DEFINE  OFF     BT1 
+.................... #DEFINE  INV     BT2 
+....................  
+.................... #DEFINE  UP      BT0    //DK LED DON 
+.................... #DEFINE  DW      BT1 
+.................... #DEFINE  CLR     BT2 
+.................... #DEFINE  MOD     BT3 
+....................  
+.................... #DEFINE  STOP    BT3 
+....................  
+.................... #DEFINE  ON1     BT0      
+.................... #DEFINE  OFF1    BT1 
+.................... #DEFINE  ON2     BT2        
+.................... #DEFINE  OFF2    BT3 
+....................  
+....................  
+.................... #DEFINE     TRIGGER      PIN_E2 
+.................... #DEFINE     ECHO         PIN_E1 
+.................... //   IC74138_A    PIN_B6   //OUTPUT GIAI MA 2 SANG 4 TICH CUC MUC 0 
+.................... //   IC74138_B    PIN_B7   //OUTPUT GIAI MA 2 SANG 4 TICH CUC MUC 0 
+....................  
+.................... //          ENCODER  PIN_C0   //RC0/T13CKI 
+....................  
+.................... //          CB_KC    PIN_A2   //RA2/AN2 
+.................... //          PIR      PIN_A3   //RA3/AN3 
+.................... //          CBXUNG   PIN_A4   //RA4/T0CKI 
+.................... //          LEDTHU   PIN_A4   //RA4/T0CKI//SW802 
+....................  
+.................... //          CB_KCSA_TRIGGER  PIN_E2   //RE2/SDO  DUNG CHUNG 
+.................... //          CB_KCSA_RCHO     PIN_E1   //RE1 
+....................  
+.................... //          CB_TCS3200_OUT    PIN_E1   //RE1 //CAM BIEN MAU TCS3200 
+.................... //          CB_TCS3200_S0     B12      //LAY TU MBI5026 
+.................... //          CB_TCS3200_S1     B13      //LAY TU MBI5026 
+.................... //          CB_TCS3200_S2     B14      //LAY TU MBI5026 
+.................... //          CB_TCS3200_S3     B15      //LAY TU MBI5026 
+....................  
+.................... //          CB_POWER  SW803 
+.................... //          CB_GAS      AIN3_PCF8591T   //RE1 
+.................... //          CB_QUANG    AIN2_PCF8591T    
+.................... //          CB_LM35B    AIN1_PCF8591T   //RA1/AN1 
+.................... //          CB_LM35A    AIN0_PCF8591T   //RE1/AN0 
+....................  
+.................... //XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX 
+.................... #DEFINE      ENABLE_573A      PIN_D1         //CS0 CUA A 
+.................... #DEFINE      ENABLE_573B      PIN_D0         //CS1 CUA B 
+.................... //XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX 
+.................... #DEFINE      SSDO             PIN_E2         //CHUNG TAT CA 
+.................... #DEFINE      SSCK             PIN_E0         //CHUNG TAT CA 
+.................... //XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX 
+.................... #DEFINE      RCK_4LED7DOAN    PIN_D7         //A - 4 BYTE 
+.................... #DEFINE      G_4LED7DOAN      PIN_D6         //A - 4 BYTE 
+.................... //XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX     
+.................... #DEFINE      RCK_MATRANLED    PIN_D7         //B - 3 BYTE DAO 
+.................... #DEFINE      G_MATRANLED      PIN_D6         //B - 3 BYTE DAO 
+.................... //XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX 
+.................... #DEFINE      RCK_32LED        PIN_D5         //A - 4 BYTE 
+.................... #DEFINE      G_32LED          PIN_D4         //A - 4 BYTE 
+.................... //XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX  
+.................... #DEFINE      RCK_8LEDQUET     PIN_D5         //B - 2 BYTE DAO 
+.................... #DEFINE      G_8LEDQUET       PIN_D4         //B - 2 BYTE DAO 
+.................... //XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX 
+.................... #DEFINE      RCK_LCD20X4      PIN_D3         //A - 2 BYTE DAO 
+.................... #DEFINE      G_LCD20X4         PIN_D2         //A - 2 BYTE DAO 
+.................... //XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX  
+.................... #DEFINE      RCK_BUZERELAY    PIN_D3     //B - 1 BYTE  
+.................... #DEFINE      G_BUZERELAY      PIN_D2         //B - 1 BYTE  
+....................  
+.................... VOID XUAT_LCD20X4(UNSIGNED INT8 LCD_SIGNAL,LCD_INS_HTHI); 
+....................  
+.................... VOID XUAT_BUZZER_RELAY(); 
+.................... //XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX    
+.................... #DEFINE     CHOT_2_IC_74573_A_B  OUTPUT_D(0XFC) 
+....................  
+.................... UNSIGNED INT8 TIN_HIEU_DK_74573_A; 
+.................... #BIT G_4A         = TIN_HIEU_DK_74573_A.6 
+.................... #BIT G_32A        = TIN_HIEU_DK_74573_A.4 
+.................... #BIT G_LCDA       = TIN_HIEU_DK_74573_A.2 
+.................... //XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX          
+.................... #DEFINE     MO_32_LED_DON        G_32A=0; //OUTPUT_LOW(G_32LED)  
+.................... #DEFINE     TAT_32_LED_DON       G_32A=1; //OUTPUT_HIGH(G_32LED)  
+.................... //XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX          
+.................... #DEFINE     MO_4_LED_7DOAN       G_4A=0;  //OUTPUT_LOW(G_4LED7DOAN) 
+.................... #DEFINE     TAT_4_LED_7DOAN      G_4A=1;  //OUTPUT_HIGH(G_4LED7DOAN) 
+.................... //XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX  
+.................... #DEFINE     MO_GLCD_LCD           G_LCDA=0;   //OUTPUT_LOW(G_LCD20X4) 
+.................... #DEFINE     TAT_GLCD_LCD          G_LCDA=1;   // OUTPUT_LOW(G_LCD20X4) 
+....................  
+.................... UNSIGNED INT8 TIN_HIEU_DK_74573_B;   
+.................... #BIT G_MTB        = TIN_HIEU_DK_74573_B.6 
+.................... #BIT G_8B         = TIN_HIEU_DK_74573_B.4 
+.................... #BIT G_RBDCB      = TIN_HIEU_DK_74573_B.2 
+.................... //XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX  
+.................... #DEFINE     MO_LED_MATRAN        G_MTB=0; //OUTPUT_LOW(G_MATRANLED) 
+.................... #DEFINE     TAT_LED_MATRAN       G_MTB=1; //OUTPUT_LOW(G_MATRANLED) 
+.................... //XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX        
+.................... #DEFINE     MO_8_LED_QUET        G_8B=0;  //OUTPUT_LOW(G_8LEDQUET) 
+.................... #DEFINE     TAT_8_LED_QUET       G_8B=1;  //OUTPUT_LOW(G_8LEDQUET) 
+.................... //XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX          
+.................... #DEFINE     MO_RELAY_BUZZER_DC   G_RBDCB=0;  //OUTPUT_LOW(G_BUZERELAY) 
+.................... #DEFINE     TAT_RELAY_BUZZER_DC  G_RBDCB=1;  //OUTPUT_LOW(G_BUZERELAY) 
+....................  
+.................... //XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX 
+.................... //CHUONG TRINH KIEM TRA PHIM BT1 
+.................... //XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX 
+.................... UNSIGNED INT8 DL_BTN=0; 
+.................... INT1 PHIM_BT0(UNSIGNED INT16 DL) 
+.................... {   
+....................     IF (!INPUT(BT0)) 
+....................     {   
+....................       DL_BTN++; 
+....................        
+....................       IF (DL_BTN>= DL) 
+....................          { 
+....................             DL_BTN =0; 
+....................             RETURN(1); 
+....................          } 
+....................       ELSE RETURN(0); 
+....................     } 
+....................     ELSE    RETURN(0); 
+.................... }  
+.................... //XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX 
+.................... //CHUONG TRINH KIEM TRA PHIM BT1 
+.................... //XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX 
+.................... INT1 PHIM_BT1(UNSIGNED INT16 DL ) 
+.................... {   
+....................     IF (!INPUT(BT1)) 
+....................     {   
+....................       DL_BTN++; 
+....................        
+....................       IF (DL_BTN>= DL) 
+....................          { 
+....................             DL_BTN =0; 
+....................             RETURN(1); 
+....................          } 
+....................       ELSE RETURN(0); 
+....................     } 
+....................     ELSE    RETURN(0); 
+.................... }  
+.................... //XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX 
+.................... //CHUONG TRINH KIEM TRA PHIM BT2       
+.................... //XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX                                     
+.................... INT1 PHIM_BT2(UNSIGNED INT16 DL ) 
+.................... {                                         
+....................     IF (!INPUT(BT2)) 
+....................     {   
+....................       DL_BTN++; 
+....................        
+....................       IF (DL_BTN>= DL) 
+....................          { 
+....................             DL_BTN =0; 
+....................             RETURN(1); 
+....................          } 
+....................       ELSE RETURN(0); 
+....................     } 
+....................     ELSE    RETURN(0); 
+....................                                           
+.................... }       
+....................  
+.................... //XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX 
+.................... //CHUONG TRINH KIEM TRA PHIM BT3 
+.................... //XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX 
+.................... INT1 PHIM_BT3(UNSIGNED INT16 DL,  UNSIGNED INT8 SOLAN  ) 
+.................... {   
+....................     IF (!INPUT(BT3)) 
+....................     {   
+....................       DL_BTN++; 
+....................       IF(DL_BTN==1) RETURN(1); 
+....................       ELSE 
+....................       { 
+....................          IF (DL_BTN>= DL) 
+....................          DL_BTN =SOLAN; 
+....................       } 
+....................     } 
+....................     ELSE    
+....................     { 
+....................       //DL_BTN =0; 
+....................       RETURN(0); 
+....................     } 
+.................... }  
+.................... //XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX 
+.................... //KHAI BAO DU LIEU 16 BIT CHO MODULE RELAY, TRIAC, BUZZER, DONG CO 
+.................... //XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX 
+.................... UNSIGNED INT16 RBDC; 
+.................... #BIT STEP_MOTOR_ENABLE  = RBDC.0    //1=ENA,0=DIS 
+.................... #BIT STEP_MOTOR_IN1     = RBDC.1     
+.................... #BIT STEP_MOTOR_IN2     = RBDC.2 
+.................... #BIT STEP_MOTOR_IN3     = RBDC.3 
+.................... #BIT STEP_MOTOR_IN4     = RBDC.4 
+.................... #BIT DC_ENABLE          = RBDC.5    //1=ENA,0=DIS 
+.................... #BIT PWRKEY             = RBDC.6    //KHOI TAO SIM900 
+....................  
+.................... #BIT BUZZER             = RBDC.8    //1=ON,0=OFF 
+.................... #BIT TRIAC_1            = RBDC.9    //1=ON,0=OFF 
+.................... #BIT TRIAC_2            = RBDC.10   //1=ON,0=OFF 
+.................... #BIT RELAY_1            = RBDC.11   //0=ON,1=OFF 
+.................... #BIT RELAY_2            = RBDC.12   //0=ON,1=OFF 
+....................  
+.................... //HAM 103 
+.................... //XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX 
+.................... //CHUONG TRINH CON KHOI TAO IC CHOT 
+.................... //XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX          
+.................... #DEFINE     CHO_IC_74573_A_GOI_DU_LIEU     OUTPUT_HIGH(ENABLE_573A) 
+.................... #DEFINE     CHOT_IC_74573_A_GOI_DU_LIEU    OUTPUT_LOW(ENABLE_573A) 
+....................  
+.................... #DEFINE     CHO_IC_74573_B_GOI_DU_LIEU     OUTPUT_HIGH(ENABLE_573B) 
+.................... #DEFINE     CHOT_IC_74573_B_GOI_DU_LIEU    OUTPUT_LOW(ENABLE_573B) 
+.................... VOID MO_IC_74573_A_THONG_DL(); 
+....................  
+.................... //XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX    
+.................... CONST UNSIGNED CHAR MA7DOAN[16]= {0XC0,0XF9,0xA4,0XB0,0X99,0X92,0X82,0XF8, 
+.................... 0X80,0X90,0x88, 0x83, 0xC6, 0xA1, 0x86, 0x8E}; 
+.................... #DEFINE     MASO0    0XC0 
+.................... #DEFINE     MASO1    0XF9 
+.................... #DEFINE     MASO2    0XA4 
+.................... #DEFINE     MASO3    0XB0 
+.................... #DEFINE     MASO4    0X99 
+.................... #DEFINE     MASO5    0X92 
+.................... #DEFINE     MASO6    0X82 
+.................... #DEFINE     MASO7    0XF8 
+....................  
+.................... //XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX  
+.................... //HAM 102 
+.................... //XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX     
+.................... //XUAT 1 BYTE RA THANH GHI DICH 
+.................... //XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX     
+.................... VOID XUAT_1BYTE(UNSIGNED INT8 BYTEXUAT) 
+.................... { 
+....................    UNSIGNED INT8   SB,X;    
+....................    #BIT BSERI  = X.7 
+....................    X = BYTEXUAT; 
+*
+0130:  MOVFF  43C,43E
+....................    FOR (SB=0;SB<8;SB++) 
+0134:  MOVLB  4
+0136:  CLRF   x3D
+0138:  MOVF   x3D,W
+013A:  SUBLW  07
+013C:  BNC   015A
+....................       {                                                  
+....................          OUTPUT_BIT(SSDO,BSERI);     
+013E:  BTFSC  x3E.7
+0140:  BRA    0146
+0142:  BCF    F8D.2
+0144:  BRA    0148
+0146:  BSF    F8D.2
+0148:  BCF    F96.2
+....................          OUTPUT_LOW(SSCK); OUTPUT_HIGH(SSCK); 
+014A:  BCF    F96.0
+014C:  BCF    F8D.0
+014E:  BCF    F96.0
+0150:  BSF    F8D.0
+....................          X= X<<1;          
+0152:  BCF    FD8.0
+0154:  RLCF   x3E,F
+0156:  INCF   x3D,F
+0158:  BRA    0138
+....................      } 
+015A:  MOVLB  0
+015C:  RETURN 0
+.................... } 
+.................... //XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX  
+.................... //HAM 301 
+.................... //XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX 
+.................... //CHUONG TRINH CON XUAT 4 BYTE RA 32 LED DON 
+.................... //XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX 
+.................... VOID XUAT_32LED_DON_4BYTE(UNSIGNED INT8 BLD3,BLD2,BLD1,BLD0) 
+.................... {      
+....................       XUAT_1BYTE(BLD3);           
+....................       XUAT_1BYTE(BLD2); 
+....................       XUAT_1BYTE(BLD1);           
+....................       XUAT_1BYTE(BLD0);             
+....................       MO_32_LED_DON;       
+....................       MO_IC_74573_A_THONG_DL();             
+....................       OUTPUT_HIGH(RCK_32LED);    OUTPUT_LOW(RCK_32LED); 
+....................       CHOT_IC_74573_A_GOI_DU_LIEU;       
+.................... } 
+.................... //HAM 302 
+.................... //XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX 
+.................... //CHUONG TRINH CON XUAT 2 WORD 16 BITRA 32 LED DON 
+.................... //XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX 
+.................... VOID XUAT_32LED_DON_2WORD(UNSIGNED INT16 WLD1, UNSIGNED INT16 WLD0) 
+.................... {      
+....................      UNSIGNED INT8  B3,B2,B1,B0; 
+....................      B3 = WLD1>>8;  B2 = WLD1;  
+....................      B1 = WLD0>>8;  B0 = WLD0; 
+....................      XUAT_32LED_DON_4BYTE(B3,B2,B1,B0); 
+.................... } 
+.................... //HAM 303 
+.................... //XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX 
+.................... //CHUONG TRINH CON XUAT 1 DOUBLE WORD RA 32 LED DON 
+.................... //XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX 
+.................... VOID XUAT_32LED_DON_1DW(UNSIGNED LONG LONG DWLD) 
+.................... {      
+....................      UNSIGNED INT16  WD1,WD0; 
+....................      WD1 = DWLD>>16;  WD0 = DWLD; 
+....................      XUAT_32LED_DON_2WORD(WD1,WD0); 
+.................... } 
+....................  
+.................... //HAM 304 
+.................... //XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX 
+.................... //CHUONG TRINH CON MO 32 LED DON SANG 
+.................... //XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX 
+.................... VOID MO_32LED_DON() 
+.................... {         
+....................      XUAT_32LED_DON_1DW(0XFFFFFFFF); 
+.................... } 
+.................... //HAM 305 
+.................... //XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX 
+.................... //CHUONG TRINH CON TAT 32 LED DON  
+.................... //XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX 
+.................... VOID TAT_32LED_DON() 
+.................... {         
+....................      XUAT_32LED_DON_1DW(0); 
+.................... } 
+.................... //XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX     
+.................... //XUAT 1 BIT ROI TRA LAI KET QUA SAU KHI DICH DI 1 BIT 
+.................... //XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX     
+.................... UNSIGNED  INT8 XUAT_1BIT(UNSIGNED INT8 BYTEXUAT) 
+.................... { 
+....................       UNSIGNED INT8   XBITX;    
+....................       #BIT BSERIX  = XBITX.0 
+....................       XBITX = BYTEXUAT; 
+....................                                              
+....................       OUTPUT_BIT(SSDO,BSERIX);     
+....................       OUTPUT_LOW(SSCK); OUTPUT_HIGH(SSCK); 
+....................       XBITX= XBITX>>1;    
+....................       RETURN(XBITX);   
+.................... } 
+.................... //XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX  
+.................... //HAM 101 
+.................... //XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX     
+.................... //HAM KHOI TAO CAC PORT VA IC CHOT 
+.................... //XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX     
+.................... VOID SET_UP_PORT_IC_CHOT() 
+.................... {      
+....................       SET_TRIS_D(0x00);     
+*
+0112:  MOVLW  00
+0114:  MOVWF  F95
+....................       SET_TRIS_E(0X00); 
+0116:  MOVWF  F96
+....................       OUTPUT_D(0XFF); 
+0118:  CLRF   F95
+011A:  SETF   F8C
+....................       TIN_HIEU_DK_74573_A=0XFF;   
+011C:  SETF   04
+....................       TIN_HIEU_DK_74573_B=0XFF;       
+011E:  SETF   05
+....................       CHOT_IC_74573_A_GOI_DU_LIEU; 
+0120:  BCF    F95.1
+0122:  BCF    F8C.1
+....................       CHOT_IC_74573_B_GOI_DU_LIEU;   
+0124:  BCF    F95.0
+0126:  BCF    F8C.0
+....................       RBDC=0; 
+0128:  CLRF   08
+012A:  CLRF   07
+012C:  GOTO   0F24 (RETURN)
+.................... } 
+.................... //HAM 104 
+.................... //XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX     
+.................... //XUAT CÁC THIEU DIEU KHIEN  
+.................... //GIU NGUYEN CAC TRANG THAI CUA 2 MODULE KHAC 
+.................... //XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX     
+.................... VOID MO_IC_74573_A_THONG_DL() 
+.................... {      
+....................       OUTPUT_D(0X00); 
+*
+015E:  CLRF   F95
+0160:  CLRF   F8C
+....................       OUTPUT_BIT(G_32LED,G_32A); 
+0162:  BTFSC  04.4
+0164:  BRA    016A
+0166:  BCF    F8C.4
+0168:  BRA    016C
+016A:  BSF    F8C.4
+016C:  BCF    F95.4
+....................       OUTPUT_BIT(G_4LED7DOAN,G_4A); 
+016E:  BTFSC  04.6
+0170:  BRA    0176
+0172:  BCF    F8C.6
+0174:  BRA    0178
+0176:  BSF    F8C.6
+0178:  BCF    F95.6
+....................       OUTPUT_BIT(G_LCD20X4,G_LCDA);   
+017A:  BTFSC  04.2
+017C:  BRA    0182
+017E:  BCF    F8C.2
+0180:  BRA    0184
+0182:  BSF    F8C.2
+0184:  BCF    F95.2
+....................       CHO_IC_74573_A_GOI_DU_LIEU; 
+0186:  BCF    F95.1
+0188:  BSF    F8C.1
+018A:  GOTO   01AA (RETURN)
+.................... } 
+.................... VOID MO_IC_74573_B_THONG_DL() 
+.................... {      
+....................       OUTPUT_D(0X00); 
+*
+0C44:  CLRF   F95
+0C46:  CLRF   F8C
+....................       OUTPUT_BIT(G_MATRANLED,G_MTB); 
+0C48:  BTFSC  05.6
+0C4A:  BRA    0C50
+0C4C:  BCF    F8C.6
+0C4E:  BRA    0C52
+0C50:  BSF    F8C.6
+0C52:  BCF    F95.6
+....................       OUTPUT_BIT(G_8LEDQUET,G_8B); 
+0C54:  BTFSC  05.4
+0C56:  BRA    0C5C
+0C58:  BCF    F8C.4
+0C5A:  BRA    0C5E
+0C5C:  BSF    F8C.4
+0C5E:  BCF    F95.4
+....................       OUTPUT_BIT(G_BUZERELAY,G_RBDCB);  
+0C60:  BTFSC  05.2
+0C62:  BRA    0C68
+0C64:  BCF    F8C.2
+0C66:  BRA    0C6A
+0C68:  BSF    F8C.2
+0C6A:  BCF    F95.2
+....................       CHO_IC_74573_B_GOI_DU_LIEU; 
+0C6C:  BCF    F95.0
+0C6E:  BSF    F8C.0
+0C70:  RETURN 0
+.................... } 
+.................... //ham 401 
+.................... //XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX 
+.................... //CHUONG TRINH CON XUAT 4 BYTE RA 4 LED 7 DOAN 
+.................... //XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX 
+.................... VOID XUAT_4LED_7DOAN_4SO(UNSIGNED INT BL743,BL742,BL741,BL740) 
+.................... {      
+....................       XUAT_1BYTE(BL740);   XUAT_1BYTE(BL741); 
+....................       XUAT_1BYTE(BL742);   XUAT_1BYTE(BL743); 
+....................        
+....................       MO_4_LED_7DOAN; 
+....................       MO_IC_74573_A_THONG_DL(); 
+....................         
+....................       OUTPUT_LOW(RCK_4LED7DOAN);   OUTPUT_HIGH(RCK_4LED7DOAN);  
+....................       CHOT_IC_74573_A_GOI_DU_LIEU; 
+.................... } 
+.................... //ham 404 
+.................... VOID XUAT_4LED_7DOAN_3SO(UNSIGNED INT BL742,BL741,BL740) 
+.................... {      
+....................      XUAT_4LED_7DOAN_4SO(0XFF,BL742,BL741,BL740); 
+.................... } 
+.................... //ham 403 
+.................... VOID XUAT_4LED_7DOAN_2SO(UNSIGNED INT BL741,BL740) 
+.................... {      
+....................      XUAT_4LED_7DOAN_4SO(0XFF,0XFF,BL741,BL740); 
+.................... } 
+.................... //ham 402 
+.................... VOID XUAT_4LED_7DOAN_1SO(UNSIGNED INT BL740) 
+.................... {      
+....................      XUAT_4LED_7DOAN_4SO(0XFF,0XFF,0XFF,BL740); 
+.................... } 
+....................  
+.................... //ham 405 
+.................... //XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX 
+.................... //CHUONG TRINH CON HIEN THI DU LIEU 16 BIT TREN 4 LED 7 DOAN 
+.................... //XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX 
+.................... UNSIGNED CHAR DONVI4,CHUC4,TRAM4,NGAN4; 
+.................... VOID  XUAT_4LED_7DOAN_GIAIMA_XOA_SO0 (UNSIGNED INT16 TAM) 
+.................... {          
+....................       DONVI4 = MA7DOAN[TAM %10];          
+....................       CHUC4  = MA7DOAN[TAM/10%10]; 
+....................       TRAM4  = MA7DOAN[TAM/100%10];  
+....................       NGAN4  = MA7DOAN[TAM/1000%10];        
+....................       IF (NGAN4==0XC0) 
+....................       { 
+....................          NGAN4=0XFF; 
+....................          IF (TRAM4==0XC0) 
+....................          { 
+....................             TRAM4=0XFF; 
+....................             IF (CHUC4==0XC0)   CHUC4=0XFF; 
+....................          } 
+....................       } 
+....................       XUAT_4LED_7DOAN_4SO(NGAN4,TRAM4,CHUC4,DONVI4);    
+.................... } 
+.................... UNSIGNED INT8 LCDDATA=0;  
+.................... UNSIGNED INT8 LCDCONTROL=0; 
+.................... UNSIGNED INT8 GLCDDATA=0; 
+.................... UNSIGNED INT8 GLCDCONTROL=0;  
+.................... //HAM 701 
+.................... //XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX 
+.................... //CHUONG TRINH CON XUAT DU LIEU 4 BYTE RA GLCD VA LCD 
+.................... //XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX 
+.................... VOID XUAT_GLCD_LCD() 
+.................... {       
+....................     XUAT_1BYTE(GLCDCONTROL);              
+*
+018E:  MOVFF  10,43C
+0192:  RCALL  0130
+....................     XUAT_1BYTE(GLCDDATA); 
+0194:  MOVFF  0F,43C
+0198:  RCALL  0130
+....................     XUAT_1BYTE(LCDCONTROL);        
+019A:  MOVFF  0E,43C
+019E:  RCALL  0130
+....................     XUAT_1BYTE(LCDDATA);       
+01A0:  MOVFF  0D,43C
+01A4:  RCALL  0130
+....................        
+....................     MO_GLCD_LCD; 
+01A6:  BCF    04.2
+....................     MO_IC_74573_A_THONG_DL();             
+01A8:  BRA    015E
+....................     OUTPUT_HIGH(RCK_LCD20X4);      
+01AA:  BCF    F95.3
+01AC:  BSF    F8C.3
+....................     OUTPUT_LOW(RCK_LCD20X4); 
+01AE:  BCF    F95.3
+01B0:  BCF    F8C.3
+....................     CHOT_IC_74573_A_GOI_DU_LIEU; 
+01B2:  BCF    F95.1
+01B4:  BCF    F8C.1
+01B6:  RETURN 0
+.................... } 
+.................... //HAM 702 
+.................... VOID XUAT_LCD20X4(UNSIGNED INT8 LCD_SIGNAL,LCD_INS_HTHI) 
+.................... {      
+....................     LCDCONTROL = ~LCD_SIGNAL; 
+01B8:  MOVLB  4
+01BA:  MOVFF  43A,0E
+01BE:  COMF   0E,F
+....................     LCDDATA    = ~LCD_INS_HTHI;       
+01C0:  MOVFF  43B,0D
+01C4:  COMF   0D,F
+....................     XUAT_GLCD_LCD(); 
+01C6:  MOVLB  0
+01C8:  RCALL  018E
+01CA:  RETURN 0
+.................... } 
+.................... //HAM 703 
+.................... VOID XUAT_GLCD128X64(UNSIGNED INT8 GLCD_SIGNAL,GLCD_INS_HTHI) 
+.................... {      
+....................     GLCDCONTROL = ~GLCD_SIGNAL; 
+*
+04CC:  MOVLB  4
+04CE:  MOVFF  436,10
+04D2:  COMF   10,F
+....................     GLCDDATA    = ~GLCD_INS_HTHI;      
+04D4:  MOVFF  437,0F
+04D8:  COMF   0F,F
+....................     XUAT_GLCD_LCD(); 
+04DA:  MOVLB  0
+04DC:  RCALL  018E
+04DE:  RETURN 0
+.................... } 
+.................... //HAM 501 
+.................... //XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX 
+.................... //CHUONG TRINH CON XUAT 2 BYTE RA DK 1 LED QUET SANG 
+.................... //XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX 
+.................... VOID XUAT_8LED_7DOAN_QUET_1(UNSIGNED INT MA,SO_HTHI) 
+.................... {      
+....................       XUAT_1BYTE(~MA);   XUAT_1BYTE(~SO_HTHI); 
+*
+0CC0:  MOVLB  4
+0CC2:  MOVFF  431,433
+0CC6:  COMF   x33,F
+0CC8:  MOVFF  433,43C
+0CCC:  MOVLB  0
+0CCE:  CALL   0130
+0CD2:  MOVLB  4
+0CD4:  MOVFF  432,433
+0CD8:  COMF   x33,F
+0CDA:  MOVFF  433,43C
+0CDE:  MOVLB  0
+0CE0:  CALL   0130
+....................        
+....................       MO_8_LED_QUET; 
+0CE4:  BCF    05.4
+....................       MO_IC_74573_B_THONG_DL(); 
+0CE6:  RCALL  0C44
+....................        
+....................       OUTPUT_HIGH(RCK_8LEDQUET); OUTPUT_LOW(RCK_8LEDQUET); 
+0CE8:  BCF    F95.5
+0CEA:  BSF    F8C.5
+0CEC:  BCF    F95.5
+0CEE:  BCF    F8C.5
+....................       CHOT_IC_74573_B_GOI_DU_LIEU; 
+0CF0:  BCF    F95.0
+0CF2:  BCF    F8C.0
+0CF4:  GOTO   0D02 (RETURN)
+.................... } 
+.................... //HAM 502 
+.................... //XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX 
+.................... //CHUONG TRINH CON XUAT 2 BYTE RA TAT 8 LED QUET 
+.................... //XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX 
+.................... VOID XUAT_8LED_7DOAN_QUET_TAT_LED() 
+.................... { 
+....................    XUAT_8LED_7DOAN_QUET_1(0XFF,0XFF); 
+0CF8:  MOVLB  4
+0CFA:  SETF   x31
+0CFC:  SETF   x32
+0CFE:  MOVLB  0
+0D00:  BRA    0CC0
+0D02:  GOTO   0D4A (RETURN)
+.................... } 
+.................... //HAM 503 
+.................... //XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX 
+.................... //CHUONG TRINH CON HIEN THI LED THEO THU TU 
+.................... //XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX 
+.................... CONST UNSIGNED CHAR TTLEDQUET[8]= {0x7F,0xBF,0xDF,0xEF,0xF7,0xFB,0xFD,0xFE}; 
+.................... VOID XUAT_8LED_7DOAN_QUET_2(UNSIGNED INT THUTULED,SO_HTHI) 
+.................... {          
+....................       XUAT_1BYTE(~ (TTLEDQUET[THUTULED]));   XUAT_1BYTE(~SO_HTHI);      
+*
+0C72:  CLRF   03
+0C74:  MOVLB  4
+0C76:  MOVF   x32,W
+0C78:  MOVFF  FF2,434
+0C7C:  BCF    FF2.7
+0C7E:  MOVLB  0
+0C80:  CALL   0024
+0C84:  MOVLB  4
+0C86:  BTFSC  x34.7
+0C88:  BSF    FF2.7
+0C8A:  MOVWF  01
+0C8C:  MOVWF  x34
+0C8E:  COMF   x34,F
+0C90:  MOVFF  434,43C
+0C94:  MOVLB  0
+0C96:  CALL   0130
+0C9A:  MOVLB  4
+0C9C:  MOVFF  433,434
+0CA0:  COMF   x34,F
+0CA2:  MOVFF  434,43C
+0CA6:  MOVLB  0
+0CA8:  CALL   0130
+....................       MO_8_LED_QUET; 
+0CAC:  BCF    05.4
+....................       MO_IC_74573_B_THONG_DL(); 
+0CAE:  RCALL  0C44
+....................       OUTPUT_HIGH(RCK_8LEDQUET); OUTPUT_LOW(RCK_8LEDQUET); 
+0CB0:  BCF    F95.5
+0CB2:  BSF    F8C.5
+0CB4:  BCF    F95.5
+0CB6:  BCF    F8C.5
+....................       CHOT_IC_74573_B_GOI_DU_LIEU; 
+0CB8:  BCF    F95.0
+0CBA:  BCF    F8C.0
+0CBC:  GOTO   0D3E (RETURN)
+.................... } 
+.................... //HAM 504 
+.................... //XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX 
+.................... //CHUONG TRINH CON HIEN THI 8 SO TREN 8 LED QUET - CO KIEM TRA 
+.................... //XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX 
+.................... UNSIGNED INT8 LED_7DQ[8]={0XFF,0XFF,0XFF,0XFF,0XFF,0XFF,0XFF,0XFF}; 
+.................... UNSIGNED INT8 TT8LED=0; 
+.................... VOID HIEN_THI_8LED_7DOAN_QUET() 
+.................... {      
+....................       FOR(TT8LED=0;TT8LED<8;TT8LED++) 
+*
+0D06:  CLRF   19
+0D08:  MOVF   19,W
+0D0A:  SUBLW  07
+0D0C:  BNC   0D4E
+....................          IF (LED_7DQ[TT8LED]!=0XFF) 
+0D0E:  CLRF   03
+0D10:  MOVF   19,W
+0D12:  ADDLW  11
+0D14:  MOVWF  FE9
+0D16:  MOVLW  00
+0D18:  ADDWFC 03,W
+0D1A:  MOVWF  FEA
+0D1C:  INCFSZ FEF,W
+0D1E:  BRA    0D22
+0D20:  BRA    0D4A
+....................          {            
+....................             XUAT_8LED_7DOAN_QUET_2(TT8LED, LED_7DQ[TT8LED]); 
+0D22:  CLRF   03
+0D24:  MOVF   19,W
+0D26:  ADDLW  11
+0D28:  MOVWF  FE9
+0D2A:  MOVLW  00
+0D2C:  ADDWFC 03,W
+0D2E:  MOVWF  FEA
+0D30:  MOVFF  FEF,431
+0D34:  MOVFF  19,432
+0D38:  MOVFF  431,433
+0D3C:  BRA    0C72
+....................             DELAY_US(100); 
+0D3E:  MOVLW  A6
+0D40:  MOVWF  00
+0D42:  DECFSZ 00,F
+0D44:  BRA    0D42
+0D46:  NOP   
+....................             XUAT_8LED_7DOAN_QUET_TAT_LED();            
+0D48:  BRA    0CF8
+0D4A:  INCF   19,F
+0D4C:  BRA    0D08
+....................             } 
+0D4E:  GOTO   1012 (RETURN)
+.................... } 
+.................... //HAM 505 
+.................... //XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX 
+.................... //CHUONG TRINH CON HIEN THI 8 SO TREN 8 LED QUET - KHONG KIEM TRA 
+.................... //XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX 
+.................... VOID HIEN_THI_8LED_7DOAN_QUET_ALL() 
+.................... {      
+....................       FOR(TT8LED=0;TT8LED<8;TT8LED++)          
+....................          {            
+....................             XUAT_8LED_7DOAN_QUET_2(TT8LED, LED_7DQ[TT8LED]); 
+....................             DELAY_US(100); 
+....................             XUAT_8LED_7DOAN_QUET_TAT_LED();            
+....................             } 
+.................... } 
+....................  
+.................... VOID DELAY_QUET_8LED(UNSIGNED INT16 DL) 
+.................... {  
+....................       UNSIGNED INT8 I; 
+....................       FOR (I=0; I<DL;I++) 
+....................       HIEN_THI_8LED_7DOAN_QUET_ALL(); 
+.................... }  
+....................  
+.................... VOID GIAI_MA_GAN_CHO_8LED_QUET_16_XOA(UNSIGNED INT16 X) 
+.................... {      
+....................       LED_7DQ[0]= MA7DOAN [X %10];     
+....................       LED_7DQ[1]= MA7DOAN [X/10%10]; 
+....................       LED_7DQ[2]= MA7DOAN [X/100%10];     
+....................       LED_7DQ[3]= MA7DOAN [X/1000%10]; 
+....................       LED_7DQ[4]= MA7DOAN [X/10000%10]; 
+....................       IF (LED_7DQ[4]==MASO0)  
+....................       { 
+....................             LED_7DQ[4]=0XFF; 
+....................             IF (LED_7DQ[3]==MASO0)  
+....................             { 
+....................                LED_7DQ[3]=0XFF; 
+....................                IF (LED_7DQ[2]==MASO0)  
+....................                { 
+....................                   LED_7DQ[2]=0XFF; 
+....................                   IF (LED_7DQ[1]==MASO0)  
+....................                   { 
+....................                      LED_7DQ[1]=0XFF; 
+....................                   } 
+....................                } 
+....................             } 
+....................       } 
+....................              
+.................... } 
+.................... //XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX          
+.................... VOID XUAT_2BYTE(UNSIGNED INT16 BYTE2XUAT) 
+.................... { 
+....................    INT8 SBB; 
+....................    UNSIGNED INT16   XX;   //SHORT  BSERI; 
+....................    #BIT BSERIX  = XX.15 
+....................    XX = BYTE2XUAT; 
+....................    FOR (SBB=0;SBB<16;SBB++) 
+....................       {                                                  
+....................          OUTPUT_BIT(SSDO,BSERIX);     
+....................          OUTPUT_LOW(SSCK);          
+....................          OUTPUT_HIGH(SSCK); 
+....................          XX= XX<<1;          
+....................      } 
+.................... } 
+.................... //XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX 
+.................... //CHUONG TRINH CON XUAT RA LED MA TRAN 
+.................... //XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX 
+.................... VOID XUAT_MATRANLED(UNSIGNED INT16 MAHANG,UNSIGNED INT16 MACOT1, 
+.................... UNSIGNED INT16 MACOT2,UNSIGNED INT16 MACOT3) 
+.................... {       
+....................       XUAT_2BYTE(MACOT3); 
+....................       XUAT_2BYTE(MACOT2); 
+....................       XUAT_2BYTE(MACOT1); 
+....................       XUAT_2BYTE(MAHANG); 
+....................        
+....................       MO_LED_MATRAN; 
+....................       MO_IC_74573_B_THONG_DL(); 
+....................        
+....................       OUTPUT_HIGH(RCK_MATRANLED); OUTPUT_LOW(RCK_MATRANLED);  
+....................       CHOT_IC_74573_B_GOI_DU_LIEU; 
+.................... } 
+.................... //XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX 
+.................... //CHUONG TRINH CON XUAT RA LED MA TRAN 
+.................... //XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX 
+.................... VOID TAT_MATRANLED() 
+.................... {       
+....................       XUAT_2BYTE(0); 
+....................       XUAT_2BYTE(0); 
+....................       XUAT_2BYTE(0); 
+....................       XUAT_2BYTE(0);            
+....................       OUTPUT_HIGH(RCK_MATRANLED);  
+....................       OUTPUT_LOW(RCK_MATRANLED); 
+.................... } 
+.................... UNSIGNED  INT8 HIEU_CHINH_4BIT_CAO(UNSIGNED INT8 XZY) 
+.................... { 
+....................       INT1  BTG; 
+....................       UNSIGNED INT8   BX;    
+....................       #BIT BIT4  = BX.4 
+....................       #BIT BIT5  = BX.5 
+....................       #BIT BIT6  = BX.6 
+....................       #BIT BIT7  = BX.7 
+....................       BX=XZY; 
+....................       BTG=BIT4;   BIT4=BIT7;  BIT7=BTG; 
+....................       BTG=BIT5;   BIT5=BIT6;  BIT6=BTG;       
+....................       RETURN(BX);   
+.................... } 
+.................... //HAM 601 
+.................... //XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX 
+.................... //MODULE DIEU KHIEN RELAY,TRIAC, BUZZER, DONG CO, SIM 
+.................... //XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX 
+.................... VOID XUAT_BUZZER_RELAY() 
+.................... {      
+....................    UNSIGNED INT8 RBDC1,RBDC2; 
+....................       RBDC1=RBDC; RBDC2=RBDC>>8;       
+....................       XUAT_1BYTE(RBDC2);       
+....................       XUAT_1BYTE(RBDC1); 
+....................       MO_RELAY_BUZZER_DC; 
+....................       MO_IC_74573_B_THONG_DL(); 
+....................        
+....................       OUTPUT_HIGH(RCK_BUZERELAY);   OUTPUT_LOW(RCK_BUZERELAY); 
+....................       CHOT_IC_74573_B_GOI_DU_LIEU; 
+.................... } 
+.................... //HAM 602 
+.................... //XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX 
+.................... VOID BUZZER_ON() 
+.................... {     
+....................       BUZZER=1; 
+....................       XUAT_BUZZER_RELAY();          
+.................... } 
+.................... //HAM 603 
+.................... //XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX 
+.................... VOID BUZZER_OFF() 
+.................... {      
+....................       BUZZER=0; 
+....................       XUAT_BUZZER_RELAY(); 
+.................... } 
+.................... //HAM 604 
+.................... //XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX 
+.................... VOID RELAY_1_ON() 
+.................... {     
+....................       RELAY_1=1; 
+....................       XUAT_BUZZER_RELAY();          
+.................... } 
+.................... //HAM 603 
+.................... //XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX 
+.................... VOID RELAY_1_OFF() 
+.................... {     
+....................       RELAY_1=0; 
+....................       XUAT_BUZZER_RELAY();          
+.................... } 
+.................... //HAM 604 
+.................... //XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX 
+.................... VOID RELAY_2_ON() 
+.................... {     
+....................       RELAY_2=1; 
+....................       XUAT_BUZZER_RELAY();          
+.................... } 
+.................... //HAM 607 
+.................... //XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX 
+.................... VOID RELAY_2_OFF() 
+.................... {     
+....................       RELAY_2=0; 
+....................       XUAT_BUZZER_RELAY();          
+.................... } 
+.................... //HAM 608 
+.................... //XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX 
+.................... VOID RELAY_1_RELAY_2_ON() 
+.................... {     
+....................       RELAY_1=1;  RELAY_2=1; 
+....................       XUAT_BUZZER_RELAY();          
+.................... } 
+.................... //HAM 609 
+.................... //XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX 
+.................... VOID RELAY_1_RELAY_2_OFF() 
+.................... {     
+....................       RELAY_1=0;  RELAY_2=0; 
+....................       XUAT_BUZZER_RELAY();          
+.................... } 
+.................... //HAM 610 
+.................... //XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX 
+.................... VOID TRIAC_1_ON() 
+.................... {     
+....................       TRIAC_1=1; 
+....................       XUAT_BUZZER_RELAY();          
+.................... } 
+.................... //HAM 611 
+.................... //XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX 
+.................... VOID TRIAC_1_OFF() 
+.................... {     
+....................       TRIAC_1=0; 
+....................       XUAT_BUZZER_RELAY();          
+.................... } 
+.................... //HAM 612 
+.................... //XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX 
+.................... VOID TRIAC_2_ON() 
+.................... {     
+....................       TRIAC_2=1; 
+....................       XUAT_BUZZER_RELAY();          
+.................... } 
+.................... //HAM 613 
+.................... //XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX 
+.................... VOID TRIAC_2_OFF() 
+.................... {     
+....................       TRIAC_2=0; 
+....................       XUAT_BUZZER_RELAY();          
+.................... } 
+.................... //XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX 
+....................  
+....................  
+....................  
+.................... #include <TV_PICKIT2_SHIFT_DS13B07_I2C.c> 
+.................... #INCLUDE <TV_PICKIT2_SHIFT_LCD.c> 
+.................... UNSIGNED INT8 LCD_CONTROL;   
+.................... #bit LCD_P = LCD_CONTROL.3 
+.................... #bit LCD_RS = LCD_CONTROL.2 
+.................... #bit LCD_RW = LCD_CONTROL.1 
+.................... #bit LCD_E  = LCD_CONTROL.0 
+....................  
+.................... #DEFINE LCD_FUNCTION_SET       0X38 
+.................... #DEFINE LCD_DISPLAY_CONTROL    0X0C 
+.................... #DEFINE LCD_CLEAR_DISPLAY      0X01 
+.................... #DEFINE LCD_ENTRY_MODE         0X06 
+.................... #DEFINE LCD_SHIFT_LEFT         0X18 
+.................... #DEFINE LCD_SHIFT_RIGHT        0X1C 
+....................  
+.................... #DEFINE LCD_ADDR_LINE1         0X80 
+.................... #DEFINE LCD_ADDR_LINE2         0XC0 
+.................... #DEFINE LCD_ADDR_LINE3         0X94 
+.................... #DEFINE LCD_ADDR_LINE4         0XD4 
+....................  
+.................... VOID LCD_XUAT_8BIT(INT8 LCD_DATA_X) 
+.................... { 
+....................       LCD_E=1; XUAT_LCD20X4(LCD_CONTROL,LCD_DATA_X);      
+*
+01CC:  BSF    1A.0
+01CE:  MOVFF  1A,43A
+01D2:  MOVFF  439,43B
+01D6:  RCALL  01B8
+....................       LCD_E=0; XUAT_LCD20X4(LCD_CONTROL,LCD_DATA_X);  
+01D8:  BCF    1A.0
+01DA:  MOVFF  1A,43A
+01DE:  MOVFF  439,43B
+01E2:  RCALL  01B8
+01E4:  RETURN 0
+.................... } 
+.................... void LCD_COMMAND(INT8 LCD_DATA_X)    
+....................   { 
+....................       LCD_RS = 0; 
+01E6:  BCF    1A.2
+....................       LCD_XUAT_8BIT(LCD_DATA_X); 
+01E8:  MOVFF  438,439
+01EC:  RCALL  01CC
+....................       DELAY_US(20); 
+01EE:  MOVLW  20
+01F0:  MOVWF  00
+01F2:  DECFSZ 00,F
+01F4:  BRA    01F2
+01F6:  BRA    01F8
+01F8:  NOP   
+01FA:  RETURN 0
+....................   } 
+.................... void LCD_DATA(INT8 LCD_DATA_X)        
+....................   { 
+....................       LCD_RS = 1;      
+*
+0400:  BSF    1A.2
+....................       LCD_XUAT_8BIT(LCD_DATA_X); 
+0402:  MOVFF  435,439
+0406:  RCALL  01CC
+....................       DELAY_US(20); 
+0408:  MOVLW  20
+040A:  MOVWF  00
+040C:  DECFSZ 00,F
+040E:  BRA    040C
+0410:  BRA    0412
+0412:  NOP   
+0414:  RETURN 0
+....................   } 
+....................    
+.................... VOID SETUP_LCD () 
+.................... {                      
+....................          LCD_E  = 0;  
+*
+0224:  BCF    1A.0
+....................          LCD_RW = 0;  
+0226:  BCF    1A.1
+....................          LCD_RS = 1;  
+0228:  BSF    1A.2
+....................          LCD_P =0; 
+022A:  BCF    1A.3
+....................          LCD_COMMAND(LCD_FUNCTION_SET);          
+022C:  MOVLW  38
+022E:  MOVLB  4
+0230:  MOVWF  x38
+0232:  MOVLB  0
+0234:  RCALL  01E6
+....................          DELAY_US(40); 
+0236:  MOVLW  42
+0238:  MOVWF  00
+023A:  DECFSZ 00,F
+023C:  BRA    023A
+023E:  NOP   
+....................          LCD_COMMAND(LCD_DISPLAY_CONTROL);    
+0240:  MOVLW  0C
+0242:  MOVLB  4
+0244:  MOVWF  x38
+0246:  MOVLB  0
+0248:  RCALL  01E6
+....................          DELAY_US(40); 
+024A:  MOVLW  42
+024C:  MOVWF  00
+024E:  DECFSZ 00,F
+0250:  BRA    024E
+0252:  NOP   
+....................          LCD_COMMAND(LCD_CLEAR_DISPLAY);       
+0254:  MOVLW  01
+0256:  MOVLB  4
+0258:  MOVWF  x38
+025A:  MOVLB  0
+025C:  RCALL  01E6
+....................          DELAY_MS(2); 
+025E:  MOVLW  02
+0260:  MOVLB  4
+0262:  MOVWF  x32
+0264:  MOVLB  0
+0266:  RCALL  01FC
+....................          LCD_COMMAND(LCD_ENTRY_MODE);        
+0268:  MOVLW  06
+026A:  MOVLB  4
+026C:  MOVWF  x38
+026E:  MOVLB  0
+0270:  RCALL  01E6
+....................          DELAY_US(40);                 
+0272:  MOVLW  42
+0274:  MOVWF  00
+0276:  DECFSZ 00,F
+0278:  BRA    0276
+027A:  NOP   
+027C:  GOTO   0F28 (RETURN)
+.................... } 
+....................  
+.................... CONST UNSIGNED CHAR LCD_SO_X[10+1+1+1][6] ={ 
+....................                   0,1,2,5,3,4,               // SO 0 
+....................                   1,2,32,3,7,3,              // SO 1 
+....................                   6,6,2,5,3,3,               // SO 2 
+....................                   6,6,2,3,3,4,               // SO 3 
+....................                   7,3,7,32,32,7,             // SO 4 
+....................                   7,6,6,3,3,4,               // SO 5 
+....................                   0,6,6,5,3,4,               // SO 6 
+....................                   1,1,7,32,32,7,             // SO 7 
+....................                   0,6,2,5,3,4,               // SO 8 
+....................                   0,6,2,3,3,4,               // SO 9 
+....................                   32,32,32,32,32,32,         // KHOANG TRANG 0x20 tai vi tri 10 
+....................                   0,6,2,5,32,32,              // CHU "P" tai vi tri 11 
+....................                   32,32,32,32,7,32            // DAU CHAM tai vi tri 12 
+....................                   }; 
+....................                    
+....................                    
+.................... CONST UNSIGNED CHAR LCD_MA_8DOAN[] = { 
+....................    0x07,0x0F,0x1F,0x1F,0x1F,0x1F,0x1F,0x1F,  //DOAN F - 0 
+....................    0x1F,0x1F,0x1F,0X00,0X00,0X00,0X00,0X00,  //DOAN A - 1 
+....................    0x1C,0x1E,0x1F,0x1F,0x1F,0x1F,0x1F,0x1F,  //DOAN B - 2 
+....................    0X00,0X00,0X00,0X00,0X00,0x1F,0x1F,0x1F,  //DOAN D - 3 
+....................    0x1F,0x1F,0x1F,0x1F,0x1F,0x1F,0x1E,0x1C,  //DOAN C - 4 
+....................    0x1F,0x1F,0x1F,0x1F,0x1F,0x1F,0x0F,0x07,  //DOAN E - 5 
+....................    0x1F,0x1F,0x1F,0X00,0X00,0X00,0x1F,0x1F,  //DOAN G+D-6  
+....................    0x1F,0x1F,0x1F,0x1F,0x1F,0x1F,0x1F,0x1F}; //DOAN I  -7 
+....................     
+.................... VOID LCD_GOTO_XY(SIGNED INT8 X, SIGNED INT8 Y) 
+.................... {  
+....................    CONST UNSIGNED INT8 LCD_VITRI[]={0x80,0xC0,0x94,0xD4}; 
+....................    LCD_COMMAND(LCD_VITRI[X]+Y); 
+*
+0DA6:  CLRF   03
+0DA8:  MOVLB  4
+0DAA:  MOVF   x35,W
+0DAC:  MOVFF  FF2,437
+0DB0:  BCF    FF2.7
+0DB2:  MOVLB  0
+0DB4:  CALL   00EA
+0DB8:  MOVLB  4
+0DBA:  BTFSC  x37.7
+0DBC:  BSF    FF2.7
+0DBE:  ADDWF  x36,W
+0DC0:  MOVWF  x37
+0DC2:  MOVWF  x38
+0DC4:  MOVLB  0
+0DC6:  CALL   01E6
+0DCA:  RETURN 0
+.................... } 
+....................  
+.................... VOID XXX() 
+.................... {  
+....................    SIGNED INT8 X; 
+....................    X= LCD_SO_X[0][0]; 
+....................    X= LCD_MA_8DOAN[0]; 
+.................... } 
+....................  
+.................... #define   GIAY_HTAI      0X55 
+.................... #define   PHUT_HTAI      0X32 
+.................... #define   GIO_HTAI       0X16 
+.................... #define   THU_HTAI       2 
+.................... #define   NGAY_HTAI      0X10 
+.................... #define   THANG_HTAI     0X08 
+.................... #define   NAM_HTAI       0X20       
+.................... #define   MA_DS          0X90 
+....................  
+.................... #define  ADDR_WR_13B07   0xD0 
+.................... #define  ADDR_RD_13B07   0xD1 
+.................... #define  ADDR_MEM        0x00 
+....................  
+.................... UNSIGNED  CHAR    NAM_DS13,THANG_DS13,NGAY_DS13,THU_DS13,GIO_DS13, 
+....................                   PHUT_DS13,GIAY_DS13,MA_DS13,CONTROL_DS13,GIAYTAM; 
+....................                                 
+.................... void THIET_LAP_THOI_GIAN_HIEN_TAI() 
+.................... {     GIAY_DS13   =   GIAY_HTAI;       PHUT_DS13  =    PHUT_HTAI;    
+*
+0416:  MOVLW  55
+0418:  MOVWF  21
+041A:  MOVLW  32
+041C:  MOVWF  20
+....................       GIO_DS13    =   GIO_HTAI;        THU_DS13   =    THU_HTAI; 
+041E:  MOVLW  16
+0420:  MOVWF  1F
+0422:  MOVLW  02
+0424:  MOVWF  1E
+....................       NGAY_DS13   =   NGAY_HTAI;       THANG_DS13 =    THANG_HTAI;    
+0426:  MOVLW  10
+0428:  MOVWF  1D
+042A:  MOVLW  08
+042C:  MOVWF  1C
+....................       NAM_DS13    =   NAM_HTAI;    
+042E:  MOVLW  20
+0430:  MOVWF  1B
+....................       CONTROL_DS13 = 0X90;             MA_DS13      =   MA_DS; 
+0432:  MOVLW  90
+0434:  MOVWF  23
+0436:  MOVWF  22
+0438:  GOTO   0F78 (RETURN)
+.................... } 
+....................   
+.................... void NAP_THOI_GIAN_HTAI_VAO_DS13B07() 
+.................... {     I2C_START();          
+043C:  BSF    F93.0
+043E:  MOVLW  05
+0440:  MOVWF  00
+0442:  DECFSZ 00,F
+0444:  BRA    0442
+0446:  BSF    F93.1
+0448:  MOVLW  06
+044A:  MOVWF  00
+044C:  DECFSZ 00,F
+044E:  BRA    044C
+0450:  BCF    F8A.0
+0452:  BCF    F93.0
+0454:  MOVLW  05
+0456:  MOVWF  00
+0458:  DECFSZ 00,F
+045A:  BRA    0458
+045C:  BCF    F8A.1
+045E:  BCF    F93.1
+....................       I2C_WRITE(ADDR_WR_13B07);     
+0460:  MOVLW  D0
+0462:  MOVLB  4
+0464:  MOVWF  x31
+0466:  MOVLB  0
+0468:  RCALL  0280
+....................       I2C_WRITE(0X00); 
+046A:  MOVLB  4
+046C:  CLRF   x31
+046E:  MOVLB  0
+0470:  RCALL  0280
+....................       I2C_WRITE(GIAY_DS13);        I2C_WRITE(PHUT_DS13);       
+0472:  MOVFF  21,431
+0476:  RCALL  0280
+0478:  MOVFF  20,431
+047C:  RCALL  0280
+....................       I2C_WRITE(GIO_DS13);         I2C_WRITE(THU_DS13);       
+047E:  MOVFF  1F,431
+0482:  RCALL  0280
+0484:  MOVFF  1E,431
+0488:  RCALL  0280
+....................       I2C_WRITE(NGAY_DS13);        I2C_WRITE(THANG_DS13);             
+048A:  MOVFF  1D,431
+048E:  RCALL  0280
+0490:  MOVFF  1C,431
+0494:  RCALL  0280
+....................       I2C_WRITE(NAM_DS13);         I2C_WRITE(CONTROL_DS13);    
+0496:  MOVFF  1B,431
+049A:  RCALL  0280
+049C:  MOVFF  23,431
+04A0:  RCALL  0280
+....................       I2C_WRITE(MA_DS13); 
+04A2:  MOVFF  22,431
+04A6:  RCALL  0280
+....................       I2C_STOP(); 
+04A8:  BCF    F93.0
+04AA:  NOP   
+04AC:  BSF    F93.1
+04AE:  BTFSS  F81.1
+04B0:  BRA    04AE
+04B2:  MOVLW  05
+04B4:  MOVWF  00
+04B6:  DECFSZ 00,F
+04B8:  BRA    04B6
+04BA:  BRA    04BC
+04BC:  NOP   
+04BE:  BSF    F93.0
+04C0:  MOVLW  05
+04C2:  MOVWF  00
+04C4:  DECFSZ 00,F
+04C6:  BRA    04C4
+04C8:  GOTO   0F7C (RETURN)
+.................... } 
+....................      
+.................... void DOC_THOI_GIAN_TU_REALTIME() 
+.................... {    
+....................       I2C_START(); 
+*
+031E:  BSF    F93.0
+0320:  MOVLW  05
+0322:  MOVWF  00
+0324:  DECFSZ 00,F
+0326:  BRA    0324
+0328:  BSF    F93.1
+032A:  MOVLW  06
+032C:  MOVWF  00
+032E:  DECFSZ 00,F
+0330:  BRA    032E
+0332:  BCF    F8A.0
+0334:  BCF    F93.0
+0336:  MOVLW  05
+0338:  MOVWF  00
+033A:  DECFSZ 00,F
+033C:  BRA    033A
+033E:  BCF    F8A.1
+0340:  BCF    F93.1
+....................       I2C_WRITE(ADDR_WR_13B07); 
+0342:  MOVLW  D0
+0344:  MOVLB  4
+0346:  MOVWF  x31
+0348:  MOVLB  0
+034A:  RCALL  0280
+....................       I2C_WRITE(ADDR_MEM);                      
+034C:  MOVLB  4
+034E:  CLRF   x31
+0350:  MOVLB  0
+0352:  RCALL  0280
+....................       I2C_START();                 
+0354:  BSF    F93.0
+0356:  MOVLW  05
+0358:  MOVWF  00
+035A:  DECFSZ 00,F
+035C:  BRA    035A
+035E:  BSF    F93.1
+0360:  MOVLW  06
+0362:  MOVWF  00
+0364:  DECFSZ 00,F
+0366:  BRA    0364
+0368:  BTFSS  F81.1
+036A:  BRA    0368
+036C:  BCF    F8A.0
+036E:  BCF    F93.0
+0370:  MOVLW  05
+0372:  MOVWF  00
+0374:  DECFSZ 00,F
+0376:  BRA    0374
+0378:  BCF    F8A.1
+037A:  BCF    F93.1
+....................                  
+....................       I2C_WRITE(ADDR_RD_13B07); 
+037C:  MOVLW  D1
+037E:  MOVLB  4
+0380:  MOVWF  x31
+0382:  MOVLB  0
+0384:  RCALL  0280
+....................       GIAY_DS13      =  I2C_READ();               
+0386:  MOVLW  01
+0388:  MOVWF  00
+038A:  RCALL  02D2
+038C:  MOVFF  01,21
+....................       PHUT_DS13      =  I2C_READ();              
+0390:  MOVLW  01
+0392:  MOVWF  00
+0394:  RCALL  02D2
+0396:  MOVFF  01,20
+....................       GIO_DS13       =  I2C_READ();              
+039A:  MOVLW  01
+039C:  MOVWF  00
+039E:  RCALL  02D2
+03A0:  MOVFF  01,1F
+....................       THU_DS13       =  I2C_READ();  
+03A4:  MOVLW  01
+03A6:  MOVWF  00
+03A8:  RCALL  02D2
+03AA:  MOVFF  01,1E
+....................       NGAY_DS13      =  I2C_READ();  
+03AE:  MOVLW  01
+03B0:  MOVWF  00
+03B2:  RCALL  02D2
+03B4:  MOVFF  01,1D
+....................       THANG_DS13     =  I2C_READ();  
+03B8:  MOVLW  01
+03BA:  MOVWF  00
+03BC:  RCALL  02D2
+03BE:  MOVFF  01,1C
+....................       NAM_DS13       =  I2C_READ();  
+03C2:  MOVLW  01
+03C4:  MOVWF  00
+03C6:  RCALL  02D2
+03C8:  MOVFF  01,1B
+....................       CONTROL_DS13   =  I2C_READ();           
+03CC:  MOVLW  01
+03CE:  MOVWF  00
+03D0:  RCALL  02D2
+03D2:  MOVFF  01,23
+....................       MA_DS13        =  I2C_READ(0);     //NOT ACK 
+03D6:  CLRF   00
+03D8:  RCALL  02D2
+03DA:  MOVFF  01,22
+....................       I2C_STOP(); 
+03DE:  BCF    F93.0
+03E0:  NOP   
+03E2:  BSF    F93.1
+03E4:  BTFSS  F81.1
+03E6:  BRA    03E4
+03E8:  MOVLW  05
+03EA:  MOVWF  00
+03EC:  DECFSZ 00,F
+03EE:  BRA    03EC
+03F0:  BRA    03F2
+03F2:  NOP   
+03F4:  BSF    F93.0
+03F6:  MOVLW  05
+03F8:  MOVWF  00
+03FA:  DECFSZ 00,F
+03FC:  BRA    03FA
+03FE:  RETURN 0
+.................... }     
+....................  
+....................     
+.................... void DOC_GIAY_TU_REALTIME() 
+.................... {    
+....................       I2C_START(); 
+....................       I2C_WRITE(ADDR_WR_13B07); 
+....................       I2C_WRITE(ADDR_MEM);                      
+....................       I2C_START();                 
+....................                  
+....................       I2C_WRITE(ADDR_RD_13B07); 
+....................       GIAY_DS13      =  I2C_READ(0);               
+....................       I2C_STOP(); 
+.................... }   
+....................          
+....................   
+.................... void HIEN_THI_THOI_GIAN_DS13B07 ( ) 
+.................... {     LCD_COMMAND (0x8C);    
+....................       LCD_DATA(GIO_DS13/16  +0X30);    LCD_DATA(GIO_DS13%16  +0X30); 
+....................       LCD_DATA(' '); 
+....................       LCD_DATA(PHUT_DS13/16 +0X30);    LCD_DATA(PHUT_DS13%16 +0X30); 
+....................       LCD_DATA(' '); 
+....................       LCD_DATA(GIAY_DS13/16 +0X30);    LCD_DATA(GIAY_DS13%16 +0X30); 
+....................       LCD_COMMAND (0xCC);   
+....................       LCD_DATA(NGAY_DS13/16 +0X30);    LCD_DATA(NGAY_DS13%16 +0X30); 
+....................       LCD_DATA(' '); 
+....................       LCD_DATA(THANG_DS13/16 +0X30);   LCD_DATA(THANG_DS13%16 +0X30); 
+....................       LCD_DATA(' '); 
+....................       LCD_DATA(NAM_DS13/16 +0X30);     LCD_DATA(NAM_DS13%16 +0X30);  
+.................... } 
+....................  
+....................  
+....................  
+.................... #include <tv_pickit2_shift_glcd128x64.c> 
+.................... UNSIGNED INT8 GLCD_CONTROL;   
+.................... #bit GLCD_P    = GLCD_CONTROL.5 
+.................... #bit GLCD_RS   = GLCD_CONTROL.4 
+.................... #bit GLCD_RW   = GLCD_CONTROL.3 
+.................... #bit GLCD_E    = GLCD_CONTROL.2 
+.................... #bit GLCD_CS2  = GLCD_CONTROL.1 
+.................... #bit GLCD_CS1  = GLCD_CONTROL.0 
+....................  
+.................... //#DEFINE GLCD_FUNCTION_SET       0X30 
+.................... #DEFINE GLCD_TEXT_MODE          0x30 
+.................... #DEFINE GLCD_GRAPHIC_MODE       0x36  
+....................  
+.................... #DEFINE GLCD_CLEAR_DISPLAY      0X01 
+.................... #DEFINE GLCD_CURSOR_DISPLAY     0X0C 
+.................... #DEFINE GLCD_ENTRY_MODE         0X06 
+....................  
+....................  
+.................... #DEFINE GLCD_ADDR_LINE1         0X80 
+.................... #DEFINE GLCD_ADDR_LINE2         0X90 
+.................... #DEFINE GLCD_ADDR_LINE3         0X88 
+.................... #DEFINE GLCD_ADDR_LINE4         0X98 
+....................  
+.................... VOID GLCD_XUAT_8BIT(INT8 GLCD_DATA1) 
+.................... { 
+....................       GLCD_E=1; XUAT_GLCD128X64(GLCD_CONTROL,GLCD_DATA1);      
+*
+04E0:  BSF    25.2
+04E2:  MOVFF  25,436
+04E6:  MOVFF  435,437
+04EA:  RCALL  04CC
+....................       GLCD_E=0; XUAT_GLCD128X64(GLCD_CONTROL,GLCD_DATA1);  
+04EC:  BCF    25.2
+04EE:  MOVFF  25,436
+04F2:  MOVFF  435,437
+04F6:  RCALL  04CC
+04F8:  RETURN 0
+.................... } 
+....................  
+.................... void GLCD_COMMAND(INT8 GLCD_DATA2)    
+....................   { 
+....................       GLCD_RS = 0; 
+04FA:  BCF    25.4
+....................       GLCD_XUAT_8BIT(GLCD_DATA2);       
+04FC:  MOVFF  432,435
+0500:  RCALL  04E0
+0502:  RETURN 0
+....................   } 
+.................... void GLCD_DATA(INT8 GLCD_DATA3)        
+....................   { 
+....................       GLCD_RS = 1;      
+*
+0A9A:  BSF    25.4
+....................       GLCD_XUAT_8BIT(GLCD_DATA3);      
+0A9C:  MOVFF  434,435
+0AA0:  RCALL  04E0
+0AA2:  RETURN 0
+....................   } 
+....................    
+....................   VOID GLCD_DATA_X(INT8 GLCD_DATA3) 
+.................... { 
+....................       GLCD_RS = 1;      
+....................       GLCD_XUAT_8BIT(0XA1); 
+....................       GLCD_XUAT_8BIT(0X40);   
+.................... } 
+.................... VOID SETUP_GLCD (INT8 GLCD_FUNCTION_SET_MODE) 
+.................... {                      
+....................          GLCD_CS1 = 1; 
+*
+0504:  BSF    25.0
+....................          GLCD_CS2 = 1; 
+0506:  BSF    25.1
+....................          GLCD_E  = 0; 
+0508:  BCF    25.2
+....................          GLCD_RW = 0;           
+050A:  BCF    25.3
+....................          GLCD_P =0;          
+050C:  BCF    25.5
+....................          GLCD_COMMAND(GLCD_FUNCTION_SET_MODE);          
+050E:  MOVFF  431,432
+0512:  RCALL  04FA
+....................          DELAY_US(10); 
+0514:  MOVLW  10
+0516:  MOVWF  00
+0518:  DECFSZ 00,F
+051A:  BRA    0518
+051C:  NOP   
+....................          GLCD_COMMAND(GLCD_CURSOR_DISPLAY);        
+051E:  MOVLW  0C
+0520:  MOVLB  4
+0522:  MOVWF  x32
+0524:  MOVLB  0
+0526:  RCALL  04FA
+....................          DELAY_US(10);     
+0528:  MOVLW  10
+052A:  MOVWF  00
+052C:  DECFSZ 00,F
+052E:  BRA    052C
+0530:  NOP   
+....................          GLCD_COMMAND(GLCD_CLEAR_DISPLAY);       
+0532:  MOVLW  01
+0534:  MOVLB  4
+0536:  MOVWF  x32
+0538:  MOVLB  0
+053A:  RCALL  04FA
+....................          DELAY_MS(2); 
+053C:  MOVLW  02
+053E:  MOVLB  4
+0540:  MOVWF  x32
+0542:  MOVLB  0
+0544:  RCALL  01FC
+....................          GLCD_COMMAND(GLCD_ENTRY_MODE);       
+0546:  MOVLW  06
+0548:  MOVLB  4
+054A:  MOVWF  x32
+054C:  MOVLB  0
+054E:  RCALL  04FA
+....................          DELAY_US(10);                           
+0550:  MOVLW  10
+0552:  MOVWF  00
+0554:  DECFSZ 00,F
+0556:  BRA    0554
+0558:  NOP   
+055A:  RETURN 0
+.................... } 
+....................  
+.................... #DEFINE GLCD_NGANG     16 //256 PIXEL 
+.................... #DEFINE GLCD_DOC       32 //32 HANG 
+.................... #DEFINE GLCD_WIDTH     128 //DANH CHO THU VIEN GRAPHIC.C 
+.................... int8 DOC, NGANG; 
+....................  
+.................... typedef union  
+.................... {  
+....................   unsigned int16 word;  
+....................   unsigned int8 nbyte[2];  
+.................... } Dots;  
+....................  
+.................... typedef struct  
+.................... {  
+....................   int1 refresh;  
+....................   Dots PIXEL[GLCD_DOC][GLCD_NGANG];     
+....................   } GD_RAM;     
+....................  
+.................... GD_RAM gdram_vdk;  
+....................  
+....................  
+.................... void GLCD_MAU_NEN(int1 GLCD_COLOR)  
+.................... {   
+....................   int16 d;  
+....................   if(GLCD_COLOR)  d=0xffff; else d=0; 
+*
+057E:  MOVLB  4
+0580:  MOVF   x31,F
+0582:  BZ    058A
+0584:  SETF   x33
+0586:  SETF   x32
+0588:  BRA    058E
+058A:  CLRF   x33
+058C:  CLRF   x32
+....................   for (DOC=0; DOC < GLCD_DOC; DOC++)  
+058E:  CLRF   26
+0590:  MOVF   26,W
+0592:  SUBLW  1F
+0594:  BNC   05F2
+....................   {  
+....................     for (NGANG=0; NGANG < GLCD_NGANG; NGANG++)  
+0596:  CLRF   27
+0598:  MOVF   27,W
+059A:  SUBLW  0F
+059C:  BNC   05EE
+....................     {  
+....................       gdram_vdk.PIXEL[DOC][NGANG].word = d;  
+059E:  CLRF   x52
+05A0:  MOVFF  26,451
+05A4:  CLRF   x54
+05A6:  MOVLW  20
+05A8:  MOVWF  x53
+05AA:  MOVLB  0
+05AC:  RCALL  055C
+05AE:  MOVFF  02,03
+05B2:  MOVF   01,W
+05B4:  ADDLW  01
+05B6:  MOVLB  4
+05B8:  MOVWF  x34
+05BA:  MOVLW  00
+05BC:  ADDWFC 02,W
+05BE:  MOVWF  x35
+05C0:  CLRF   03
+05C2:  MOVFF  27,02
+05C6:  BCF    FD8.0
+05C8:  RLCF   02,F
+05CA:  RLCF   03,F
+05CC:  MOVF   02,W
+05CE:  ADDWF  x34,F
+05D0:  MOVF   03,W
+05D2:  ADDWFC x35,F
+05D4:  MOVLW  28
+05D6:  ADDWF  x34,W
+05D8:  MOVWF  FE9
+05DA:  MOVLW  00
+05DC:  ADDWFC x35,W
+05DE:  MOVWF  FEA
+05E0:  MOVFF  433,FEC
+05E4:  MOVF   FED,F
+05E6:  MOVFF  432,FEF
+05EA:  INCF   27,F
+05EC:  BRA    0598
+....................     }  
+05EE:  INCF   26,F
+05F0:  BRA    0590
+....................   }  
+....................   gdram_vdk.refresh = TRUE;  
+05F2:  BSF    28.0
+05F4:  MOVLB  0
+05F6:  GOTO   0FAA (RETURN)
+.................... }  
+....................  
+.................... void glcd_pixel(int8 x, int8 y, int1 color)  
+.................... {  
+....................   int8  b;  
+....................   if(y>31){x += 128; y-= 32;};  
+05FA:  MOVLB  4
+05FC:  MOVF   x4E,W
+05FE:  SUBLW  1F
+0600:  BC    060A
+0602:  MOVLW  80
+0604:  ADDWF  x4D,F
+0606:  MOVLW  20
+0608:  SUBWF  x4E,F
+....................   DOC = y;  
+060A:  MOVFF  44E,26
+....................   NGANG = x/16;  
+060E:  SWAPF  x4D,W
+0610:  MOVWF  27
+0612:  MOVLW  0F
+0614:  ANDWF  27,F
+....................   b = 15 - (x % 16);  
+0616:  MOVF   x4D,W
+0618:  ANDLW  0F
+061A:  XORLW  FF
+061C:  ADDLW  10
+061E:  MOVWF  x50
+....................    
+....................   if (color == 1) bit_set (gdram_vdk.PIXEL[DOC][NGANG].word, b);  
+0620:  DECFSZ x4F,W
+0622:  BRA    068E
+0624:  CLRF   x52
+0626:  MOVFF  26,451
+062A:  CLRF   x54
+062C:  MOVLW  20
+062E:  MOVWF  x53
+0630:  MOVLB  0
+0632:  RCALL  055C
+0634:  MOVFF  02,03
+0638:  MOVF   01,W
+063A:  ADDLW  01
+063C:  MOVLB  4
+063E:  MOVWF  x51
+0640:  MOVLW  00
+0642:  ADDWFC 02,W
+0644:  MOVWF  x52
+0646:  CLRF   03
+0648:  MOVFF  27,02
+064C:  BCF    FD8.0
+064E:  RLCF   02,F
+0650:  RLCF   03,F
+0652:  MOVF   02,W
+0654:  ADDWF  x51,F
+0656:  MOVF   03,W
+0658:  ADDWFC x52,F
+065A:  MOVLW  28
+065C:  ADDWF  x51,W
+065E:  MOVWF  01
+0660:  MOVLW  00
+0662:  ADDWFC x52,W
+0664:  MOVWF  03
+0666:  MOVFF  01,FE9
+066A:  MOVWF  FEA
+066C:  CLRF   03
+066E:  MOVLW  01
+0670:  MOVWF  02
+0672:  MOVF   x50,W
+0674:  MOVWF  00
+0676:  BZ    0682
+0678:  BCF    FD8.0
+067A:  RLCF   02,F
+067C:  RLCF   03,F
+067E:  DECFSZ 00,F
+0680:  BRA    0678
+0682:  MOVF   02,W
+0684:  IORWF  FEF,F
+0686:  MOVF   03,W
+0688:  IORWF  FEC,W
+068A:  MOVWF  FEF
+068C:  BRA    0700
+....................   else bit_clear (gdram_vdk.PIXEL[DOC][NGANG].word, b);  
+068E:  CLRF   x52
+0690:  MOVFF  26,451
+0694:  CLRF   x54
+0696:  MOVLW  20
+0698:  MOVWF  x53
+069A:  MOVLB  0
+069C:  RCALL  055C
+069E:  MOVFF  02,03
+06A2:  MOVF   01,W
+06A4:  ADDLW  01
+06A6:  MOVLB  4
+06A8:  MOVWF  x51
+06AA:  MOVLW  00
+06AC:  ADDWFC 02,W
+06AE:  MOVWF  x52
+06B0:  CLRF   03
+06B2:  MOVFF  27,02
+06B6:  BCF    FD8.0
+06B8:  RLCF   02,F
+06BA:  RLCF   03,F
+06BC:  MOVF   02,W
+06BE:  ADDWF  x51,F
+06C0:  MOVF   03,W
+06C2:  ADDWFC x52,F
+06C4:  MOVLW  28
+06C6:  ADDWF  x51,W
+06C8:  MOVWF  01
+06CA:  MOVLW  00
+06CC:  ADDWFC x52,W
+06CE:  MOVWF  03
+06D0:  MOVFF  01,FE9
+06D4:  MOVWF  FEA
+06D6:  CLRF   03
+06D8:  MOVLW  01
+06DA:  MOVWF  02
+06DC:  MOVF   x50,W
+06DE:  MOVWF  00
+06E0:  BZ    06EC
+06E2:  BCF    FD8.0
+06E4:  RLCF   02,F
+06E6:  RLCF   03,F
+06E8:  DECFSZ 00,F
+06EA:  BRA    06E2
+06EC:  MOVF   02,W
+06EE:  XORLW  FF
+06F0:  MOVWF  00
+06F2:  MOVLW  FF
+06F4:  XORWF  03,F
+06F6:  MOVF   00,W
+06F8:  ANDWF  FEF,F
+06FA:  MOVF   03,W
+06FC:  ANDWF  FEC,W
+06FE:  MOVWF  FEF
+....................   gdram_vdk.refresh = TRUE;  
+0700:  BSF    28.0
+0702:  MOVLB  0
+0704:  RETURN 0
+.................... }  
+....................  
+....................  
+.................... void GDRAM_VDK_TO_GDRAM_GLCD_ALL()  
+.................... {  
+....................   if (gdram_vdk.refresh)  
+*
+0AA4:  BTFSS  28.0
+0AA6:  BRA    0B86
+....................   {  
+....................     for (DOC = 0; DOC <GLCD_DOC; DOC++)  
+0AA8:  CLRF   26
+0AAA:  MOVF   26,W
+0AAC:  SUBLW  1F
+0AAE:  BNC   0B84
+....................     {  
+....................       GLCD_COMMAND( 0x80 | DOC);   // Set Vertical Address.  
+0AB0:  MOVF   26,W
+0AB2:  IORLW  80
+0AB4:  MOVLB  4
+0AB6:  MOVWF  x31
+0AB8:  MOVWF  x32
+0ABA:  MOVLB  0
+0ABC:  RCALL  04FA
+....................       GLCD_COMMAND( 0x80 | 0);   // Set Horizontal Address.  
+0ABE:  MOVLW  80
+0AC0:  MOVLB  4
+0AC2:  MOVWF  x32
+0AC4:  MOVLB  0
+0AC6:  RCALL  04FA
+....................  
+....................       for (NGANG=0; NGANG <GLCD_NGANG; NGANG++)  
+0AC8:  CLRF   27
+0ACA:  MOVF   27,W
+0ACC:  SUBLW  0F
+0ACE:  BNC   0B80
+....................       {  
+....................         GLCD_DATA( gdram_vdk.PIXEL[DOC][NGANG].nbyte[1]);   // Write High Byte.  
+0AD0:  MOVLB  4
+0AD2:  CLRF   x52
+0AD4:  MOVFF  26,451
+0AD8:  CLRF   x54
+0ADA:  MOVLW  20
+0ADC:  MOVWF  x53
+0ADE:  MOVLB  0
+0AE0:  RCALL  055C
+0AE2:  MOVFF  02,03
+0AE6:  MOVF   01,W
+0AE8:  ADDLW  01
+0AEA:  MOVLB  4
+0AEC:  MOVWF  x31
+0AEE:  MOVLW  00
+0AF0:  ADDWFC 02,W
+0AF2:  MOVWF  x32
+0AF4:  CLRF   03
+0AF6:  MOVFF  27,02
+0AFA:  BCF    FD8.0
+0AFC:  RLCF   02,F
+0AFE:  RLCF   03,F
+0B00:  MOVF   02,W
+0B02:  ADDWF  x31,F
+0B04:  MOVF   03,W
+0B06:  ADDWFC x32,F
+0B08:  MOVLW  01
+0B0A:  ADDWF  x31,W
+0B0C:  MOVWF  01
+0B0E:  MOVLW  00
+0B10:  ADDWFC x32,W
+0B12:  MOVWF  03
+0B14:  MOVF   01,W
+0B16:  ADDLW  28
+0B18:  MOVWF  FE9
+0B1A:  MOVLW  00
+0B1C:  ADDWFC 03,W
+0B1E:  MOVWF  FEA
+0B20:  MOVFF  FEF,431
+0B24:  MOVFF  431,434
+0B28:  MOVLB  0
+0B2A:  RCALL  0A9A
+....................         GLCD_DATA( gdram_vdk.PIXEL[DOC][NGANG].nbyte[0]);   // Write Low Byte.  
+0B2C:  MOVLB  4
+0B2E:  CLRF   x52
+0B30:  MOVFF  26,451
+0B34:  CLRF   x54
+0B36:  MOVLW  20
+0B38:  MOVWF  x53
+0B3A:  MOVLB  0
+0B3C:  RCALL  055C
+0B3E:  MOVFF  02,03
+0B42:  MOVF   01,W
+0B44:  ADDLW  01
+0B46:  MOVLB  4
+0B48:  MOVWF  x31
+0B4A:  MOVLW  00
+0B4C:  ADDWFC 02,W
+0B4E:  MOVWF  x32
+0B50:  CLRF   03
+0B52:  MOVFF  27,02
+0B56:  BCF    FD8.0
+0B58:  RLCF   02,F
+0B5A:  RLCF   03,F
+0B5C:  MOVF   02,W
+0B5E:  ADDWF  x31,F
+0B60:  MOVF   03,W
+0B62:  ADDWFC x32,F
+0B64:  MOVLW  28
+0B66:  ADDWF  x31,W
+0B68:  MOVWF  FE9
+0B6A:  MOVLW  00
+0B6C:  ADDWFC x32,W
+0B6E:  MOVWF  FEA
+0B70:  MOVFF  FEF,433
+0B74:  MOVFF  433,434
+0B78:  MOVLB  0
+0B7A:  RCALL  0A9A
+0B7C:  INCF   27,F
+0B7E:  BRA    0ACA
+....................       }  
+0B80:  INCF   26,F
+0B82:  BRA    0AAA
+....................     }  
+....................     gdram_vdk.refresh = FALSE;  
+0B84:  BCF    28.0
+....................   }  
+0B86:  GOTO   0FF4 (RETURN)
+.................... }  
+....................  
+.................... void GDRAM_VDK_TO_GDRAM_GLCD_AREA (int8 x,int8 y,int8 rong, int8 cao) 
+.................... { 
+....................   int8 hesox,hesoy;  
+....................   if (gdram_vdk.refresh)  
+....................   {  
+....................       if((x/16)!=(x + rong)/16) 
+....................             rong=((rong+15)/16)+1; 
+....................       else rong=((rong+15)/16);  
+....................        
+....................       x = x/16; 
+....................       for (DOC = y; DOC <(y+cao); DOC++)  
+....................       {  
+....................          if(DOC>31) 
+....................             {   
+....................                hesox = 8+x; 
+....................                hesoy = DOC-32; 
+....................                } 
+....................          else {hesox = x; hesoy = DOC;} 
+....................          GLCD_COMMAND( 0x80 |hesoy);    
+....................          GLCD_COMMAND( 0x80 |hesox);   
+....................        
+....................          for (NGANG=hesox; NGANG <(hesox+rong); NGANG++)  
+....................          {  
+....................             GLCD_DATA( gdram_vdk.PIXEL[hesoy][NGANG].nbyte[1]);   // Write High Byte.  
+....................             GLCD_DATA( gdram_vdk.PIXEL[hesoy][NGANG].nbyte[0]);   // Write Low Byte.  
+....................          }  
+....................        }  
+....................     gdram_vdk.refresh = FALSE;  
+....................   }       
+.................... } 
+....................  
+....................  
+.................... //!const unsigned char Logo_DHSPKTTP []= { 0X00,0X01,0X2E,0X00,0X39,0X00, 
+.................... //!0X00,0X00,0X00,0X00,0X00,0X00,0X00,0X00,0X00,0X00,0X00,0X00,0X00,0X00,0X00,0X00, 
+.................... //!0X00,0X00,0X00,0X00,0X00,0X00,0X00,0X00,0X00,0X00,0X00,0X00,0X00,0X00,0X00,0X00, 
+.................... //!0X00,0X00,0X00,0X00,0X00,0X00,0X00,0X00,0X00,0X00,0X00,0X00,0X02,0X00,0X00,0X00, 
+.................... //!0X00,0X00,0X02,0X00,0X00,0X00,0X00,0X00,0X02,0X04,0X00,0X00,0X00,0X01,0X02,0X0C, 
+.................... //!0X00,0X00,0X00,0X01,0X82,0X0C,0X00,0X00,0X00,0X00,0X80,0X08,0X00,0X00,0X00,0X00, 
+.................... //!0X80,0X00,0X00,0X00,0X00,0X00,0X0F,0X80,0X00,0X00,0X00,0X00,0X3F,0XC0,0X00,0X00, 
+.................... //!0X00,0X70,0X70,0X70,0X70,0X00,0X00,0X38,0XC8,0X18,0XE0,0X00,0X00,0X18,0XD8,0X18, 
+.................... //!0XC0,0X00,0X00,0X01,0XB0,0X0C,0X00,0X00,0X00,0X01,0XA0,0X0C,0X00,0X00,0X00,0X01, 
+.................... //!0X60,0X0C,0X00,0X00,0X00,0X01,0X00,0X04,0X00,0X00,0X00,0X01,0X00,0X04,0X00,0X00, 
+.................... //!0X00,0X31,0X00,0X04,0X00,0X00,0X00,0X79,0X80,0X0C,0XF0,0X00,0X00,0X71,0X80,0X0C, 
+.................... //!0X70,0X00,0X00,0X01,0X80,0X0C,0X00,0X00,0X00,0X00,0XC0,0X18,0X00,0X00,0X00,0X00, 
+.................... //!0XC0,0X18,0X00,0X00,0X00,0X00,0X60,0X30,0X00,0X00,0X00,0X00,0X60,0X30,0X00,0X00, 
+.................... //!0X00,0X00,0X20,0X20,0X00,0X00,0X00,0X00,0X30,0X60,0X00,0X00,0X00,0X00,0X30,0X60, 
+.................... //!0X00,0X00,0X00,0X00,0X3F,0XE0,0X00,0X00,0X00,0X00,0X3F,0XE0,0X00,0X00,0X00,0X00, 
+.................... //!0X3F,0XE0,0X00,0X00,0X00,0X00,0X3F,0XE0,0X00,0X00,0X00,0X00,0X1F,0X80,0X00,0X00, 
+.................... //!0X00,0X00,0X3E,0X60,0X00,0X00,0X00,0X00,0X39,0XE0,0X00,0X00,0X00,0X00,0X07,0XE0, 
+.................... //!0X00,0X00,0X00,0X00,0X1F,0X80,0X00,0X00,0X00,0X00,0X3E,0X60,0X00,0X00,0X00,0X00, 
+.................... //!0X3D,0XE0,0X00,0X00,0X00,0X00,0X3F,0XE0,0X00,0X00,0X00,0X00,0X1F,0XC0,0X00,0X00, 
+.................... //!0X00,0X00,0X0F,0X80,0X00,0X00,0X00,0X00,0X02,0X00,0X00,0X00,0X00,0X00,0X00,0X00, 
+.................... //!0X00,0X00,0X00,0X00,0X00,0X00,0X00,0X00,0X00,0X00,0X00,0X00,0X00,0X00,0X00,0X00, 
+.................... //!0X00,0X00,0X00,0X00,0X00,0X00,0X00,0X00,0X00,0X00,0X00,0X00,0X00,0X00,0X00,0X00, 
+.................... //!0X00,0X00,0X00,0X00,0X00,0X00,}; 
+.................... //! 
+.................... const unsigned char Logo_DHSPKTTP [] = { 
+.................... 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 
+.................... 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x01, 0x80, 0x00, 0x00, 0x00, 
+.................... 0x00, 0x00, 0x00, 0x01, 0x80, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x01, 0x80, 0x00, 0x00, 0x00, 
+.................... 0x00, 0x00, 0x00, 0x07, 0xE0, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x07, 0xA0, 0x00, 0x00, 0x00, 
+.................... 0x00, 0x00, 0x00, 0x03, 0x20, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x03, 0x20, 0x00, 0x00, 0x00, 
+.................... 0x00, 0x00, 0x00, 0x02, 0x20, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x02, 0x30, 0x00, 0x00, 0x00, 
+.................... 0x00, 0x00, 0x00, 0x02, 0x30, 0x00, 0x00, 0x00, 0x00, 0x7F, 0x00, 0x00, 0x30, 0x00, 0x7E, 0x00, 
+.................... 0x00, 0xFE, 0x00, 0x07, 0xE0, 0x00, 0x3F, 0x00, 0x01, 0xF8, 0x00, 0x03, 0xE0, 0x00, 0x1F, 0x80, 
+.................... 0x03, 0xF0, 0x00, 0x01, 0xC0, 0x00, 0x0F, 0xC0, 0x03, 0xE0, 0x00, 0x01, 0xC0, 0x00, 0x07, 0xE0, 
+.................... 0x07, 0xC0, 0x00, 0x03, 0xC0, 0x00, 0x03, 0xF0, 0x0F, 0xC0, 0x00, 0x17, 0xF4, 0x00, 0x01, 0xF0, 
+.................... 0x0F, 0x80, 0x00, 0x1D, 0x98, 0x00, 0x00, 0xF8, 0x1F, 0x00, 0x00, 0x11, 0x8C, 0x00, 0x00, 0xF8, 
+.................... 0x1F, 0x01, 0x00, 0x31, 0x84, 0x00, 0x80, 0x7C, 0x3E, 0x06, 0x00, 0x31, 0x86, 0x00, 0x20, 0x7C, 
+.................... 0x3E, 0x18, 0x00, 0x71, 0x86, 0x00, 0x1C, 0x3E, 0x3C, 0x43, 0x00, 0x31, 0x84, 0x00, 0xC3, 0x3E, 
+.................... 0x7C, 0x0C, 0x00, 0x11, 0x8C, 0x00, 0x38, 0x1E, 0x7C, 0x31, 0x00, 0x1D, 0x98, 0x00, 0x86, 0x1F, 
+.................... 0x78, 0xC6, 0x00, 0x1F, 0xFC, 0x00, 0x63, 0x1F, 0x78, 0x18, 0x00, 0x03, 0xC0, 0x00, 0x0C, 0x1F, 
+.................... 0xF8, 0x63, 0x80, 0x01, 0x80, 0x00, 0xC7, 0x0F, 0xF9, 0x8E, 0x00, 0x00, 0x00, 0x00, 0x38, 0x8F, 
+.................... 0xF8, 0x38, 0x80, 0x00, 0x00, 0x01, 0x0C, 0x0F, 0xF8, 0xC3, 0x80, 0x00, 0x00, 0x00, 0xE3, 0x8F, 
+.................... 0xF9, 0x8E, 0x00, 0x00, 0x00, 0x00, 0x30, 0xCF, 0xF8, 0x38, 0xF8, 0x00, 0x00, 0x1F, 0x9E, 0x0F, 
+.................... 0xF8, 0xE3, 0xFE, 0x00, 0x00, 0x7F, 0xE3, 0x8F, 0xF9, 0x9F, 0xFF, 0xC0, 0x03, 0xFF, 0xF9, 0xCF, 
+.................... 0x78, 0xFF, 0xFF, 0xE0, 0x07, 0xFF, 0xFF, 0x0F, 0x78, 0x1F, 0xFF, 0xE0, 0x07, 0xFF, 0xFC, 0x1F, 
+.................... 0x7C, 0x07, 0xFF, 0xE0, 0x07, 0xFF, 0xE0, 0x1F, 0x7C, 0x00, 0xFF, 0xE0, 0x07, 0xFF, 0x80, 0x1E, 
+.................... 0x7C, 0x00, 0x1F, 0xE0, 0x07, 0xFC, 0x00, 0x3E, 0x3E, 0x01, 0xCF, 0xE0, 0x07, 0xF3, 0x80, 0x3E, 
+.................... 0x3E, 0x01, 0xFF, 0xE0, 0x03, 0xFF, 0x80, 0x7C, 0x1F, 0x01, 0xFF, 0xE0, 0x03, 0xFF, 0xC0, 0x7C, 
+.................... 0x1F, 0x01, 0xFF, 0xC0, 0x03, 0xFF, 0xC0, 0xF8, 0x0F, 0x83, 0xFF, 0xC0, 0x01, 0xFF, 0xC0, 0xF8, 
+.................... 0x0F, 0x83, 0xFF, 0xC0, 0x01, 0xFF, 0xC1, 0xF0, 0x07, 0xC3, 0xFF, 0x80, 0x01, 0xFF, 0xE3, 0xF0, 
+.................... 0x03, 0xE3, 0xFF, 0x80, 0x01, 0xFF, 0xE7, 0xE0, 0x03, 0xF7, 0xFF, 0x80, 0x00, 0xFF, 0xEF, 0xC0, 
+.................... 0x01, 0xFF, 0xFF, 0x80, 0x00, 0xFF, 0xFF, 0x80, 0x00, 0xFF, 0xFF, 0x00, 0x00, 0xFF, 0xFF, 0x80, 
+.................... 0x00, 0x7F, 0xFF, 0x00, 0x00, 0xFF, 0xFF, 0x00, 0x00, 0x3F, 0xFF, 0x00, 0x00, 0xFF, 0xFE, 0x00, 
+.................... 0x00, 0x1F, 0xFF, 0x00, 0x00, 0x7F, 0xF8, 0x00, 0x00, 0x0F, 0xFE, 0x00, 0x00, 0x7F, 0xF0, 0x00, 
+.................... 0x00, 0x03, 0xFF, 0x00, 0x00, 0x7F, 0xE0, 0x00, 0x00, 0x00, 0xFF, 0xFC, 0x1F, 0xFF, 0x80, 0x00, 
+.................... 0x00, 0x00, 0x7F, 0xFF, 0xFF, 0xFE, 0x00, 0x00, 0x00, 0x00, 0x0F, 0xFF, 0xFF, 0xF8, 0x00, 0x00, 
+.................... 0x00, 0x00, 0x01, 0xFF, 0xFF, 0xC0, 0x00, 0x00, 0x00, 0x00, 0x00, 0x0F, 0xF0, 0x00, 0x00, 0x00 
+.................... }; 
+....................  
+....................  
+.................... void GLCD_XUAT_ANH(int width,int height,int x,int y)  
+.................... {  
+....................    unsigned int i=0, j=0, k=0;  
+....................    unsigned int16 count=0;  
+....................    for(j=0;j<height;j++)  
+....................       {     
+....................          for(;i<width;)  
+....................          {  
+....................             for(k=8;k>0;k--) 
+....................             { 
+....................                glcd_pixel(i+x,j+y,bit_test(Logo_DHSPKTTP[count],(k-1)));  
+....................                i++;  
+....................             }  
+....................             count++;  
+....................          }  
+....................       i=0;  
+....................       }  
+.................... }  
+....................  
+.................... #include <graphics.c> 
+.................... ///////////////////////////////////////////////////////////////////////// 
+.................... ////                          graphics.c                             //// 
+.................... ////                                                                 //// 
+.................... ////   This file contains functions to draw lines, rectangles, bars, //// 
+.................... ////   circles and text to a display. A function which draws a       //// 
+.................... ////   single pixel must be defined before calling the functions in  //// 
+.................... ////   this file. Call it glcd_pixel(x, y, color) where x is the     //// 
+.................... ////   horizontal coordinate, y is the vertical coordinate, and      //// 
+.................... ////   color is 1 bit to turn the pixel on or off.                   //// 
+.................... ////                                                                 //// 
+.................... ////   * Note: (0, 0) is treated as the upper left corner            //// 
+.................... ////                                                                 //// 
+.................... ///////////////////////////////////////////////////////////////////////// 
+.................... ////                                                                 //// 
+.................... ////  glcd_line(x1, y1, x2, y2, color)                               //// 
+.................... ////     * Draws a line from the first point to the second point     //// 
+.................... ////       with the given color                                      //// 
+.................... ////       - color can be ON or OFF                                  //// 
+.................... ////                                                                 //// 
+.................... ////  glcd_rect(x1, y1, x2, y2, fill, color)                         //// 
+.................... ////     * Draws a rectangle with one corner at point (x1,y1) and    //// 
+.................... ////       the other corner at point (x2,y2)                         //// 
+.................... ////       - fill can be YES or NO                                   //// 
+.................... ////       - color can be ON or OFF                                  //// 
+.................... ////                                                                 //// 
+.................... ////  glcd_bar(x1, y1, x2, y2, width, color)                         //// 
+.................... ////     * Draws a bar (wide line) from the first point to the       //// 
+.................... ////       second point                                              //// 
+.................... ////       - width is the number of pixels wide                      //// 
+.................... ////       - color is ON or OFF                                      //// 
+.................... ////                                                                 //// 
+.................... ////  glcd_circle(x, y, radius, fill, color)                         //// 
+.................... ////     * Draws a circle with center at (x,y)                       //// 
+.................... ////       - fill can be YES or NO                                   //// 
+.................... ////       - color can be ON or OFF                                  //// 
+.................... ////                                                                 //// 
+.................... ////  glcd_text57(x, y, textptr, size, color)                        //// 
+.................... ////     * Write the null terminated text pointed to by textptr with //// 
+.................... ////       the upper left coordinate of the first character at (x,y) //// 
+.................... ////       Characters are 5 pixels wide and 7 pixels tall            //// 
+.................... ////       - size is an integer that scales the size of the text     //// 
+.................... ////       - color is ON or OFF                                      //// 
+.................... ////     * Note - This function wraps characters to the next line    //// 
+.................... ////              use #define GLCD_WIDTH to specify a display width  //// 
+.................... ////                                                                 //// 
+.................... ///////////////////////////////////////////////////////////////////////// 
+.................... ////        (C) Copyright 1996, 2010 Custom Computer Services        //// 
+.................... //// This source code may only be used by licensed users of the CCS  //// 
+.................... //// C compiler.  This source code may only be distributed to other  //// 
+.................... //// licensed users of the CCS C compiler.  No other use,            //// 
+.................... //// reproduction or distribution is permitted without written       //// 
+.................... //// permission.  Derivative programs created using this software    //// 
+.................... //// in object code form are not restricted in any way.              //// 
+.................... ///////////////////////////////////////////////////////////////////////// 
+....................  
+....................  
+.................... ///////////////////////////////////////////////////////////////////////// 
+.................... #ifndef GRAPHICS_DRAWING_FUNCTIONS 
+.................... #define GRAPHICS_DRAWING_FUNCTIONS 
+.................... ///////////////////////////////////////////////////////////////////////// 
+....................  
+....................  
+.................... ///////////////////////////////////////////////////////////////////////// 
+.................... #ifndef ON 
+.................... #define ON  1 
+.................... #endif 
+....................  
+.................... #ifndef OFF 
+.................... #define OFF 0 
+.................... #endif 
+....................  
+.................... #ifndef YES 
+.................... #define YES 1 
+.................... #endif 
+....................  
+.................... #ifndef NO 
+.................... #define NO  0 
+.................... #endif 
+.................... ///////////////////////////////////////////////////////////////////////// 
+....................  
+....................  
+.................... ///////////////////////////////////////////////////////////////////////// 
+.................... //// Defines a 5x7 font 
+.................... ///////////////////////////////////////////////////////////////////////// 
+.................... const unsigned int8 FONT[51][5] ={0x00, 0x00, 0x00, 0x00, 0x00, // SPACE 
+....................                          0x00, 0x00, 0x5F, 0x00, 0x00, // ! 
+....................                          0x00, 0x03, 0x00, 0x03, 0x00, // " 
+....................                          0x14, 0x3E, 0x14, 0x3E, 0x14, // # 
+....................                          0x24, 0x2A, 0x7F, 0x2A, 0x12, // $ 
+....................                          0x43, 0x33, 0x08, 0x66, 0x61, // % 
+....................                          0x36, 0x49, 0x55, 0x22, 0x50, // & 
+....................                          0x00, 0x05, 0x03, 0x00, 0x00, // ' 
+....................                          0x00, 0x1C, 0x22, 0x41, 0x00, // ( 
+....................                          0x00, 0x41, 0x22, 0x1C, 0x00, // ) 
+....................                          0x14, 0x08, 0x3E, 0x08, 0x14, // * 
+....................                          0x08, 0x08, 0x3E, 0x08, 0x08, // + 
+....................                          0x00, 0x50, 0x30, 0x00, 0x00, // , 
+....................                          0x08, 0x08, 0x08, 0x08, 0x08, // - 
+....................                          0x00, 0x60, 0x60, 0x00, 0x00, // . 
+....................                          0x20, 0x10, 0x08, 0x04, 0x02, // / 
+....................                          0x3E, 0x51, 0x49, 0x45, 0x3E, // 0 
+....................                          0x00, 0x04, 0x02, 0x7F, 0x00, // 1 
+....................                          0x42, 0x61, 0x51, 0x49, 0x46, // 2 
+....................                          0x22, 0x41, 0x49, 0x49, 0x36, // 3 
+....................                          0x18, 0x14, 0x12, 0x7F, 0x10, // 4 
+....................                          0x27, 0x45, 0x45, 0x45, 0x39, // 5 
+....................                          0x3E, 0x49, 0x49, 0x49, 0x32, // 6 
+....................                          0x01, 0x01, 0x71, 0x09, 0x07, // 7 
+....................                          0x36, 0x49, 0x49, 0x49, 0x36, // 8 
+....................                          0x26, 0x49, 0x49, 0x49, 0x3E, // 9 
+....................                          0x00, 0x36, 0x36, 0x00, 0x00, // : 
+....................                          0x00, 0x56, 0x36, 0x00, 0x00, // ; 
+....................                          0x08, 0x14, 0x22, 0x41, 0x00, // < 
+....................                          0x14, 0x14, 0x14, 0x14, 0x14, // = 
+....................                          0x00, 0x41, 0x22, 0x14, 0x08, // > 
+....................                          0x02, 0x01, 0x51, 0x09, 0x06, // ? 
+....................                          0x3E, 0x41, 0x59, 0x55, 0x5E, // @ 
+....................                          0x7E, 0x09, 0x09, 0x09, 0x7E, // A 
+....................                          0x7F, 0x49, 0x49, 0x49, 0x36, // B 
+....................                          0x3E, 0x41, 0x41, 0x41, 0x22, // C 
+....................                          0x7F, 0x41, 0x41, 0x41, 0x3E, // D 
+....................                          0x7F, 0x49, 0x49, 0x49, 0x41, // E 
+....................                          0x7F, 0x09, 0x09, 0x09, 0x01, // F 
+....................                          0x3E, 0x41, 0x41, 0x49, 0x3A, // G 
+....................                          0x7F, 0x08, 0x08, 0x08, 0x7F, // H 
+....................                          0x00, 0x41, 0x7F, 0x41, 0x00, // I 
+....................                          0x30, 0x40, 0x40, 0x40, 0x3F, // J 
+....................                          0x7F, 0x08, 0x14, 0x22, 0x41, // K 
+....................                          0x7F, 0x40, 0x40, 0x40, 0x40, // L 
+....................                          0x7F, 0x02, 0x0C, 0x02, 0x7F, // M 
+....................                          0x7F, 0x02, 0x04, 0x08, 0x7F, // N 
+....................                          0x3E, 0x41, 0x41, 0x41, 0x3E, // O 
+....................                          0x7F, 0x09, 0x09, 0x09, 0x06, // P 
+....................                          0x1E, 0x21, 0x21, 0x21, 0x5E, // Q 
+....................                          0x7F, 0x09, 0x09, 0x09, 0x76};// R 
+....................  
+.................... const unsigned int8 FONT2[44][5]={0x26, 0x49, 0x49, 0x49, 0x32, // S 
+....................                          0x01, 0x01, 0x7F, 0x01, 0x01, // T 
+....................                          0x3F, 0x40, 0x40, 0x40, 0x3F, // U 
+....................                          0x1F, 0x20, 0x40, 0x20, 0x1F, // V 
+....................                          0x7F, 0x20, 0x10, 0x20, 0x7F, // W 
+....................                          0x41, 0x22, 0x1C, 0x22, 0x41, // X 
+....................                          0x07, 0x08, 0x70, 0x08, 0x07, // Y 
+....................                          0x61, 0x51, 0x49, 0x45, 0x43, // Z 
+....................                          0x00, 0x7F, 0x41, 0x00, 0x00, // [ 
+....................                          0x02, 0x04, 0x08, 0x10, 0x20, // \ 
+....................                          0x00, 0x00, 0x41, 0x7F, 0x00, // ] 
+....................                          0x04, 0x02, 0x01, 0x02, 0x04, // ^ 
+....................                          0x40, 0x40, 0x40, 0x40, 0x40, // _ 
+....................                          0x00, 0x01, 0x02, 0x04, 0x00, // ` 
+....................                          0x20, 0x54, 0x54, 0x54, 0x78, // a 
+....................                          0x7F, 0x44, 0x44, 0x44, 0x38, // b 
+....................                          0x38, 0x44, 0x44, 0x44, 0x44, // c 
+....................                          0x38, 0x44, 0x44, 0x44, 0x7F, // d 
+....................                          0x38, 0x54, 0x54, 0x54, 0x18, // e 
+....................                          0x04, 0x04, 0x7E, 0x05, 0x05, // f 
+....................                          0x08, 0x54, 0x54, 0x54, 0x3C, // g 
+....................                          0x7F, 0x08, 0x04, 0x04, 0x78, // h 
+....................                          0x00, 0x44, 0x7D, 0x40, 0x00, // i 
+....................                          0x20, 0x40, 0x44, 0x3D, 0x00, // j 
+....................                          0x7F, 0x10, 0x28, 0x44, 0x00, // k 
+....................                          0x00, 0x41, 0x7F, 0x40, 0x00, // l 
+....................                          0x7C, 0x04, 0x78, 0x04, 0x78, // m 
+....................                          0x7C, 0x08, 0x04, 0x04, 0x78, // n 
+....................                          0x38, 0x44, 0x44, 0x44, 0x38, // o 
+....................                          0x7C, 0x14, 0x14, 0x14, 0x08, // p 
+....................                          0x08, 0x14, 0x14, 0x14, 0x7C, // q 
+....................                          0x00, 0x7C, 0x08, 0x04, 0x04, // r 
+....................                          0x48, 0x54, 0x54, 0x54, 0x20, // s 
+....................                          0x04, 0x04, 0x3F, 0x44, 0x44, // t 
+....................                          0x3C, 0x40, 0x40, 0x20, 0x7C, // u 
+....................                          0x1C, 0x20, 0x40, 0x20, 0x1C, // v 
+....................                          0x3C, 0x40, 0x30, 0x40, 0x3C, // w 
+....................                          0x44, 0x28, 0x10, 0x28, 0x44, // x 
+....................                          0x0C, 0x50, 0x50, 0x50, 0x3C, // y 
+....................                          0x44, 0x64, 0x54, 0x4C, 0x44, // z 
+....................                          0x00, 0x08, 0x36, 0x41, 0x41, // { 
+....................                          0x00, 0x00, 0x7F, 0x00, 0x00, // | 
+....................                          0x41, 0x41, 0x36, 0x08, 0x00, // } 
+....................                          0x02, 0x01, 0x02, 0x04, 0x02};// ~ 
+.................... ///////////////////////////////////////////////////////////////////////// 
+....................  
+....................  
+.................... ///////////////////////////////////////////////////////////////////////// 
+.................... // Purpose:       Draw a line on a graphic LCD using Bresenham's 
+.................... //                line drawing algorithm 
+.................... // Inputs:        (x1, y1) - the start coordinate 
+.................... //                (x2, y2) - the end coordinate 
+.................... //                color - ON or OFF 
+.................... // Dependencies:  glcd_pixel() 
+.................... ///////////////////////////////////////////////////////////////////////// 
+.................... #ifdef LARGE_LCD 
+.................... void glcd_line(unsigned int16 x1, unsigned int16 y1, unsigned int16 x2, iunsigned nt16 y2, int1 color) 
+.................... #else 
+.................... void glcd_line(unsigned int8 x1, unsigned int8 y1, unsigned int8 x2, unsigned int8 y2, int1 color) 
+.................... #endif 
+*
+0706:  MOVLW  01
+0708:  MOVLB  4
+070A:  MOVWF  x46
+070C:  MOVWF  x47
+070E:  CLRF   x4C
+.................... { 
+....................    unsigned int16        dy, dx; 
+....................    signed int8  addx=1, addy=1; 
+....................    signed int16 P, diff; 
+....................  
+....................    #ifdef LARGE_LCD 
+....................    unsigned int16 i=0; 
+....................    dx = abs((signed int16)(x2 - x1)); 
+....................    dy = abs((signed int16)(y2 - y1)); 
+....................    #else 
+....................    unsigned int8 i=0; 
+....................    dx = abs((signed int8)(x2 - x1)); 
+0710:  MOVF   x3D,W
+0712:  SUBWF  x3F,W
+0714:  MOVWF  x4D
+0716:  MOVF   x4D,W
+0718:  BTFSS  x4D.7
+071A:  BRA    0722
+071C:  MOVLW  00
+071E:  BSF    FD8.0
+0720:  SUBFWB x4D,W
+0722:  CLRF   03
+0724:  MOVWF  x44
+0726:  MOVFF  03,445
+....................    dy = abs((signed int8)(y2 - y1)); 
+072A:  MOVF   x3E,W
+072C:  SUBWF  x40,W
+072E:  MOVWF  x4D
+0730:  MOVF   x4D,W
+0732:  BTFSS  x4D.7
+0734:  BRA    073C
+0736:  MOVLW  00
+0738:  BSF    FD8.0
+073A:  SUBFWB x4D,W
+073C:  CLRF   03
+073E:  MOVWF  x42
+0740:  MOVFF  03,443
+....................    #endif 
+....................  
+....................    if(x1 > x2) 
+0744:  MOVF   x3D,W
+0746:  SUBWF  x3F,W
+0748:  BC    074C
+....................       addx = -1; 
+074A:  SETF   x46
+....................    if(y1 > y2) 
+074C:  MOVF   x3E,W
+074E:  SUBWF  x40,W
+0750:  BC    0754
+....................       addy = -1; 
+0752:  SETF   x47
+....................  
+....................    if(dx >= dy) 
+0754:  MOVF   x43,W
+0756:  SUBWF  x45,W
+0758:  BNC   07CE
+075A:  BNZ   0762
+075C:  MOVF   x42,W
+075E:  SUBWF  x44,W
+0760:  BNC   07CE
+....................    { 
+....................       dy *= 2; 
+0762:  BCF    FD8.0
+0764:  RLCF   x42,F
+0766:  RLCF   x43,F
+....................       P = dy - dx; 
+0768:  MOVF   x44,W
+076A:  SUBWF  x42,W
+076C:  MOVWF  00
+076E:  MOVF   x45,W
+0770:  SUBWFB x43,W
+0772:  MOVFF  00,448
+0776:  MOVWF  x49
+....................       diff = P - dx; 
+0778:  MOVF   x44,W
+077A:  SUBWF  x48,W
+077C:  MOVWF  x4A
+077E:  MOVF   x45,W
+0780:  SUBWFB x49,W
+0782:  MOVWF  x4B
+....................  
+....................       for(; i<=dx; ++i) 
+0784:  MOVF   x45,F
+0786:  BNZ   078E
+0788:  MOVF   x4C,W
+078A:  SUBWF  x44,W
+078C:  BNC   07CC
+....................       { 
+....................          glcd_pixel(x1, y1, color); 
+078E:  MOVFF  43D,44D
+0792:  MOVFF  43E,44E
+0796:  MOVFF  441,44F
+079A:  MOVLB  0
+079C:  RCALL  05FA
+....................  
+....................          if(P < 0) 
+079E:  MOVLB  4
+07A0:  BTFSS  x49.7
+07A2:  BRA    07B4
+....................          { 
+....................             P  += dy; 
+07A4:  MOVF   x42,W
+07A6:  ADDWF  x48,F
+07A8:  MOVF   x43,W
+07AA:  ADDWFC x49,F
+....................             x1 += addx; 
+07AC:  MOVF   x46,W
+07AE:  ADDWF  x3D,W
+07B0:  MOVWF  x3D
+....................          } 
+07B2:  BRA    07C8
+....................          else 
+....................          { 
+....................             P  += diff; 
+07B4:  MOVF   x4A,W
+07B6:  ADDWF  x48,F
+07B8:  MOVF   x4B,W
+07BA:  ADDWFC x49,F
+....................             x1 += addx; 
+07BC:  MOVF   x46,W
+07BE:  ADDWF  x3D,W
+07C0:  MOVWF  x3D
+....................             y1 += addy; 
+07C2:  MOVF   x47,W
+07C4:  ADDWF  x3E,W
+07C6:  MOVWF  x3E
+....................          } 
+07C8:  INCF   x4C,F
+07CA:  BRA    0784
+....................       } 
+....................    } 
+07CC:  BRA    0838
+....................    else 
+....................    { 
+....................       dx *= 2; 
+07CE:  BCF    FD8.0
+07D0:  RLCF   x44,F
+07D2:  RLCF   x45,F
+....................       P = dx - dy; 
+07D4:  MOVF   x42,W
+07D6:  SUBWF  x44,W
+07D8:  MOVWF  00
+07DA:  MOVF   x43,W
+07DC:  SUBWFB x45,W
+07DE:  MOVFF  00,448
+07E2:  MOVWF  x49
+....................       diff = P - dy; 
+07E4:  MOVF   x42,W
+07E6:  SUBWF  x48,W
+07E8:  MOVWF  x4A
+07EA:  MOVF   x43,W
+07EC:  SUBWFB x49,W
+07EE:  MOVWF  x4B
+....................  
+....................       for(; i<=dy; ++i) 
+07F0:  MOVF   x43,F
+07F2:  BNZ   07FA
+07F4:  MOVF   x4C,W
+07F6:  SUBWF  x42,W
+07F8:  BNC   0838
+....................       { 
+....................          glcd_pixel(x1, y1, color); 
+07FA:  MOVFF  43D,44D
+07FE:  MOVFF  43E,44E
+0802:  MOVFF  441,44F
+0806:  MOVLB  0
+0808:  RCALL  05FA
+....................  
+....................          if(P < 0) 
+080A:  MOVLB  4
+080C:  BTFSS  x49.7
+080E:  BRA    0820
+....................          { 
+....................             P  += dx; 
+0810:  MOVF   x44,W
+0812:  ADDWF  x48,F
+0814:  MOVF   x45,W
+0816:  ADDWFC x49,F
+....................             y1 += addy; 
+0818:  MOVF   x47,W
+081A:  ADDWF  x3E,W
+081C:  MOVWF  x3E
+....................          } 
+081E:  BRA    0834
+....................          else 
+....................          { 
+....................             P  += diff; 
+0820:  MOVF   x4A,W
+0822:  ADDWF  x48,F
+0824:  MOVF   x4B,W
+0826:  ADDWFC x49,F
+....................             x1 += addx; 
+0828:  MOVF   x46,W
+082A:  ADDWF  x3D,W
+082C:  MOVWF  x3D
+....................             y1 += addy; 
+082E:  MOVF   x47,W
+0830:  ADDWF  x3E,W
+0832:  MOVWF  x3E
+....................          } 
+0834:  INCF   x4C,F
+0836:  BRA    07F0
+....................       } 
+....................    } 
+0838:  MOVLB  0
+083A:  RETURN 0
+.................... } 
+....................  
+....................  
+.................... ///////////////////////////////////////////////////////////////////////// 
+.................... // Purpose:       Draw a rectangle on a graphic LCD 
+.................... // Inputs:        (x1, y1) - the start coordinate 
+.................... //                (x2, y2) - the end coordinate 
+.................... //                fill  - YES or NO 
+.................... //                color - ON or OFF 
+.................... // Dependencies:  glcd_pixel(), glcd_line() 
+.................... ///////////////////////////////////////////////////////////////////////// 
+.................... #ifdef LARGE_LCD 
+.................... void glcd_rect(unsigned int16 x1, unsigned int16 y1, unsigned int16 x2, unsigned int16 y2, int1 fill, int1 color) 
+.................... #else 
+.................... void glcd_rect(unsigned int8 x1, unsigned int8 y1, unsigned int8 x2, unsigned int8 y2, int1 fill, int1 color) 
+.................... #endif 
+.................... { 
+....................    if(fill) 
+....................    { 
+....................       #ifdef LARGE_LCD 
+....................       unsigned int16 i, xmin, xmax, ymin, ymax; 
+....................       #else 
+....................       unsigned int8  i, xmin, xmax, ymin, ymax; 
+....................       #endif 
+....................  
+....................       if(x1 < x2)                            //  Find x min and max 
+....................       { 
+....................          xmin = x1; 
+....................          xmax = x2; 
+....................       } 
+....................       else 
+....................       { 
+....................          xmin = x2; 
+....................          xmax = x1; 
+....................       } 
+....................  
+....................       if(y1 < y2)                            // Find the y min and max 
+....................       { 
+....................          ymin = y1; 
+....................          ymax = y2; 
+....................       } 
+....................       else 
+....................       { 
+....................          ymin = y2; 
+....................          ymax = y1; 
+....................       } 
+....................  
+....................       for(; xmin <= xmax; ++xmin) 
+....................       { 
+....................          for(i=ymin; i<=ymax; ++i) 
+....................          { 
+....................             glcd_pixel(xmin, i, color); 
+....................          } 
+....................       } 
+....................    } 
+....................    else 
+....................    { 
+....................       glcd_line(x1, y1, x2, y1, color);      // Draw the 4 sides 
+....................       glcd_line(x1, y2, x2, y2, color); 
+....................       glcd_line(x1, y1, x1, y2, color); 
+....................       glcd_line(x2, y1, x2, y2, color); 
+....................    } 
+.................... } 
+....................  
+.................... ///////////////////////////////////////////////////////////////////////// 
+.................... // Purpose:       Draw a bar (wide line) on a graphic LCD 
+.................... // Inputs:        (x1, y1) - the start coordinate 
+.................... //                (x2, y2) - the end coordinate 
+.................... //                width  - The number of pixels wide 
+.................... //                color - ON or OFF 
+.................... ///////////////////////////////////////////////////////////////////////// 
+.................... #ifdef LARGE_LCD 
+.................... void glcd_bar(unsigned int16 x1, unsigned int16 y1, unsigned int16 x2, unsigned int16 y2, unsigned int8 width, int1 color) 
+.................... #else 
+.................... void glcd_bar(unsigned int8 x1, unsigned int8 y1, unsigned int8 x2, unsigned int8 y2, unsigned int8 width, int1 color) 
+.................... #endif 
+.................... { 
+....................    unsigned int8         half_width; 
+....................    signed int16 dy, dx; 
+....................    signed int8  addx=1, addy=1, j; 
+....................    signed int16 P, diff, c1, c2; 
+....................  
+....................    #ifdef LARGE_LCD 
+....................    unsigned int16 i=0; 
+....................    dx = abs((signed int16)(x2 - x1)); 
+....................    dy = abs((signed int16)(y2 - y1)); 
+....................    #else 
+....................    unsigned int8 i=0; 
+....................    dx = abs((signed int8)(x2 - x1)); 
+....................    dy = abs((signed int8)(y2 - y1)); 
+....................    #endif 
+....................  
+....................    half_width = width/2; 
+....................    c1 = -(dx*x1 + dy*y1); 
+....................    c2 = -(dx*x2 + dy*y2); 
+....................  
+....................    if(x1 > x2) 
+....................    { 
+....................       signed int16 temp; 
+....................       temp = c1; 
+....................       c1 = c2; 
+....................       c2 = temp; 
+....................       addx = -1; 
+....................    } 
+....................    if(y1 > y2) 
+....................    { 
+....................       signed int16 temp; 
+....................       temp = c1; 
+....................       c1 = c2; 
+....................       c2 = temp; 
+....................       addy = -1; 
+....................    } 
+....................  
+....................    if(dx >= dy) 
+....................    { 
+....................       P = 2*dy - dx; 
+....................       diff = P - dx; 
+....................  
+....................       for(i=0; i<=dx; ++i) 
+....................       { 
+....................          for(j=-half_width; j<half_width+width%2; ++j) 
+....................          { 
+....................                glcd_pixel(x1, y1+j, color); 
+....................          } 
+....................          if(P < 0) 
+....................          { 
+....................             P  += 2*dy; 
+....................             x1 += addx; 
+....................          } 
+....................          else 
+....................          { 
+....................             P  += diff; 
+....................             x1 += addx; 
+....................             y1 += addy; 
+....................          } 
+....................       } 
+....................    } 
+....................    else 
+....................    { 
+....................       P = 2*dx - dy; 
+....................       diff = P - dy; 
+....................  
+....................       for(i=0; i<=dy; ++i) 
+....................       { 
+....................          if(P < 0) 
+....................          { 
+....................             P  += 2*dx; 
+....................             y1 += addy; 
+....................          } 
+....................          else 
+....................          { 
+....................             P  += diff; 
+....................             x1 += addx; 
+....................             y1 += addy; 
+....................          } 
+....................          for(j=-half_width; j<half_width+width%2; ++j) 
+....................          { 
+....................                glcd_pixel(x1+j, y1, color); 
+....................          } 
+....................       } 
+....................    } 
+.................... } 
+....................  
+....................  
+.................... ///////////////////////////////////////////////////////////////////////// 
+.................... // Purpose:       Draw a circle on a graphic LCD 
+.................... // Inputs:        (x,y) - the center of the circle 
+.................... //                radius - the radius of the circle 
+.................... //                fill - YES or NO 
+.................... //                color - ON or OFF 
+.................... ///////////////////////////////////////////////////////////////////////// 
+.................... #ifdef LARGE_LCD 
+.................... void glcd_circle(unsigned int16 x, unsigned int16 y, unsigned int16 radius, int1 fill, int1 color) 
+.................... #else 
+.................... void glcd_circle(unsigned int8 x, unsigned int8 y, unsigned int8 radius, int1 fill, int1 color) 
+.................... #endif 
+.................... { 
+....................    #ifdef LARGE_LCD 
+....................    signed int16 a, b, P; 
+....................    #else 
+....................    signed int8  a, b, P; 
+....................    #endif 
+....................  
+....................    a = 0; 
+*
+088A:  MOVLB  4
+088C:  CLRF   x36
+....................    b = radius; 
+088E:  MOVFF  433,437
+....................    P = 1 - radius; 
+0892:  MOVLW  01
+0894:  BSF    FD8.0
+0896:  SUBFWB x33,W
+0898:  MOVWF  x38
+....................  
+....................    do 
+....................    { 
+....................       if(fill) 
+089A:  MOVF   x34,F
+089C:  BZ    0960
+....................       { 
+....................          glcd_line(x-a, y+b, x+a, y+b, color); 
+089E:  MOVF   x36,W
+08A0:  SUBWF  x31,W
+08A2:  MOVWF  x39
+08A4:  MOVF   x37,W
+08A6:  ADDWF  x32,W
+08A8:  MOVWF  x3A
+08AA:  MOVF   x36,W
+08AC:  ADDWF  x31,W
+08AE:  MOVWF  x3B
+08B0:  MOVF   x37,W
+08B2:  ADDWF  x32,W
+08B4:  MOVWF  x3C
+08B6:  MOVFF  439,43D
+08BA:  MOVFF  43A,43E
+08BE:  MOVFF  43B,43F
+08C2:  MOVWF  x40
+08C4:  MOVFF  435,441
+08C8:  MOVLB  0
+08CA:  RCALL  0706
+....................          glcd_line(x-a, y-b, x+a, y-b, color); 
+08CC:  MOVLB  4
+08CE:  MOVF   x36,W
+08D0:  SUBWF  x31,W
+08D2:  MOVWF  x39
+08D4:  MOVF   x37,W
+08D6:  SUBWF  x32,W
+08D8:  MOVWF  x3A
+08DA:  MOVF   x36,W
+08DC:  ADDWF  x31,W
+08DE:  MOVWF  x3B
+08E0:  MOVF   x37,W
+08E2:  SUBWF  x32,W
+08E4:  MOVWF  x3C
+08E6:  MOVFF  439,43D
+08EA:  MOVFF  43A,43E
+08EE:  MOVFF  43B,43F
+08F2:  MOVWF  x40
+08F4:  MOVFF  435,441
+08F8:  MOVLB  0
+08FA:  RCALL  0706
+....................          glcd_line(x-b, y+a, x+b, y+a, color); 
+08FC:  MOVLB  4
+08FE:  MOVF   x37,W
+0900:  SUBWF  x31,W
+0902:  MOVWF  x39
+0904:  MOVF   x36,W
+0906:  ADDWF  x32,W
+0908:  MOVWF  x3A
+090A:  MOVF   x37,W
+090C:  ADDWF  x31,W
+090E:  MOVWF  x3B
+0910:  MOVF   x36,W
+0912:  ADDWF  x32,W
+0914:  MOVWF  x3C
+0916:  MOVFF  439,43D
+091A:  MOVFF  43A,43E
+091E:  MOVFF  43B,43F
+0922:  MOVWF  x40
+0924:  MOVFF  435,441
+0928:  MOVLB  0
+092A:  RCALL  0706
+....................          glcd_line(x-b, y-a, x+b, y-a, color); 
+092C:  MOVLB  4
+092E:  MOVF   x37,W
+0930:  SUBWF  x31,W
+0932:  MOVWF  x39
+0934:  MOVF   x36,W
+0936:  SUBWF  x32,W
+0938:  MOVWF  x3A
+093A:  MOVF   x37,W
+093C:  ADDWF  x31,W
+093E:  MOVWF  x3B
+0940:  MOVF   x36,W
+0942:  SUBWF  x32,W
+0944:  MOVWF  x3C
+0946:  MOVFF  439,43D
+094A:  MOVFF  43A,43E
+094E:  MOVFF  43B,43F
+0952:  MOVWF  x40
+0954:  MOVFF  435,441
+0958:  MOVLB  0
+095A:  RCALL  0706
+....................       } 
+095C:  BRA    0A3E
+095E:  MOVLB  4
+....................       else 
+....................       { 
+....................          glcd_pixel(a+x, b+y, color); 
+0960:  MOVF   x31,W
+0962:  ADDWF  x36,W
+0964:  MOVWF  x39
+0966:  MOVF   x32,W
+0968:  ADDWF  x37,W
+096A:  MOVWF  x3A
+096C:  MOVFF  439,44D
+0970:  MOVWF  x4E
+0972:  MOVFF  435,44F
+0976:  MOVLB  0
+0978:  RCALL  05FA
+....................          glcd_pixel(b+x, a+y, color); 
+097A:  MOVLB  4
+097C:  MOVF   x31,W
+097E:  ADDWF  x37,W
+0980:  MOVWF  x39
+0982:  MOVF   x32,W
+0984:  ADDWF  x36,W
+0986:  MOVWF  x3A
+0988:  MOVFF  439,44D
+098C:  MOVWF  x4E
+098E:  MOVFF  435,44F
+0992:  MOVLB  0
+0994:  RCALL  05FA
+....................          glcd_pixel(x-a, b+y, color); 
+0996:  MOVLB  4
+0998:  MOVF   x36,W
+099A:  SUBWF  x31,W
+099C:  MOVWF  x39
+099E:  MOVF   x32,W
+09A0:  ADDWF  x37,W
+09A2:  MOVWF  x3A
+09A4:  MOVFF  439,44D
+09A8:  MOVWF  x4E
+09AA:  MOVFF  435,44F
+09AE:  MOVLB  0
+09B0:  RCALL  05FA
+....................          glcd_pixel(x-b, a+y, color); 
+09B2:  MOVLB  4
+09B4:  MOVF   x37,W
+09B6:  SUBWF  x31,W
+09B8:  MOVWF  x39
+09BA:  MOVF   x32,W
+09BC:  ADDWF  x36,W
+09BE:  MOVWF  x3A
+09C0:  MOVFF  439,44D
+09C4:  MOVWF  x4E
+09C6:  MOVFF  435,44F
+09CA:  MOVLB  0
+09CC:  RCALL  05FA
+....................          glcd_pixel(b+x, y-a, color); 
+09CE:  MOVLB  4
+09D0:  MOVF   x31,W
+09D2:  ADDWF  x37,W
+09D4:  MOVWF  x39
+09D6:  MOVF   x36,W
+09D8:  SUBWF  x32,W
+09DA:  MOVWF  x3A
+09DC:  MOVFF  439,44D
+09E0:  MOVWF  x4E
+09E2:  MOVFF  435,44F
+09E6:  MOVLB  0
+09E8:  RCALL  05FA
+....................          glcd_pixel(a+x, y-b, color); 
+09EA:  MOVLB  4
+09EC:  MOVF   x31,W
+09EE:  ADDWF  x36,W
+09F0:  MOVWF  x39
+09F2:  MOVF   x37,W
+09F4:  SUBWF  x32,W
+09F6:  MOVWF  x3A
+09F8:  MOVFF  439,44D
+09FC:  MOVWF  x4E
+09FE:  MOVFF  435,44F
+0A02:  MOVLB  0
+0A04:  RCALL  05FA
+....................          glcd_pixel(x-a, y-b, color); 
+0A06:  MOVLB  4
+0A08:  MOVF   x36,W
+0A0A:  SUBWF  x31,W
+0A0C:  MOVWF  x39
+0A0E:  MOVF   x37,W
+0A10:  SUBWF  x32,W
+0A12:  MOVWF  x3A
+0A14:  MOVFF  439,44D
+0A18:  MOVWF  x4E
+0A1A:  MOVFF  435,44F
+0A1E:  MOVLB  0
+0A20:  RCALL  05FA
+....................          glcd_pixel(x-b, y-a, color); 
+0A22:  MOVLB  4
+0A24:  MOVF   x37,W
+0A26:  SUBWF  x31,W
+0A28:  MOVWF  x39
+0A2A:  MOVF   x36,W
+0A2C:  SUBWF  x32,W
+0A2E:  MOVWF  x3A
+0A30:  MOVFF  439,44D
+0A34:  MOVWF  x4E
+0A36:  MOVFF  435,44F
+0A3A:  MOVLB  0
+0A3C:  RCALL  05FA
+....................       } 
+....................  
+....................       if(P < 0) 
+0A3E:  MOVLB  4
+0A40:  BTFSS  x38.7
+0A42:  BRA    0A60
+....................          P += 3 + 2 * a++; 
+0A44:  MOVF   x36,W
+0A46:  INCF   x36,F
+0A48:  MOVWF  x39
+0A4A:  MOVLW  02
+0A4C:  MOVWF  x3A
+0A4E:  MOVFF  439,43B
+0A52:  MOVLB  0
+0A54:  RCALL  083C
+0A56:  MOVF   01,W
+0A58:  ADDLW  03
+0A5A:  MOVLB  4
+0A5C:  ADDWF  x38,F
+0A5E:  BRA    0A82
+....................       else 
+....................          P += 5 + 2 * (a++ - b--); 
+0A60:  MOVF   x36,W
+0A62:  INCF   x36,F
+0A64:  MOVWF  x39
+0A66:  MOVF   x37,W
+0A68:  DECF   x37,F
+0A6A:  SUBWF  x39,W
+0A6C:  MOVWF  x39
+0A6E:  MOVLW  02
+0A70:  MOVWF  x3A
+0A72:  MOVFF  439,43B
+0A76:  MOVLB  0
+0A78:  RCALL  083C
+0A7A:  MOVF   01,W
+0A7C:  ADDLW  05
+0A7E:  MOVLB  4
+0A80:  ADDWF  x38,F
+....................     } while(a <= b); 
+0A82:  MOVF   x36,W
+0A84:  XORLW  80
+0A86:  MOVWF  00
+0A88:  MOVF   x37,W
+0A8A:  XORLW  80
+0A8C:  SUBWF  00,W
+0A8E:  BTFSC  FD8.2
+0A90:  BRA    089A
+0A92:  BTFSS  FD8.0
+0A94:  BRA    089A
+0A96:  MOVLB  0
+0A98:  RETURN 0
+.................... } 
+....................  
+....................  
+.................... ///////////////////////////////////////////////////////////////////////// 
+.................... // Purpose:       Write text on a graphic LCD 
+.................... // Inputs:        (x,y) - The upper left coordinate of the first letter 
+.................... //                textptr - A pointer to an array of text to display 
+.................... //                size - The size of the text: 1 = 5x7, 2 = 10x14, ... 
+.................... //                color - ON or OFF 
+.................... ///////////////////////////////////////////////////////////////////////// 
+.................... #ifdef LARGE_LCD 
+.................... void glcd_text57(unsigned int16 x, unsigned int16 y, char* textptr, unsigned int8 size, int1 color) 
+.................... #else 
+.................... void glcd_text57(unsigned int8 x, unsigned int8 y, char* textptr, unsigned int8 size, int1 color) 
+.................... #endif 
+.................... { 
+....................    unsigned int8 j, k, l, m;                       // Loop counters 
+....................    unsigned int8 pixelData[5];                     // Stores character data 
+....................  
+....................    for(; *textptr != '\0'; ++textptr, ++x)// Loop through the passed string 
+....................    { 
+....................       if(*textptr < 'S') // Checks if the letter is in the first font array 
+....................          memcpy(pixelData, FONT[*textptr - ' '], 5); 
+....................       else if(*textptr <= '~') // Check if the letter is in the second font array 
+....................          memcpy(pixelData, FONT2[*textptr - 'S'], 5); 
+....................       else 
+....................          memcpy(pixelData, FONT[0], 5);   // Default to space 
+....................  
+....................       // Handles newline and carriage returns 
+....................       switch(*textptr) 
+....................       { 
+....................          case '\n': 
+....................             y += 7*size + 1; 
+....................             continue; 
+....................          case '\r': 
+....................             x = 0; 
+....................             continue; 
+....................       } 
+....................  
+....................       if(x+5*size >= GLCD_WIDTH)          // Performs character wrapping 
+....................       { 
+....................          x = 0;                           // Set x at far left position 
+....................          y += 7*size + 1;                 // Set y at next position down 
+....................       } 
+....................       for(j=0; j<5; ++j, x+=size)         // Loop through character byte data 
+....................       { 
+....................          for(k=0; k < 7; ++k)             // Loop through the vertical pixels 
+....................          { 
+....................             if(bit_test(pixelData[j], k)) // Check if the pixel should be set 
+....................             { 
+....................                for(l=0; l < size; ++l)    // These two loops change the 
+....................                {                          // character's size 
+....................                   for(m=0; m < size; ++m) 
+....................                   { 
+....................                      glcd_pixel(x+m, y+k*size+l, color); // Draws the pixel 
+....................                   } 
+....................                } 
+....................             } 
+....................          } 
+....................       } 
+....................    } 
+.................... } 
+....................  
+.................... #endif 
+....................  
+....................  
+....................  
+.................... signed INT8 i; 
+.................... unsigned INT8 dv_giay,ch_giay,ch_phut,dv_phut,dv_gio,ch_gio; 
+.................... void giai_ma_gan_cho_8led_quet() 
+.................... { 
+....................    led_7dq[0] = ma7doan [GIAY_DS13%16]; 
+*
+0B8A:  MOVF   21,W
+0B8C:  ANDLW  0F
+0B8E:  CLRF   03
+0B90:  MOVFF  FF2,431
+0B94:  BCF    FF2.7
+0B96:  CALL   0004
+0B9A:  MOVLB  4
+0B9C:  BTFSC  x31.7
+0B9E:  BSF    FF2.7
+0BA0:  MOVWF  11
+....................    led_7dq[1] = ma7doan [GIAY_DS13/16]; 
+0BA2:  SWAPF  21,W
+0BA4:  MOVWF  00
+0BA6:  MOVLW  0F
+0BA8:  ANDWF  00,F
+0BAA:  MOVF   00,W
+0BAC:  CLRF   03
+0BAE:  MOVFF  FF2,431
+0BB2:  BCF    FF2.7
+0BB4:  MOVLB  0
+0BB6:  CALL   0004
+0BBA:  MOVLB  4
+0BBC:  BTFSC  x31.7
+0BBE:  BSF    FF2.7
+0BC0:  MOVWF  12
+....................    led_7dq[2] = 0XBF; 
+0BC2:  MOVLW  BF
+0BC4:  MOVWF  13
+....................    led_7dq[3] = ma7doan [PHUT_DS13%16 ]; 
+0BC6:  MOVF   20,W
+0BC8:  ANDLW  0F
+0BCA:  CLRF   03
+0BCC:  MOVFF  FF2,431
+0BD0:  BCF    FF2.7
+0BD2:  MOVLB  0
+0BD4:  CALL   0004
+0BD8:  MOVLB  4
+0BDA:  BTFSC  x31.7
+0BDC:  BSF    FF2.7
+0BDE:  MOVWF  14
+....................    led_7dq[4] = ma7doan [PHUT_DS13/16 ]; 
+0BE0:  SWAPF  20,W
+0BE2:  MOVWF  00
+0BE4:  MOVLW  0F
+0BE6:  ANDWF  00,F
+0BE8:  MOVF   00,W
+0BEA:  CLRF   03
+0BEC:  MOVFF  FF2,431
+0BF0:  BCF    FF2.7
+0BF2:  MOVLB  0
+0BF4:  CALL   0004
+0BF8:  MOVLB  4
+0BFA:  BTFSC  x31.7
+0BFC:  BSF    FF2.7
+0BFE:  MOVWF  15
+....................    led_7dq[5] = 0XBF; 
+0C00:  MOVLW  BF
+0C02:  MOVWF  16
+....................    led_7dq[6] = ma7doan [GIO_DS13%16]; 
+0C04:  MOVF   1F,W
+0C06:  ANDLW  0F
+0C08:  CLRF   03
+0C0A:  MOVFF  FF2,431
+0C0E:  BCF    FF2.7
+0C10:  MOVLB  0
+0C12:  CALL   0004
+0C16:  MOVLB  4
+0C18:  BTFSC  x31.7
+0C1A:  BSF    FF2.7
+0C1C:  MOVWF  17
+....................    led_7dq[7] = ma7doan [GIO_DS13/16 ]; 
+0C1E:  SWAPF  1F,W
+0C20:  MOVWF  00
+0C22:  MOVLW  0F
+0C24:  ANDWF  00,F
+0C26:  MOVF   00,W
+0C28:  CLRF   03
+0C2A:  MOVFF  FF2,431
+0C2E:  BCF    FF2.7
+0C30:  MOVLB  0
+0C32:  CALL   0004
+0C36:  MOVLB  4
+0C38:  BTFSC  x31.7
+0C3A:  BSF    FF2.7
+0C3C:  MOVWF  18
+0C3E:  MOVLB  0
+0C40:  GOTO   1004 (RETURN)
+.................... } 
+....................  
+.................... void lcd_hienthi_so_z_toado_xy(SIGNED int8 lcd_so, x1, y1) 
+.................... { 
+....................    lcd_GOTO_xy(x1,y1); 
+*
+0DCC:  MOVFF  432,435
+0DD0:  MOVFF  433,436
+0DD4:  RCALL  0DA6
+....................    FOR (i=0;i<6;i++) 
+0DD6:  MOVLB  4
+0DD8:  CLRF   x29
+0DDA:  BTFSC  x29.7
+0DDC:  BRA    0DE4
+0DDE:  MOVF   x29,W
+0DE0:  SUBLW  05
+0DE2:  BNC   0E40
+....................    { 
+....................       IF (i==3) lcd_goto_xy(x1+1,y1); 
+0DE4:  MOVF   x29,W
+0DE6:  SUBLW  03
+0DE8:  BNZ   0DFC
+0DEA:  MOVLW  01
+0DEC:  ADDWF  x32,W
+0DEE:  MOVWF  x34
+0DF0:  MOVWF  x35
+0DF2:  MOVFF  433,436
+0DF6:  MOVLB  0
+0DF8:  RCALL  0DA6
+0DFA:  MOVLB  4
+....................       lcd_data(lcd_so_x[lcd_so][i]); 
+0DFC:  MOVFF  431,43A
+0E00:  MOVLW  06
+0E02:  MOVWF  x3B
+0E04:  MOVLB  0
+0E06:  RCALL  083C
+0E08:  MOVF   01,W
+0E0A:  MOVLB  4
+0E0C:  CLRF   x35
+0E0E:  MOVWF  x34
+0E10:  CLRF   03
+0E12:  MOVF   x29,W
+0E14:  ADDWF  x34,W
+0E16:  MOVWF  01
+0E18:  MOVF   x35,W
+0E1A:  ADDWFC 03,F
+0E1C:  MOVF   01,W
+0E1E:  MOVFF  FF2,434
+0E22:  BCF    FF2.7
+0E24:  MOVLB  0
+0E26:  CALL   003C
+0E2A:  MOVLB  4
+0E2C:  BTFSC  x34.7
+0E2E:  BSF    FF2.7
+0E30:  MOVWF  x34
+0E32:  MOVWF  x35
+0E34:  MOVLB  0
+0E36:  CALL   0400
+0E3A:  MOVLB  4
+0E3C:  INCF   x29,F
+0E3E:  BRA    0DDA
+....................    } 
+0E40:  MOVLB  0
+0E42:  RETURN 0
+.................... } 
+....................  
+.................... void giaima_hienthi_to() 
+.................... { 
+.................... ch_giay=GIAY_DS13/16;  
+*
+0D52:  SWAPF  21,W
+0D54:  MOVLB  4
+0D56:  MOVWF  x2B
+0D58:  MOVLW  0F
+0D5A:  ANDWF  x2B,F
+.................... dv_giay=GIAY_DS13%16;  
+0D5C:  MOVF   21,W
+0D5E:  ANDLW  0F
+0D60:  MOVWF  x2A
+....................  
+.................... ch_phut=PHUT_DS13/16 ; 
+0D62:  SWAPF  20,W
+0D64:  MOVWF  x2C
+0D66:  MOVLW  0F
+0D68:  ANDWF  x2C,F
+.................... dv_phut=PHUT_DS13%16 ; 
+0D6A:  MOVF   20,W
+0D6C:  ANDLW  0F
+0D6E:  MOVWF  x2D
+....................  
+.................... ch_gio=GIO_DS13/16  ; 
+0D70:  SWAPF  1F,W
+0D72:  MOVWF  x2F
+0D74:  MOVLW  0F
+0D76:  ANDWF  x2F,F
+.................... dv_gio=GIO_DS13%16 ; 
+0D78:  MOVF   1F,W
+0D7A:  ANDLW  0F
+0D7C:  MOVWF  x2E
+0D7E:  MOVLB  0
+0D80:  GOTO   101C (RETURN)
+....................  
+.................... } 
+.................... void HT_DS1307_to( ) 
+.................... {      
+....................       lcd_command(0x82); 
+*
+0E44:  MOVLW  82
+0E46:  MOVLB  4
+0E48:  MOVWF  x38
+0E4A:  MOVLB  0
+0E4C:  CALL   01E6
+....................       lcd_data("GIO"); 
+0E50:  MOVLW  FE
+0E52:  MOVWF  FF6
+0E54:  MOVLW  00
+0E56:  MOVWF  FF7
+0E58:  RCALL  0D84
+....................       lcd_command(0x88); 
+0E5A:  MOVLW  88
+0E5C:  MOVLB  4
+0E5E:  MOVWF  x38
+0E60:  MOVLB  0
+0E62:  CALL   01E6
+....................       lcd_data("PHUT"); 
+0E66:  MOVLW  02
+0E68:  MOVWF  FF6
+0E6A:  MOVLW  01
+0E6C:  MOVWF  FF7
+0E6E:  RCALL  0D84
+....................       lcd_command(0x8F); 
+0E70:  MOVLW  8F
+0E72:  MOVLB  4
+0E74:  MOVWF  x38
+0E76:  MOVLB  0
+0E78:  CALL   01E6
+....................       lcd_data("GIAY"); 
+0E7C:  MOVLW  08
+0E7E:  MOVWF  FF6
+0E80:  MOVLW  01
+0E82:  MOVWF  FF7
+0E84:  RCALL  0D84
+....................       lcd_hienthi_so_z_toado_xy(ch_gio,2,0);lcd_hienthi_so_z_toado_xy(dv_gio,2,3); 
+0E86:  MOVFF  42F,431
+0E8A:  MOVLW  02
+0E8C:  MOVLB  4
+0E8E:  MOVWF  x32
+0E90:  CLRF   x33
+0E92:  MOVLB  0
+0E94:  RCALL  0DCC
+0E96:  MOVFF  42E,431
+0E9A:  MOVLW  02
+0E9C:  MOVLB  4
+0E9E:  MOVWF  x32
+0EA0:  MOVLW  03
+0EA2:  MOVWF  x33
+0EA4:  MOVLB  0
+0EA6:  RCALL  0DCC
+....................        
+....................      // lcd_hienthi_so_z_toado_xy(19,2,6); 
+....................        
+....................       lcd_hienthi_so_z_toado_xy(ch_phut,2,7);lcd_hienthi_so_z_toado_xy(dv_phut,2,10); 
+0EA8:  MOVFF  42C,431
+0EAC:  MOVLW  02
+0EAE:  MOVLB  4
+0EB0:  MOVWF  x32
+0EB2:  MOVLW  07
+0EB4:  MOVWF  x33
+0EB6:  MOVLB  0
+0EB8:  RCALL  0DCC
+0EBA:  MOVFF  42D,431
+0EBE:  MOVLW  02
+0EC0:  MOVLB  4
+0EC2:  MOVWF  x32
+0EC4:  MOVLW  0A
+0EC6:  MOVWF  x33
+0EC8:  MOVLB  0
+0ECA:  RCALL  0DCC
+....................        
+....................      //  lcd_hienthi_so_z_toado_xy(19,2,12); 
+....................         
+....................       lcd_hienthi_so_z_toado_xy(ch_giay,2,14);lcd_hienthi_so_z_toado_xy(dv_giay,2,17); 
+0ECC:  MOVFF  42B,431
+0ED0:  MOVLW  02
+0ED2:  MOVLB  4
+0ED4:  MOVWF  x32
+0ED6:  MOVLW  0E
+0ED8:  MOVWF  x33
+0EDA:  MOVLB  0
+0EDC:  RCALL  0DCC
+0EDE:  MOVFF  42A,431
+0EE2:  MOVLW  02
+0EE4:  MOVLB  4
+0EE6:  MOVWF  x32
+0EE8:  MOVLW  11
+0EEA:  MOVWF  x33
+0EEC:  MOVLB  0
+0EEE:  RCALL  0DCC
+0EF0:  GOTO   101E (RETURN)
+....................     
+.................... } 
+....................  
+....................  
+.................... void HT_DS1307 ( ) 
+.................... {      
+....................       LCD_COMMAND (0x8C);    
+....................       LCD_DATA(GIO_DS13/16  +0X30);    LCD_DATA(GIO_DS13%16  +0X30); 
+....................       LCD_DATA(' '); 
+....................       LCD_DATA(PHUT_DS13/16 +0X30);    LCD_DATA(PHUT_DS13%16 +0X30); 
+....................       LCD_DATA(' '); 
+....................       LCD_DATA(GIAY_DS13/16 +0X30);    LCD_DATA(GIAY_DS13%16 +0X30); 
+....................       LCD_COMMAND (0xC6); 
+....................       LCD_DATA("THU"); 
+....................       LCD_DATA(THU_DS13 +0X30);  
+....................       LCD_COMMAND (0xCC);   
+....................       LCD_DATA(NGAY_DS13/16 +0X30);    LCD_DATA(NGAY_DS13%16 +0X30); 
+....................       LCD_DATA(' '); 
+....................       LCD_DATA(THANG_DS13/16 +0X30);   LCD_DATA(THANG_DS13%16 +0X30); 
+....................       LCD_DATA(' '); 
+....................       LCD_DATA(NAM_DS13/16 +0X30);     LCD_DATA(NAM_DS13%16 +0X30);  
+.................... } 
+....................  
+.................... void main() 
+0EF4:  CLRF   FF8
+0EF6:  BCF    FD0.7
+0EF8:  CLRF   06
+0EFA:  CLRF   0D
+0EFC:  CLRF   0E
+0EFE:  CLRF   0F
+0F00:  CLRF   10
+0F02:  CLRF   19
+0F04:  MOVF   FC1,W
+0F06:  ANDLW  C0
+0F08:  IORLW  0F
+0F0A:  MOVWF  FC1
+0F0C:  MOVLW  07
+0F0E:  MOVWF  FB4
+0F10:  SETF   11
+0F12:  SETF   12
+0F14:  SETF   13
+0F16:  SETF   14
+0F18:  SETF   15
+0F1A:  SETF   16
+0F1C:  SETF   17
+0F1E:  SETF   18
+.................... { 
+....................    set_up_port_ic_chot(); 
+0F20:  GOTO   0112
+....................    setup_lcd () ; 
+0F24:  GOTO   0224
+....................    doc_thoi_gian_tu_realtime () ; 
+0F28:  CALL   031E
+....................    lcd_command(0x40); 
+0F2C:  MOVLW  40
+0F2E:  MOVLB  4
+0F30:  MOVWF  x38
+0F32:  MOVLB  0
+0F34:  CALL   01E6
+....................    FOR (i=0;i<64;i++) { lcd_data(lcd_ma_8doan[i]); } 
+0F38:  MOVLB  4
+0F3A:  CLRF   x29
+0F3C:  BTFSC  x29.7
+0F3E:  BRA    0F46
+0F40:  MOVF   x29,W
+0F42:  SUBLW  3F
+0F44:  BNC   0F6C
+0F46:  CLRF   03
+0F48:  MOVF   x29,W
+0F4A:  MOVFF  FF2,431
+0F4E:  BCF    FF2.7
+0F50:  MOVLB  0
+0F52:  CALL   009A
+0F56:  MOVLB  4
+0F58:  BTFSC  x31.7
+0F5A:  BSF    FF2.7
+0F5C:  MOVWF  x31
+0F5E:  MOVWF  x35
+0F60:  MOVLB  0
+0F62:  CALL   0400
+0F66:  MOVLB  4
+0F68:  INCF   x29,F
+0F6A:  BRA    0F3C
+....................     
+....................    IF (ma_ds13 != ma_ds) 
+0F6C:  MOVF   22,W
+0F6E:  SUBLW  90
+0F70:  BZ    0F7E
+....................    { 
+....................       thiet_lap_thoi_gian_hien_tai () ; 
+0F72:  MOVLB  0
+0F74:  GOTO   0416
+....................       NAP_THOI_GIAN_HTAI_VAO_DS13B07 () ; 
+0F78:  GOTO   043C
+0F7C:  MOVLB  4
+....................    } 
+....................  
+....................    doc_thoi_gian_tu_realtime(); 
+0F7E:  MOVLB  0
+0F80:  CALL   031E
+....................    giaytam = giay_ds13; 
+0F84:  MOVFF  21,24
+....................  
+....................  
+....................    setup_glcd(glcd_text_mode); 
+0F88:  MOVLW  30
+0F8A:  MOVLB  4
+0F8C:  MOVWF  x31
+0F8E:  MOVLB  0
+0F90:  CALL   0504
+....................    setup_glcd(glcd_graphic_mode); 
+0F94:  MOVLW  36
+0F96:  MOVLB  4
+0F98:  MOVWF  x31
+0F9A:  MOVLB  0
+0F9C:  CALL   0504
+....................    glcd_mau_nen(0); 
+0FA0:  MOVLB  4
+0FA2:  CLRF   x31
+0FA4:  MOVLB  0
+0FA6:  GOTO   057E
+....................    glcd_circle(21, 32, 20, 0, 1); 
+0FAA:  MOVLW  15
+0FAC:  MOVLB  4
+0FAE:  MOVWF  x31
+0FB0:  MOVLW  20
+0FB2:  MOVWF  x32
+0FB4:  MOVLW  14
+0FB6:  MOVWF  x33
+0FB8:  CLRF   x34
+0FBA:  MOVLW  01
+0FBC:  MOVWF  x35
+0FBE:  MOVLB  0
+0FC0:  RCALL  088A
+....................    glcd_circle(64, 32, 20, 0, 1); 
+0FC2:  MOVLW  40
+0FC4:  MOVLB  4
+0FC6:  MOVWF  x31
+0FC8:  MOVLW  20
+0FCA:  MOVWF  x32
+0FCC:  MOVLW  14
+0FCE:  MOVWF  x33
+0FD0:  CLRF   x34
+0FD2:  MOVLW  01
+0FD4:  MOVWF  x35
+0FD6:  MOVLB  0
+0FD8:  RCALL  088A
+....................    glcd_circle(106, 32, 20, 0, 1); 
+0FDA:  MOVLW  6A
+0FDC:  MOVLB  4
+0FDE:  MOVWF  x31
+0FE0:  MOVLW  20
+0FE2:  MOVWF  x32
+0FE4:  MOVLW  14
+0FE6:  MOVWF  x33
+0FE8:  CLRF   x34
+0FEA:  MOVLW  01
+0FEC:  MOVWF  x35
+0FEE:  MOVLB  0
+0FF0:  RCALL  088A
+....................    gdram_vdk_to_gdram_glcd_all(); 
+0FF2:  BRA    0AA4
+....................  
+....................    WHILE (true) 
+....................    { 
+....................       doc_thoi_gian_tu_realtime () ; 
+0FF4:  CALL   031E
+....................  
+....................       IF (giaytam != giay_ds13) 
+0FF8:  MOVF   21,W
+0FFA:  SUBWF  24,W
+0FFC:  BZ    1004
+....................       { 
+....................          giaytam = giay_ds13; 
+0FFE:  MOVFF  21,24
+.................... //!         HT_DS1307(); 
+....................           giai_ma_gan_cho_8led_quet(); 
+1002:  BRA    0B8A
+....................          
+....................       } 
+....................        for(int i=0;i<200;i++) 
+1004:  MOVLB  4
+1006:  CLRF   x30
+1008:  MOVF   x30,W
+100A:  SUBLW  C7
+100C:  BNC   1018
+....................        { 
+....................        hien_thi_8led_7doan_quet(); 
+100E:  MOVLB  0
+1010:  BRA    0D06
+1012:  MOVLB  4
+1014:  INCF   x30,F
+1016:  BRA    1008
+....................        } 
+....................         
+....................        giaima_hienthi_to(); 
+1018:  MOVLB  0
+101A:  BRA    0D52
+....................        HT_DS1307_to( ); 
+101C:  BRA    0E44
+....................      
+....................    glcd_command(glcd_text_mode); 
+101E:  MOVLW  30
+1020:  MOVLB  4
+1022:  MOVWF  x32
+1024:  MOVLB  0
+1026:  CALL   04FA
+....................    glcd_command (glcd_addr_line3+1); 
+102A:  MOVLW  89
+102C:  MOVLB  4
+102E:  MOVWF  x32
+1030:  MOVLB  0
+1032:  CALL   04FA
+....................    glcd_data (GIO_DS13/16  +0X30); 
+1036:  SWAPF  1F,W
+1038:  MOVWF  00
+103A:  MOVLW  0F
+103C:  ANDWF  00,F
+103E:  MOVF   00,W
+1040:  ADDLW  30
+1042:  MOVLB  4
+1044:  MOVWF  x31
+1046:  MOVWF  x34
+1048:  MOVLB  0
+104A:  RCALL  0A9A
+....................    glcd_data (GIO_DS13%16  +0X30); 
+104C:  MOVF   1F,W
+104E:  ANDLW  0F
+1050:  ADDLW  30
+1052:  MOVLB  4
+1054:  MOVWF  x31
+1056:  MOVWF  x34
+1058:  MOVLB  0
+105A:  RCALL  0A9A
+....................     
+....................    glcd_command(glcd_text_mode); 
+105C:  MOVLW  30
+105E:  MOVLB  4
+1060:  MOVWF  x32
+1062:  MOVLB  0
+1064:  CALL   04FA
+....................    glcd_command (glcd_addr_line3 + 3); 
+1068:  MOVLW  8B
+106A:  MOVLB  4
+106C:  MOVWF  x32
+106E:  MOVLB  0
+1070:  CALL   04FA
+....................    glcd_data (PHUT_DS13/16 +0X30); 
+1074:  SWAPF  20,W
+1076:  MOVWF  00
+1078:  MOVLW  0F
+107A:  ANDWF  00,F
+107C:  MOVF   00,W
+107E:  ADDLW  30
+1080:  MOVLB  4
+1082:  MOVWF  x31
+1084:  MOVWF  x34
+1086:  MOVLB  0
+1088:  RCALL  0A9A
+....................    glcd_data (PHUT_DS13%16 +0X30); 
+108A:  MOVF   20,W
+108C:  ANDLW  0F
+108E:  ADDLW  30
+1090:  MOVLB  4
+1092:  MOVWF  x31
+1094:  MOVWF  x34
+1096:  MOVLB  0
+1098:  RCALL  0A9A
+....................      
+....................    glcd_command(glcd_text_mode); 
+109A:  MOVLW  30
+109C:  MOVLB  4
+109E:  MOVWF  x32
+10A0:  MOVLB  0
+10A2:  CALL   04FA
+....................    glcd_command (glcd_addr_line3 + 6); 
+10A6:  MOVLW  8E
+10A8:  MOVLB  4
+10AA:  MOVWF  x32
+10AC:  MOVLB  0
+10AE:  CALL   04FA
+....................    glcd_data (GIAY_DS13/16 +0X30); 
+10B2:  SWAPF  21,W
+10B4:  MOVWF  00
+10B6:  MOVLW  0F
+10B8:  ANDWF  00,F
+10BA:  MOVF   00,W
+10BC:  ADDLW  30
+10BE:  MOVLB  4
+10C0:  MOVWF  x31
+10C2:  MOVWF  x34
+10C4:  MOVLB  0
+10C6:  RCALL  0A9A
+....................    glcd_data (GIAY_DS13%16 +0X30); 
+10C8:  MOVF   21,W
+10CA:  ANDLW  0F
+10CC:  ADDLW  30
+10CE:  MOVLB  4
+10D0:  MOVWF  x31
+10D2:  MOVWF  x34
+10D4:  MOVLB  0
+10D6:  RCALL  0A9A
+10D8:  BRA    0FF4
+....................      
+....................      
+....................      
+....................      
+....................      
+....................    } 
+.................... } 
+....................  
+10DA:  SLEEP 
+
+Configuration Fuses:
+   Word  1: CC27   PLL12 CPUDIV1 USBDIV HS FCMEN IESO
+   Word  2: 1E3E   PUT BROWNOUT BORV21 VREGEN NOWDT WDT32768
+   Word  3: 8700   CCP2C1 PBADEN LPT1OSC MCLR
+   Word  4: 00A1   STVREN NOLVP ICSP2 NOXINST NODEBUG
+   Word  5: C00F   NOPROTECT NOCPB NOCPD
+   Word  6: E00F   NOWRT NOWRTC NOWRTB NOWRTD
+   Word  7: 400F   NOEBTR NOEBTRB

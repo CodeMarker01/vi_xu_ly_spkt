@@ -1,0 +1,26 @@
+[PROJECT]
+Target=BAI_644_LCD_DEM_SP_KiThuLon.hex
+Processor_Text=PIC18F4550
+CCSVersion=5.015
+Compiler=PCH
+[Target Data]
+FileList=BAI_644_LCD_DEM_SP_KiThuLon.c
+[Directories]
+Include=C:\Program Files (x86)\PICC\Devices\;C:\Program Files (x86)\PICC\Drivers\
+[BAI_644_LCD_DEM_SP_KiThuLon.c]
+Type=4
+[mru-list]
+1=BAI_644_LCD_DEM_SP_KiThuLon.c
+[Opened Files]
+1=..\BAI_TAP_VXL\BAI_301_CHOPTAT_8LED.c
+2=BAI_616_LCD_4LED_DEM_SP_T0_XOA_0_VN.c
+3=BAI_654_GLTD_LCD_4LED_DEM_SP_TO.c
+4=tv_pickit2_shift_glcd128x64.c
+5=BAI_662_GLCD_2BITMAP_SPKT.c
+6=BAI_661_GLCD_BITMAP_SPKT.c
+7=BAI_644_LCD_DEM_SP_KiThuLon.c
+8=
+9=
+[Units]
+Count=1
+1=BAI_644_LCD_DEM_SP_KiThuLon (main)

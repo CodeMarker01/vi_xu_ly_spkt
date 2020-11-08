@@ -1,0 +1,6 @@
+>>> Warning 202 "BAI_631_LCD_TRAITIM.c" Line 7(16,17): Variable never used:   J
+>>> Warning 202 "BAI_631_LCD_TRAITIM.c" Line 7(19,20): Variable never used:   K
+>>> Warning 202 "BAI_631_LCD_TRAITIM.c" Line 7(22,23): Variable never used:   L
+      Memory usage:   ROM=2%      RAM=2% - 2%
+      0 Errors,  3 Warnings.
+Build Successful.

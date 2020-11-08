@@ -1,0 +1,189 @@
+000     @SCRATCH
+001     @SCRATCH
+001     _RETURN_
+002     @SCRATCH
+003     @SCRATCH
+004     TIN_HIEU_DK_74573_A
+004.2   G_LCDA
+004.4   G_32A
+004.6   G_4A
+005     TIN_HIEU_DK_74573_B
+005.2   G_RBDCB
+005.4   G_8B
+005.6   G_MTB
+006     DL_BTN
+007.0   STEP_MOTOR_ENABLE
+007-008 RBDC
+007.1   STEP_MOTOR_IN1
+007.2   STEP_MOTOR_IN2
+007.3   STEP_MOTOR_IN3
+007.4   STEP_MOTOR_IN4
+007.5   DC_ENABLE
+007.6   PWRKEY
+008.0   BUZZER
+008.1   TRIAC_1
+008.2   TRIAC_2
+008.3   RELAY_1
+008.4   RELAY_2
+009     DONVI4
+00A     CHUC4
+00B     TRAM4
+00C     NGAN4
+00D     LCDDATA
+00E     LCDCONTROL
+00F     GLCDDATA
+010     GLCDCONTROL
+011-018 LED_7DQ
+019     TT8LED
+01A.0   GLCD_CS1
+01A     GLCD_CONTROL
+01A.1   GLCD_CS2
+01A.2   GLCD_E
+01A.3   GLCD_RW
+01A.4   GLCD_RS
+01A.5   GLCD_P
+01B     DOC
+01C     NGANG
+01D-41D gdram_vdk
+41E     glcd_circle.x
+41E     GLCD_MAU_NEN.GLCD_COLOR
+41E     SETUP_GLCD.GLCD_FUNCTION_SET_MODE
+41E     glcd_rect.x1
+41E     GDRAM_VDK_TO_GDRAM_GLCD_ALL.@SCRATCH1
+41F     glcd_circle.y
+41F-420 GLCD_MAU_NEN.d
+41F     GLCD_COMMAND.GLCD_DATA2
+41F     glcd_rect.y1
+41F     @delay_ms1.P1
+41F     GDRAM_VDK_TO_GDRAM_GLCD_ALL.@SCRATCH2
+420     glcd_circle.radius
+420     glcd_rect.x2
+420     GDRAM_VDK_TO_GDRAM_GLCD_ALL.@SCRATCH3
+421     glcd_rect.y2
+421     GLCD_DATA.GLCD_DATA3
+421     glcd_circle.fill
+421     GLCD_MAU_NEN.@SCRATCH1
+422     glcd_rect.fill
+422     glcd_circle.color
+422     GLCD_XUAT_8BIT.GLCD_DATA1
+422     GLCD_MAU_NEN.@SCRATCH2
+423     glcd_circle.a
+423     glcd_rect.color
+423     XUAT_GLCD128X64.GLCD_SIGNAL
+423     GLCD_MAU_NEN.@SCRATCH3
+424     XUAT_GLCD128X64.GLCD_INS_HTHI
+424     glcd_rect.I
+424     glcd_circle.b
+424     GLCD_MAU_NEN.@SCRATCH4
+425     XUAT_1BYTE.BYTEXUAT
+425     glcd_rect.xmin
+425     glcd_circle.P
+426     glcd_rect.xmax
+426     XUAT_1BYTE.SB
+426     glcd_circle.@SCRATCH1
+427     XUAT_1BYTE.x
+427     @MUL88.P1
+427     glcd_rect.ymin
+427.7   XUAT_1BYTE.BSERI
+427     glcd_circle.@SCRATCH2
+428     @MUL88.P1
+428     glcd_rect.ymax
+428     glcd_circle.@SCRATCH3
+429     glcd_circle.@SCRATCH4
+42A     glcd_line.x1
+42B     glcd_line.y1
+42C     glcd_line.x2
+42D     glcd_line.y2
+42E     glcd_line.color
+42F-430 glcd_line.dy
+431-432 glcd_line.dx
+433     glcd_line.addx
+434     glcd_line.addy
+435-436 glcd_line.P
+437-438 glcd_line.diff
+439     glcd_line.I
+43A     glcd_pixel.x
+43A     glcd_line.@SCRATCH1
+43B     glcd_pixel.y
+43C     glcd_pixel.color
+43D     glcd_pixel.b
+43E-43F @MUL1616.P1
+43E     glcd_pixel.@SCRATCH1
+43F     glcd_pixel.@SCRATCH2
+440-441 @MUL1616.P1
+442     @MUL1616.@SCRATCH1
+F83     PSP_DATA
+FB4.6   C1OUT
+FB4.7   C2OUT
+FBB     CCP_2
+FBB     CCP_2_LOW
+FBC     CCP_2_HIGH
+FBE     CCP_1_LOW
+FBE     CCP_1
+FBF     CCP_1_HIGH
+FE1-FE2 @READ_PACKED_MEMORY.P1
+FE1-FE2 @WRITE_PACKED_MEMORY.P2
+FE9-FEA @READ_PACKED_MEMORY.P1
+FE9-FEA @WRITE_PACKED_MEMORY.P2
+FE9-FEA @READ_PROGRAM_MEMORY.P3
+FE9-FEA @WRITE_PROGRAM_MEMORY.P4
+FF6-FF8 @WRITE_PROGRAM_MEMORY.P1
+FF6-FF8 @READ_PROGRAM_MEMORY.P2
+
+ROM Allocation:
+000004  SET_UP_PORT_IC_CHOT
+000022  XUAT_1BYTE
+000050  MO_IC_74573_A_THONG_DL
+000080  XUAT_GLCD_LCD
+0000AC  XUAT_GLCD128X64
+0000C0  GLCD_XUAT_8BIT
+0000DA  GLCD_COMMAND
+0000E4  @delay_ms1
+00010E  SETUP_GLCD
+000168  @MUL1616
+00018A  GLCD_MAU_NEN
+000206  glcd_pixel
+000312  glcd_line
+000448  @MUL88
+000496  glcd_circle
+0006A8  glcd_rect
+00076C  GLCD_DATA
+000776  GDRAM_VDK_TO_GDRAM_GLCD_ALL
+00085C  @cinit1
+00085C  MAIN
+000878  @cinit2
+
+Project Directory:
+    C:\Users\tsqua\OneDrive - student.mtsac.edu\Desktop\BAI_TAP_VXL_NEW_3\
+
+Project Files:
+    BAI_663_GLCD_DT_DT.c                                    [22-Jun-20 16:35  CRC=E4670BCE]
+    TV_PICKIT2_SHIFT_1.C                                    [15-Jun-20 14:54  CRC=9A8C78EB]
+    ..\..\..\..\..\Program Files (x86)\PICC\Devices\18F4550.H [12-Nov-13 14:35  CRC=5337E248]
+    TV_PICKIT2_SHIFT_GLCD128X64.C                           [26-Jun-15 16:55  CRC=DA2DF7A2]
+    ..\..\..\..\..\Program Files (x86)\PICC\Drivers\GRAPHICS.C [06-Jul-10 08:49  CRC=70BB89DE]
+
+Source signature=8DD0725F
+
+Units:
+    BAI_663_GLCD_DT_DT (main)
+
+Compiler Settings:
+    Processor:      PIC18F4550
+    Pointer Size:   16
+    ADC Range:      0-1023
+    Opt Level:      9
+    Short,Int,Long: UNSIGNED: 1,8,16
+    Float,Double:   32,32
+
+Output Files:
+    XREF file:   BAI_663_GLCD_DT_DT.xsym
+    Errors:      BAI_663_GLCD_DT_DT.err
+    Ext Symbols: BAI_663_GLCD_DT_DT.esym
+    INHX32:      BAI_663_GLCD_DT_DT.hex
+    Symbols:     BAI_663_GLCD_DT_DT.sym
+    List:        BAI_663_GLCD_DT_DT.lst
+    Debug/COFF:  BAI_663_GLCD_DT_DT.cof
+    Project:     BAI_663_GLCD_DT_DT.ccspjt
+    Call Tree:   BAI_663_GLCD_DT_DT.tre
+    Statistics:  BAI_663_GLCD_DT_DT.STA

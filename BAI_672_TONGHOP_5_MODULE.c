@@ -1,0 +1,82 @@
+#INCLUDE <TV_PICKIT2_SHIFT_1.C>
+#INCLUDE <TV_PICKIT2_SHIFT_GLCD128X64.C>
+#INCLUDE <GRAPHICS.C>
+UNSIGNED INT8 T0=0,T0_TAM=0,TT_HT=0,TR,CH,DV;
+
+VOID GIAI_MA_GLCD(UNSIGNED T0)
+{
+   TR=T0/100 + 0X30;
+   CH=T0/10%10 + 0X30;
+   DV=T0%10 + 0X30;
+   IF(TR==0X30)
+   {
+      TR=0X20;
+      IF(CH==0X30) CH=0X20;
+   }
+}
+
+VOID GLCD_HIENTHI_T0()
+{
+   GLCD_COMMAND(GLCD_ADDR_LINE2);
+   GLCD_DATA("       ");
+   GLCD_DATA(TR);
+   GLCD_DATA(CH);
+   GLCD_DATA(DV);
+}
+
+VOID PHIM_NHAN()
+{
+   IF(INPUT(BT0)==0)
+   {
+      DELAY_MS(20);
+      IF(INPUT(BT0)==0)
+      {
+         TT_HT=~TT_HT;
+         IF(TT_HT==0)
+         {
+            SETUP_GLCD(GLCD_GRAPHIC_MODE);
+            GLCD_MAU_NEN(0);
+            GLCD_CIRCLE(63,31,32,0,1);
+            GDRAM_VDK_TO_GDRAM_GLCD_ALL();
+         }
+         ELSE
+         {
+            SETUP_GLCD(GLCD_GRAPHIC_MODE);
+            GLCD_MAU_NEN(0);
+            GLCD_RECT(32,63,98,0,0,1);
+            GDRAM_VDK_TO_GDRAM_GLCD_ALL();
+         }
+         GLCD_COMMAND(GLCD_TEXT_MODE);
+         WHILE(INPUT(BT0)==0);
+      }
+   }
+}
+VOID MAIN()
+{
+   SET_UP_PORT_IC_CHOT();
+   SETUP_GLCD(GLCD_GRAPHIC_MODE);
+   GLCD_MAU_NEN(0);
+   GLCD_CIRCLE(63,31,32,0,1);
+   GDRAM_VDK_TO_GDRAM_GLCD_ALL();
+   GLCD_COMMAND(GLCD_TEXT_MODE);
+   SET_TRIS_B(0X3C);
+   SETUP_TIMER_0 (T0_EXT_L_TO_H | T0_DIV_1|T0_8_BIT);
+   SET_TIMER0(0);
+   T0 = T0_TAM = 0;
+   GIAI_MA_GLCD(T0);
+   GLCD_HIENTHI_T0();
+
+   WHILE(TRUE)
+   {
+      PHIM_NHAN();
+      T0=GET_TIMER0();
+      GIAI_MA_GLCD(T0);
+      IF (T0!= T0_TAM)
+      {
+         GLCD_HIENTHI_T0();
+         T0_TAM = T0;
+      }
+      IF (T0>=101) SET_TIMER0(1);
+   }
+}
+

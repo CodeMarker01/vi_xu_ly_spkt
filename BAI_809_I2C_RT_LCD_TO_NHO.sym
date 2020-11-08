@@ -1,0 +1,218 @@
+000     @SCRATCH
+001     @SCRATCH
+001     _RETURN_
+002     @SCRATCH
+003     @SCRATCH
+004     TIN_HIEU_DK_74573_A
+004.2   G_LCDA
+004.4   G_32A
+004.6   G_4A
+005     TIN_HIEU_DK_74573_B
+005.2   G_RBDCB
+005.4   G_8B
+005.6   G_MTB
+006     DL_BTN
+007-008 RBDC
+007.0   STEP_MOTOR_ENABLE
+007.1   STEP_MOTOR_IN1
+007.2   STEP_MOTOR_IN2
+007.3   STEP_MOTOR_IN3
+007.4   STEP_MOTOR_IN4
+007.5   DC_ENABLE
+007.6   PWRKEY
+008.0   BUZZER
+008.1   TRIAC_1
+008.2   TRIAC_2
+008.3   RELAY_1
+008.4   RELAY_2
+009     DONVI4
+00A     CHUC4
+00B     TRAM4
+00C     NGAN4
+00D     LCDDATA
+00E     LCDCONTROL
+00F     GLCDDATA
+010     GLCDCONTROL
+011-018 LED_7DQ
+019     TT8LED
+01A     LCD_CONTROL
+01A.0   LCD_E
+01A.1   LCD_RW
+01A.2   LCD_RS
+01A.3   LCD_P
+01B     NAM_DS13
+01C     THANG_DS13
+01D     NGAY_DS13
+01E     THU_DS13
+01F     GIO_DS13
+020     PHUT_DS13
+021     GIAY_DS13
+022     MA_DS13
+023     CONTROL_DS13
+024     GIAYTAM
+025-026 k
+027     giatri_mod
+028     dv_giay
+029     ch_giay
+02A     ch_phut
+02B     dv_phut
+02C     dv_gio
+02D     ch_gio
+02E     dv_ngay
+02F     ch_ngay
+030     ch_thang
+031     dv_thang
+032     dv_nam
+033     ch_nam
+034     thu
+035     I
+036     thu1
+037     thu2
+038.0   tt
+039     hieu_chinh_so_bcd_giam.x
+039     @I2C_READ_1.P1
+039     delay_mssv.t
+039     lcd_hienthi_so_z_toado_xy.lcd_so
+039     @I2C_WRITE_1.P1
+039     hieu_chinh_so_bcd_tang.x
+039     HIEN_THI_THOI_GIAN_DS13B07.@SCRATCH1
+039     giaima_hienthi_nho.@SCRATCH1
+039     @PSTRINGC_810.@SCRATCH1
+039     giaima_hienthi_to.@SCRATCH1
+039     nhap_nhay_to.@SCRATCH1
+039     hien_thi_gia_tri_mod.@SCRATCH1
+039     MAIN.@SCRATCH1
+03A     hieu_chinh_so_bcd_giam.Y
+03A     delay_mssv.I
+03A     lcd_hienthi_so_z_toado_xy.x1
+03A     hieu_chinh_so_bcd_tang.Y
+03A     @I2C_READ_1.@SCRATCH1
+03A     @PSTRINGC_810.@SCRATCH2
+03A     giaima_hienthi_to.@SCRATCH2
+03A     nhap_nhay_to.@SCRATCH2
+03B     lcd_hienthi_so_z_toado_xy.y1
+03B     @delay_ms1.P1
+03B     @I2C_READ_1.@SCRATCH2
+03B     giaima_hienthi_to.@SCRATCH3
+03B     nhap_nhay_to.@SCRATCH3
+03B     delay_mssv.@SCRATCH1
+03C     @MUL88.P1
+03C     lcd_hienthi_so_z_toado_xy.@SCRATCH1
+03C     giaima_hienthi_to.@SCRATCH4
+03C     nhap_nhay_to.@SCRATCH4
+03C     delay_mssv.@SCRATCH2
+03D     @MUL88.P1
+03D     LCD_GOTO_XY.x
+03D     LCD_DATA.LCD_DATA_X
+03D     lcd_hienthi_so_z_toado_xy.@SCRATCH2
+03D     delay_mssv.@SCRATCH3
+03E     LCD_GOTO_XY.Y
+03F     LCD_GOTO_XY.@SCRATCH1
+040     LCD_COMMAND.LCD_DATA_X
+041     LCD_XUAT_8BIT.LCD_DATA_X
+042     XUAT_LCD20X4.LCD_SIGNAL
+043     XUAT_LCD20X4.LCD_INS_HTHI
+044     XUAT_1BYTE.BYTEXUAT
+045     XUAT_1BYTE.SB
+046     XUAT_1BYTE.x
+046.7   XUAT_1BYTE.BSERI
+F83     PSP_DATA
+FB4.6   C1OUT
+FB4.7   C2OUT
+FBB     CCP_2_LOW
+FBB     CCP_2
+FBC     CCP_2_HIGH
+FBE     CCP_1_LOW
+FBE     CCP_1
+FBF     CCP_1_HIGH
+FE1-FE2 @WRITE_PACKED_MEMORY.P1
+FE1-FE2 @READ_PACKED_MEMORY.P2
+FE9-FEA @WRITE_PACKED_MEMORY.P1
+FE9-FEA @WRITE_PROGRAM_MEMORY.P2
+FE9-FEA @READ_PROGRAM_MEMORY.P3
+FE9-FEA @READ_PACKED_MEMORY.P4
+FF6-FF8 @READ_PROGRAM_MEMORY.P1
+FF6-FF8 @WRITE_PROGRAM_MEMORY.P2
+
+ROM Allocation:
+000004  LCD_SO_X.call
+000014  LCD_SO_X.data
+00008C  LCD_MA_8DOAN.call
+00009C  LCD_MA_8DOAN.data
+0000DC  LCD_VITRI.call
+0000EC  LCD_VITRI.data
+0000F0  @const865.call
+0000F6  @const878.call
+0000FC  SET_UP_PORT_IC_CHOT
+00011A  XUAT_1BYTE
+000144  MO_IC_74573_A_THONG_DL
+000174  XUAT_GLCD_LCD
+0001A0  XUAT_LCD20X4
+0001B0  LCD_XUAT_8BIT
+0001CA  LCD_COMMAND
+0001E0  @delay_ms1
+000206  SETUP_LCD
+00024E  @I2C_WRITE_1
+000296  @I2C_READ_1
+0002DE  DOC_THOI_GIAN_TU_REALTIME
+0003B4  THIET_LAP_THOI_GIAN_HIEN_TAI
+0003DC  NAP_THOI_GIAN_HTAI_VAO_DS13B07
+000462  LCD_DATA
+000478  hien_thi_gia_tri_mod
+00048A  giaima_hienthi_to
+000510  LCD_GOTO_XY
+00052A  @MUL88
+000576  lcd_hienthi_so_z_toado_xy
+0005D6  @PSTRINGC_810
+0005F6  HT_DS1307_to
+000690  phim_nhan
+0006B4  giaima_hienthi_nho
+000756  HT_DS1307_nho
+0007E0  phim_mod
+00080A  hieu_chinh_so_bcd_tang
+000822  HIEN_THI_THOI_GIAN_DS13B07
+0008FE  luu_giai_ma_hien_thi_sau_khi_chinh
+000904  phim_up
+0009F0  hieu_chinh_so_bcd_giam
+000A08  phim_dw
+000AF0  nhap_nhay_nho
+000B4C  delay_mssv
+000B76  nhap_nhay_to
+000BD0  MAIN
+000BD0  @cinit1
+000BEC  @cinit2
+
+Project Directory:
+    C:\Users\tsqua\OneDrive - student.mtsac.edu\Desktop\BAI_TAP_VXL_NEW_3\
+
+Project Files:
+    BAI_809_I2C_RT_LCD_TO_NHO.c                             [15-Aug-20 16:12  CRC=1C7327B5]
+    tv_pickit2_shift_1.c                                    [15-Jun-20 14:54  CRC=9A8C78EB]
+    ..\..\..\..\..\Program Files (x86)\PICC\Devices\18F4550.H [12-Nov-13 14:35  CRC=5337E248]
+    TV_PICKIT2_SHIFT_DS13B07_I2C.c                          [15-Aug-20 15:56  CRC=C832D496]
+    TV_PICKIT2_SHIFT_LCD.c                                  [16-Aug-20 23:43  CRC=84024CF2]
+
+Source signature=DA6EF162
+
+Units:
+    BAI_809_I2C_RT_LCD_TO_NHO (main)
+
+Compiler Settings:
+    Processor:      PIC18F4550
+    Pointer Size:   16
+    ADC Range:      0-1023
+    Opt Level:      9
+    Short,Int,Long: UNSIGNED: 1,8,16
+    Float,Double:   32,32
+
+Output Files:
+    XREF file:   BAI_809_I2C_RT_LCD_TO_NHO.xsym
+    Errors:      BAI_809_I2C_RT_LCD_TO_NHO.err
+    Ext Symbols: BAI_809_I2C_RT_LCD_TO_NHO.esym
+    INHX32:      BAI_809_I2C_RT_LCD_TO_NHO.hex
+    Symbols:     BAI_809_I2C_RT_LCD_TO_NHO.sym
+    List:        BAI_809_I2C_RT_LCD_TO_NHO.lst
+    Debug/COFF:  BAI_809_I2C_RT_LCD_TO_NHO.cof
+    Project:     BAI_809_I2C_RT_LCD_TO_NHO.ccspjt
+    Call Tree:   BAI_809_I2C_RT_LCD_TO_NHO.tre
+    Statistics:  BAI_809_I2C_RT_LCD_TO_NHO.STA

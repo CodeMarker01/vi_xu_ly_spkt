@@ -1,0 +1,71 @@
+
+ROM used:   2706/32768 (8%)
+            2706/32768 (8%) including unused fragments
+
+            1.1 Average locations per line
+            4.9 Average locations per statement
+
+RAM used:   1060/2048 (52%) at main() level
+            1097/2048 (54%) worst case
+
+Stack used: 7 worst case (7 in main + 0 for interrupts)
+Stack size: 31
+
+Lines Stmts  %   Files
+----- ----- ---  -----
+   83    56  10  BAI_672_TONGHOP_5_MODULE.c
+  702   244  44  TV_PICKIT2_SHIFT_1.C
+  837     0   0  ..\..\..\..\..\Program Files (x86)\PICC\Devices\18F4550.H
+  240    88  16  TV_PICKIT2_SHIFT_GLCD128X64.C
+  540   163  30  ..\..\..\..\..\Program Files (x86)\PICC\Drivers\GRAPHICS.C
+----- -----
+ 2402   551 Total
+
+Page ROM  %  RAM   Vol Diff  Functions:
+---- --- --- ---   --- ----  ----------
+0     40   1    1             @delay_ms1
+0     46   1    3   271  4.3  XUAT_1BYTE
+0     30   1    0   152  1.8  SET_UP_PORT_IC_CHOT
+0     48   1    0   119  1.7  MO_IC_74573_A_THONG_DL
+0     44   1    0   172  1.8  XUAT_GLCD_LCD
+0     20   0    2    80  2.7  XUAT_GLCD128X64
+0     26   0    1   102  2.1  GLCD_XUAT_8BIT
+0     10   0    1    43  1.5  GLCD_COMMAND
+0     10   0    1    43  1.5  GLCD_DATA
+0     88   2    1   292  1.7  SETUP_GLCD
+0    122   2    7   338  5.1  GLCD_MAU_NEN
+0     34   1    5             @MUL1616
+0    268   5    6   510  8.0  glcd_pixel
+0    228   4    3   447  5.2  GDRAM_VDK_TO_GDRAM_GLCD_ALL
+0    310   6   17  1519  9.2  glcd_line
+0    196   4    6  1071  6.1  glcd_rect
+0    528  10   12  1846  8.8  glcd_circle
+0     78   1    2             @MUL88
+0    100   2    2   249  4.1  GIAI_MA_GLCD
+0     44   1    3             @DIV88
+0     40   1    0    88  1.2  GLCD_HIENTHI_T0
+0      8   0    0             @const952
+0     34   1    2             @PSTRINGC_812
+0    150   3    1   542  4.8  PHIM_NHAN
+0    200   4    0   572  4.8  MAIN
+ Inline         0             @cinit1
+
+Program metrics:
+    Functions               19
+    Statements              551
+    Comments                573
+    Volume (V)              13816
+    Difficulty (D)          77.5
+    Effort to implement (E) 1070697
+    Time to implement (T)   16 hours, 31 minutes
+    Est Delivered Bugs (B)  3
+    Cyclomatic Complexity   31
+    Maintainability (MI)    122
+
+ Segment     Used  Free
+-----------  ----  ----
+00000-00002     4  0  
+00004-07FFE  2702  30062  
+
+
+

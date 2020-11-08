@@ -1,0 +1,10 @@
+>>> Warning 216 "TONG _HOP_NHIET_DO_3_DoiHinh.c" Line 237(1,2): Interrupts disabled during call to prevent re-entrancy:  (XUAT_GLCD_LCD)
+>>> Warning 216 "TONG _HOP_NHIET_DO_3_DoiHinh.c" Line 237(1,2): Interrupts disabled during call to prevent re-entrancy:  (@delay_us1)
+>>> Warning 216 "TONG _HOP_NHIET_DO_3_DoiHinh.c" Line 237(1,2): Interrupts disabled during call to prevent re-entrancy:  (GLCD_COMMAND)
+>>> Warning 216 "TONG _HOP_NHIET_DO_3_DoiHinh.c" Line 237(1,2): Interrupts disabled during call to prevent re-entrancy:  (@MUL1616)
+>>> Warning 216 "TONG _HOP_NHIET_DO_3_DoiHinh.c" Line 237(1,2): Interrupts disabled during call to prevent re-entrancy:  (GLCD_DATA)
+>>> Warning 216 "TONG _HOP_NHIET_DO_3_DoiHinh.c" Line 237(1,2): Interrupts disabled during call to prevent re-entrancy:  (HIEN_THI_8LED_7DOAN_QUET_ALL1)
+>>> Warning 216 "TONG _HOP_NHIET_DO_3_DoiHinh.c" Line 237(1,2): Interrupts disabled during call to prevent re-entrancy:  (GDRAM_VDK_TO_GDRAM_GLCD_ALL)
+      Memory usage:   ROM=23%      RAM=55% - 57%
+      0 Errors,  7 Warnings.
+Build Successful.

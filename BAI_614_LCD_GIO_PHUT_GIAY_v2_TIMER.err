@@ -1,0 +1,7 @@
+>>> Warning 225 "BAI_614_LCD_GIO_PHUT_GIAY_v2_TIMER.c" Line 8(12,37): Duplicate #define
+>>> Warning 225 "BAI_614_LCD_GIO_PHUT_GIAY_v2_TIMER.c" Line 9(12,21): Duplicate #define
+>>> Warning 225 "BAI_614_LCD_GIO_PHUT_GIAY_v2_TIMER.c" Line 10(13,21): Duplicate #define
+>>> Warning 225 "BAI_614_LCD_GIO_PHUT_GIAY_v2_TIMER.c" Line 11(13,21): Duplicate #define
+      Memory usage:   ROM=4%      RAM=3% - 3%
+      0 Errors,  4 Warnings.
+Build Successful.

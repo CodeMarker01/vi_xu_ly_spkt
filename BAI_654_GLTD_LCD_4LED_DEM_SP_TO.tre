@@ -1,0 +1,102 @@
+ÀÄOneDrive - student
+   ÀÄMAIN  0/206  Ram=0
+      ÃÄ@cinit1  (Inline)  Ram=0
+      ÃÄSET_UP_PORT_IC_CHOT  0/30  Ram=0
+      ÃÄSETUP_LCD  0/92  Ram=0
+      ³  ÃÄLCD_COMMAND  0/22  Ram=1
+      ³  ³  ÀÄLCD_XUAT_8BIT  0/26  Ram=1
+      ³  ³     ÃÄXUAT_LCD20X4  0/20  Ram=2
+      ³  ³     ³  ÀÄXUAT_GLCD_LCD  0/42  Ram=0
+      ³  ³     ³     ÃÄXUAT_1BYTE  0/46  Ram=3
+      ³  ³     ³     ÃÄXUAT_1BYTE  0/46  Ram=3
+      ³  ³     ³     ÃÄXUAT_1BYTE  0/46  Ram=3
+      ³  ³     ³     ÃÄXUAT_1BYTE  0/46  Ram=3
+      ³  ³     ³     ÀÄMO_IC_74573_A_THONG_DL  0/46  Ram=0
+      ³  ³     ÀÄXUAT_LCD20X4  0/20  Ram=2
+      ³  ³        ÀÄ*
+      ³  ÃÄLCD_COMMAND  0/22  Ram=1
+      ³  ³  ÀÄ*
+      ³  ÃÄLCD_COMMAND  0/22  Ram=1
+      ³  ³  ÀÄ*
+      ³  ÃÄ@delay_ms1  0/40  Ram=1
+      ³  ÀÄLCD_COMMAND  0/22  Ram=1
+      ³     ÀÄ*
+      ÃÄSETUP_GLCD  0/90  Ram=1
+      ³  ÃÄGLCD_COMMAND  0/10  Ram=1
+      ³  ³  ÀÄGLCD_XUAT_8BIT  0/26  Ram=1
+      ³  ³     ÃÄXUAT_GLCD128X64  0/20  Ram=2
+      ³  ³     ³  ÀÄXUAT_GLCD_LCD  0/42  Ram=0
+      ³  ³     ³     ÀÄ*
+      ³  ³     ÀÄXUAT_GLCD128X64  0/20  Ram=2
+      ³  ³        ÀÄ*
+      ³  ÃÄGLCD_COMMAND  0/10  Ram=1
+      ³  ³  ÀÄ*
+      ³  ÃÄGLCD_COMMAND  0/10  Ram=1
+      ³  ³  ÀÄ*
+      ³  ÃÄ@delay_ms1  0/40  Ram=1
+      ³  ÀÄGLCD_COMMAND  0/10  Ram=1
+      ³     ÀÄ*
+      ÃÄLCD_GOTO_XY  0/34  Ram=3
+      ³  ÃÄ@const823  0/20  Ram=0
+      ³  ÀÄLCD_COMMAND  0/22  Ram=1
+      ³     ÀÄ*
+      ÃÄ@PSTRINGC_810  0/34  Ram=2
+      ³  ÀÄLCD_DATA  0/22  Ram=1
+      ³     ÀÄLCD_XUAT_8BIT  0/26  Ram=1
+      ³        ÀÄ*
+      ÃÄGLCD_COMMAND  0/10  Ram=1
+      ³  ÀÄ*
+      ÃÄ@PSTRINGC_839  0/34  Ram=2
+      ³  ÀÄGLCD_DATA  0/10  Ram=1
+      ³     ÀÄGLCD_XUAT_8BIT  0/26  Ram=1
+      ³        ÀÄ*
+      ÃÄHIENTHI_LCD  0/174  Ram=4
+      ³  ÃÄLCD_GOTO_XY  0/34  Ram=3
+      ³  ³  ÀÄ*
+      ³  ÃÄ@DIV1616  0/70  Ram=5
+      ³  ÃÄ@DIV1616  0/70  Ram=5
+      ³  ÃÄ@DIV1616  0/70  Ram=5
+      ³  ÃÄ@DIV1616  0/70  Ram=5
+      ³  ÃÄLCD_DATA  0/22  Ram=1
+      ³  ³  ÀÄ*
+      ³  ÃÄLCD_DATA  0/22  Ram=1
+      ³  ³  ÀÄ*
+      ³  ÀÄLCD_DATA  0/22  Ram=1
+      ³     ÀÄ*
+      ÃÄHIENTHI_GLCD_T0  0/172  Ram=4
+      ³  ÃÄGLCD_COMMAND  0/10  Ram=1
+      ³  ³  ÀÄ*
+      ³  ÃÄ@DIV1616  0/70  Ram=5
+      ³  ÃÄ@DIV1616  0/70  Ram=5
+      ³  ÃÄ@DIV1616  0/70  Ram=5
+      ³  ÃÄ@DIV1616  0/70  Ram=5
+      ³  ÃÄGLCD_DATA  0/10  Ram=1
+      ³  ³  ÀÄ*
+      ³  ÃÄGLCD_DATA  0/10  Ram=1
+      ³  ³  ÀÄ*
+      ³  ÀÄGLCD_DATA  0/10  Ram=1
+      ³     ÀÄ*
+      ÃÄXUAT_4LED_7DOAN_GIAIMA_XOA_SO0  0/342  Ram=5
+      ³  ÃÄ@DIV1616  0/70  Ram=5
+      ³  ÃÄ@const686  0/32  Ram=0
+      ³  ÃÄ@DIV1616  0/70  Ram=5
+      ³  ÃÄ@DIV1616  0/70  Ram=5
+      ³  ÃÄ@const686  0/32  Ram=0
+      ³  ÃÄ@DIV1616  0/70  Ram=5
+      ³  ÃÄ@DIV1616  0/70  Ram=5
+      ³  ÃÄ@const686  0/32  Ram=0
+      ³  ÃÄ@DIV1616  0/70  Ram=5
+      ³  ÃÄ@DIV1616  0/70  Ram=5
+      ³  ÃÄ@const686  0/32  Ram=0
+      ³  ÀÄXUAT_4LED_7DOAN_4SO  0/44  Ram=4
+      ³     ÃÄXUAT_1BYTE  0/46  Ram=3
+      ³     ÃÄXUAT_1BYTE  0/46  Ram=3
+      ³     ÃÄXUAT_1BYTE  0/46  Ram=3
+      ³     ÃÄXUAT_1BYTE  0/46  Ram=3
+      ³     ÀÄMO_IC_74573_A_THONG_DL  0/46  Ram=0
+      ÃÄHIENTHI_LCD  0/174  Ram=4
+      ³  ÀÄ*
+      ÃÄHIENTHI_GLCD_T0  0/172  Ram=4
+      ³  ÀÄ*
+      ÀÄXUAT_4LED_7DOAN_GIAIMA_XOA_SO0  0/342  Ram=5
+         ÀÄ*

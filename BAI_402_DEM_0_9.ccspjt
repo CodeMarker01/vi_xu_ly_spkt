@@ -1,0 +1,25 @@
+[PROJECT]
+Target=BAI_402_DEM_0_9.hex
+Processor_Text=PIC18F4550
+CCSVersion=5.015
+Compiler=PCH
+[Target Data]
+FileList=BAI_402_DEM_0_9.c
+[Directories]
+Include=C:\Program Files (x86)\PICC\Devices\;C:\Program Files (x86)\PICC\Drivers\
+[BAI_402_DEM_0_9.c]
+Type=4
+[mru-list]
+1=BAI_402_DEM_0_9.c
+[Opened Files]
+1=TV_PICKIT2_SHIFT_1.c
+2=BAI_332_MATRANPHIM_LEDDON.c
+3=tv_pickit2_shift_key4x4_138.c
+4=BAI_412_DEM_XUNG_T0_XOA_SO0_VN.c
+5=BAI_501_HIENTHI_8SO.c
+6=K:\label\S\SPKT\Year 3-Sem 2\TT_Vi_Xu_Li\TT - VDK - HK 2 - 18-19\BAI TAP MAU\CHUONG 5\BAI_512_DEM_GIAY_CX.c
+7=BAI_402_DEM_0_9.c
+8=
+[Units]
+Count=1
+1=BAI_402_DEM_0_9 (main)

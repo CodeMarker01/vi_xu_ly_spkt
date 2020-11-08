@@ -1,0 +1,279 @@
+000     @SCRATCH
+001     @SCRATCH
+001     _RETURN_
+002     @SCRATCH
+003     @SCRATCH
+004     TIN_HIEU_DK_74573_A
+004.2   G_LCDA
+004.4   G_32A
+004.6   G_4A
+005     TIN_HIEU_DK_74573_B
+005.2   G_RBDCB
+005.4   G_8B
+005.6   G_MTB
+006     DL_BTN
+007.0   STEP_MOTOR_ENABLE
+007-008 RBDC
+007.1   STEP_MOTOR_IN1
+007.2   STEP_MOTOR_IN2
+007.3   STEP_MOTOR_IN3
+007.4   STEP_MOTOR_IN4
+007.5   DC_ENABLE
+007.6   PWRKEY
+008.0   BUZZER
+008.1   TRIAC_1
+008.2   TRIAC_2
+008.3   RELAY_1
+008.4   RELAY_2
+009     DONVI4
+00A     CHUC4
+00B     TRAM4
+00C     NGAN4
+00D     LCDDATA
+00E     LCDCONTROL
+00F     GLCDDATA
+010     GLCDCONTROL
+011-018 LED_7DQ
+019     TT8LED
+01A     LCD_CONTROL
+01A.0   LCD_E
+01A.1   LCD_RW
+01A.2   LCD_RS
+01A.3   LCD_P
+01B     NAM_DS13
+01C     THANG_DS13
+01D     NGAY_DS13
+01E     THU_DS13
+01F     GIO_DS13
+020     PHUT_DS13
+021     GIAY_DS13
+022     MA_DS13
+023     CONTROL_DS13
+024     GIAYTAM
+025     GLCD_CONTROL
+025.0   GLCD_CS1
+025.1   GLCD_CS2
+025.2   GLCD_E
+025.3   GLCD_RW
+025.4   GLCD_RS
+025.5   GLCD_P
+026     DOC
+027     NGANG
+028-428 gdram_vdk
+429.0   TT_HINH
+42A     I
+42B     dv_giay
+42C     ch_giay
+42D     ch_phut
+42E     dv_phut
+42F     dv_gio
+430     ch_gio
+431     MAIN.I
+432     GLCD_MAU_NEN.GLCD_COLOR
+432     SETUP_GLCD.GLCD_FUNCTION_SET_MODE
+432     @I2C_READ_1.P1
+432     XUAT_8LED_7DOAN_QUET_1.MA
+432     glcd_rect.x1
+432     @I2C_WRITE_1.P1
+432     lcd_hienthi_so_z_toado_xy.lcd_so
+432     glcd_circle.x
+432     HIEN_THI_8LED_7DOAN_QUET.@SCRATCH1
+432     GDRAM_VDK_TO_GDRAM_GLCD_ALL.@SCRATCH1
+432     giai_ma_gan_cho_8led_quet.@SCRATCH1
+432     @PSTRINGC_810.@SCRATCH1
+432     MAIN.@SCRATCH1
+433     @delay_ms1.P1
+433     XUAT_8LED_7DOAN_QUET_1.SO_HTHI
+433     glcd_circle.Y
+433     XUAT_8LED_7DOAN_QUET_2.THUTULED
+433     glcd_rect.y1
+433     lcd_hienthi_so_z_toado_xy.x1
+433-434 GLCD_MAU_NEN.d
+433     GLCD_COMMAND.GLCD_DATA2
+433     @I2C_READ_1.@SCRATCH1
+433     GDRAM_VDK_TO_GDRAM_GLCD_ALL.@SCRATCH2
+433     @PSTRINGC_810.@SCRATCH2
+434     glcd_rect.x2
+434     lcd_hienthi_so_z_toado_xy.y1
+434     glcd_circle.radius
+434     XUAT_8LED_7DOAN_QUET_2.SO_HTHI
+434     @I2C_READ_1.@SCRATCH2
+434     XUAT_8LED_7DOAN_QUET_1.@SCRATCH1
+434     GDRAM_VDK_TO_GDRAM_GLCD_ALL.@SCRATCH3
+435     glcd_circle.fill
+435     glcd_rect.y2
+435     GLCD_DATA.GLCD_DATA3
+435     XUAT_8LED_7DOAN_QUET_2.@SCRATCH1
+435     GLCD_MAU_NEN.@SCRATCH1
+435     lcd_hienthi_so_z_toado_xy.@SCRATCH1
+436     LCD_DATA.LCD_DATA_X
+436     GLCD_XUAT_8BIT.GLCD_DATA1
+436     glcd_rect.fill
+436     glcd_circle.color
+436     LCD_GOTO_XY.x
+436     GLCD_MAU_NEN.@SCRATCH2
+436     lcd_hienthi_so_z_toado_xy.@SCRATCH2
+437     glcd_circle.a
+437     LCD_GOTO_XY.Y
+437     XUAT_GLCD128X64.GLCD_SIGNAL
+437     glcd_rect.color
+437     GLCD_MAU_NEN.@SCRATCH3
+438     glcd_circle.b
+438     glcd_rect.I
+438     XUAT_GLCD128X64.GLCD_INS_HTHI
+438     LCD_GOTO_XY.@SCRATCH1
+438     GLCD_MAU_NEN.@SCRATCH4
+439     LCD_COMMAND.LCD_DATA_X
+439     glcd_circle.P
+439     glcd_rect.xmin
+43A     LCD_XUAT_8BIT.LCD_DATA_X
+43A     glcd_rect.xmax
+43A     glcd_circle.@SCRATCH1
+43B     glcd_rect.ymin
+43B     @MUL88.P1
+43B     XUAT_LCD20X4.LCD_SIGNAL
+43B     glcd_circle.@SCRATCH2
+43C     XUAT_LCD20X4.LCD_INS_HTHI
+43C     @MUL88.P1
+43C     glcd_rect.ymax
+43C     glcd_circle.@SCRATCH3
+43D     XUAT_1BYTE.BYTEXUAT
+43D     glcd_circle.@SCRATCH4
+43E     XUAT_1BYTE.SB
+43E     glcd_line.x1
+43F     glcd_line.y1
+43F     XUAT_1BYTE.x
+43F.7   XUAT_1BYTE.BSERI
+440     glcd_line.x2
+441     glcd_line.y2
+442     glcd_line.color
+443-444 glcd_line.dy
+445-446 glcd_line.dx
+447     glcd_line.addx
+448     glcd_line.addy
+449-44A glcd_line.P
+44B-44C glcd_line.diff
+44D     glcd_line.I
+44E     glcd_pixel.x
+44E     glcd_line.@SCRATCH1
+44F     glcd_pixel.Y
+450     glcd_pixel.color
+451     glcd_pixel.b
+452-453 @MUL1616.P1
+452     glcd_pixel.@SCRATCH1
+453     glcd_pixel.@SCRATCH2
+454-455 @MUL1616.P1
+456     @MUL1616.@SCRATCH1
+F83     PSP_DATA
+FB4.6   C1OUT
+FB4.7   C2OUT
+FBB     CCP_2
+FBB     CCP_2_LOW
+FBC     CCP_2_HIGH
+FBE     CCP_1_LOW
+FBE     CCP_1
+FBF     CCP_1_HIGH
+FE1-FE2 @WRITE_PACKED_MEMORY.P1
+FE1-FE2 @READ_PACKED_MEMORY.P2
+FE9-FEA @READ_PACKED_MEMORY.P1
+FE9-FEA @WRITE_PROGRAM_MEMORY.P2
+FE9-FEA @WRITE_PACKED_MEMORY.P3
+FE9-FEA @READ_PROGRAM_MEMORY.P4
+FF6-FF8 @READ_PROGRAM_MEMORY.P1
+FF6-FF8 @WRITE_PROGRAM_MEMORY.P2
+
+ROM Allocation:
+000004  MA7DOAN.call
+000014  MA7DOAN.data
+000024  TTLEDQUET.call
+000034  TTLEDQUET.data
+00003C  LCD_SO_X.call
+00004C  LCD_SO_X.data
+0000C4  LCD_MA_8DOAN.call
+0000D4  LCD_MA_8DOAN.data
+000114  LCD_VITRI.call
+000124  LCD_VITRI.data
+000128  @const998.call
+00012C  @const1000.call
+000132  @const1001.call
+000138  @const1003.call
+00013C  SET_UP_PORT_IC_CHOT
+00015A  XUAT_1BYTE
+000188  MO_IC_74573_A_THONG_DL
+0001B8  XUAT_GLCD_LCD
+0001E2  XUAT_LCD20X4
+0001F6  LCD_XUAT_8BIT
+000210  LCD_COMMAND
+000226  @delay_ms1
+00024E  SETUP_LCD
+0002AA  @I2C_WRITE_1
+0002FC  @I2C_READ_1
+000348  DOC_THOI_GIAN_TU_REALTIME
+00042A  LCD_DATA
+000440  THIET_LAP_THOI_GIAN_HIEN_TAI
+000468  NAP_THOI_GIAN_HTAI_VAO_DS13B07
+0004F8  XUAT_GLCD128X64
+00050C  GLCD_XUAT_8BIT
+000526  GLCD_COMMAND
+000530  SETUP_GLCD
+000588  @MUL1616
+0005AA  GLCD_MAU_NEN
+000624  giai_ma_gan_cho_8led_quet
+0006D2  MO_IC_74573_B_THONG_DL
+000700  XUAT_8LED_7DOAN_QUET_2
+000748  XUAT_8LED_7DOAN_QUET_1
+00077C  XUAT_8LED_7DOAN_QUET_TAT_LED
+00078A  HIEN_THI_8LED_7DOAN_QUET
+0007D6  giaima_hienthi_to
+000808  @PSTRINGC_810
+000828  LCD_GOTO_XY
+00084A  @MUL88
+000898  lcd_hienthi_so_z_toado_xy
+00090E  HT_DS1307_to
+0009B8  GLCD_DATA
+0009C2  glcd_pixel
+000ACE  glcd_line
+000C04  glcd_circle
+000E14  glcd_rect
+000ED6  GDRAM_VDK_TO_GDRAM_GLCD_ALL
+000FC2  TRON_VUONG
+000FEA  @cinit1
+000FEA  MAIN
+001006  @cinit2
+
+Project Directory:
+    C:\Users\tsqua\OneDrive - student.mtsac.edu\Desktop\BAI_TAP_VXL_NEW_3\
+
+Project Files:
+    TONG_HOP_REAL_TIME_3_fix.c                              [17-Aug-20 13:47  CRC=98149CD5]
+    tv_pickit2_shift_1.c                                    [15-Jun-20 14:54  CRC=9A8C78EB]
+    ..\..\..\..\..\Program Files (x86)\PICC\Devices\18F4550.H [12-Nov-13 14:35  CRC=5337E248]
+    TV_PICKIT2_SHIFT_DS13B07_I2C.c                          [15-Aug-20 15:56  CRC=C832D496]
+    TV_PICKIT2_SHIFT_LCD.c                                  [16-Aug-20 23:43  CRC=84024CF2]
+    tv_pickit2_shift_glcd128x64.c                           [26-Jun-15 16:55  CRC=DA2DF7A2]
+    ..\..\..\..\..\Program Files (x86)\PICC\Drivers\graphics.c [06-Jul-10 08:49  CRC=70BB89DE]
+
+Source signature=8DB324EE
+
+Units:
+    TONG_HOP_REAL_TIME_3_fix (main)
+
+Compiler Settings:
+    Processor:      PIC18F4550
+    Pointer Size:   16
+    ADC Range:      0-1023
+    Opt Level:      9
+    Short,Int,Long: UNSIGNED: 1,8,16
+    Float,Double:   32,32
+
+Output Files:
+    XREF file:   TONG_HOP_REAL_TIME_3_fix.xsym
+    Errors:      TONG_HOP_REAL_TIME_3_fix.err
+    Ext Symbols: TONG_HOP_REAL_TIME_3_fix.esym
+    INHX32:      TONG_HOP_REAL_TIME_3_fix.hex
+    Symbols:     TONG_HOP_REAL_TIME_3_fix.sym
+    List:        TONG_HOP_REAL_TIME_3_fix.lst
+    Debug/COFF:  TONG_HOP_REAL_TIME_3_fix.cof
+    Project:     TONG_HOP_REAL_TIME_3_fix.ccspjt
+    Call Tree:   TONG_HOP_REAL_TIME_3_fix.tre
+    Statistics:  TONG_HOP_REAL_TIME_3_fix.STA

@@ -1,0 +1,40 @@
+#INCLUDE  <TV_PICKIT2_SHIFT_1.C>
+#INCLUDE  <TV_PICKIT2_SHIFT_GLCD128X64.C>
+UNSIGNED INT8  TO,TO_TAM;
+
+VOID GLCD_HIENTHI_TO(UNSIGNED TO)
+
+{
+           
+      GLCD_COMMAND(GLCD_ADDR_LINE2);
+      GLCD_DATA(TO/100%10 + 0X30);
+      GLCD_DATA(TO/10%10 + 0X30);
+      GLCD_DATA(TO/10 + 0X30);
+}
+
+VOID MAIN ()
+{
+      SET_UP_PORT_IC_CHOT();
+      SETUP_GLCD(GLCD_TEXT_MODE);
+      
+           
+      GLCD_COMMAND(GLCD_ADDR_LINE1);
+      GLCD_DATA("DEM SAN PHAM:");
+      
+      SETUP_TIMER_0 (T0_EXT_L_TO_H | T0_DIV_1|T0_8_BIT);
+      SET_TIMER0(0);
+      TO = TO_TAM = 0;
+      GLCD_HIENTHI_TO(TO);
+      
+      WHILE(TRUE)
+      {
+         TO = GET_TIMER0();
+         IF (TO!=TO_TAM)
+         {
+         GLCD_HIENTHI_T0(TO);
+         TO_TAM = TO;
+         }
+         XUAT_4LED_7DOAN_3SO (MA7DOAN[TO/100],MA7DOAN[TO/10%10],MA7DOAN[TO%10]);
+         IF (TO>=101) SET_TIME0(1);
+      }
+}

@@ -1,0 +1,156 @@
+000     @SCRATCH
+001     @SCRATCH
+001     _RETURN_
+002     @SCRATCH
+003     @SCRATCH
+004     TIN_HIEU_DK_74573_A
+004.2   G_LCDA
+004.4   G_32A
+004.6   G_4A
+005     TIN_HIEU_DK_74573_B
+005.2   G_RBDCB
+005.4   G_8B
+005.6   G_MTB
+006     DL_BTN
+007.0   STEP_MOTOR_ENABLE
+007-008 RBDC
+007.1   STEP_MOTOR_IN1
+007.2   STEP_MOTOR_IN2
+007.3   STEP_MOTOR_IN3
+007.4   STEP_MOTOR_IN4
+007.5   DC_ENABLE
+007.6   PWRKEY
+008.0   BUZZER
+008.1   TRIAC_1
+008.2   TRIAC_2
+008.3   RELAY_1
+008.4   RELAY_2
+009     DONVI4
+00A     CHUC4
+00B     TRAM4
+00C     NGAN4
+00D     LCDDATA
+00E     LCDCONTROL
+00F     GLCDDATA
+010     GLCDCONTROL
+011-018 LED_7DQ
+019     TT8LED
+01A     DS18AL
+01B     DS18AH
+01C     DS18A_TAM
+01D-01E DS18A
+01F     NGUYEN
+020     TP
+021     chuc
+022     dv
+023     tp_chuc
+024     tp_dv
+025.0   touch_present.present
+025     touch_read_byte.I
+025-026 XUAT_4LED_7DOAN_GIAIMA_XOA_SO0.TAM
+025     touch_write_byte.data
+025     @DIV88.P1
+025     DOC_GIATRI_DS18B20.@SCRATCH1
+025     MAIN.@SCRATCH1
+026     touch_write_byte.I
+026     @DIV88.P1
+026     touch_read_byte.data
+026     touch_present.@SCRATCH1
+026     DOC_GIATRI_DS18B20.@SCRATCH2
+027     @delay_us1.P1
+027.0   touch_read_bit.data
+027-028 @MUL1616.P1
+027     XUAT_4LED_7DOAN_4SO.BL743
+027     XUAT_4LED_7DOAN_GIAIMA_XOA_SO0.@SCRATCH1
+027     touch_write_byte.@SCRATCH1
+027     @DIV88.@SCRATCH1
+028     touch_write_bit.data
+028     XUAT_4LED_7DOAN_4SO.BL742
+028     XUAT_4LED_7DOAN_GIAIMA_XOA_SO0.@SCRATCH2
+029-02A @DIV1616.P1
+029     XUAT_4LED_7DOAN_4SO.BL741
+029-02A @MUL1616.P1
+029     XUAT_4LED_7DOAN_GIAIMA_XOA_SO0.@SCRATCH3
+02A     XUAT_4LED_7DOAN_4SO.BL740
+02B-02C @DIV1616.P1
+02B     XUAT_1BYTE.BYTEXUAT
+02B     @MUL1616.@SCRATCH1
+02C     XUAT_1BYTE.SB
+02D     XUAT_1BYTE.x
+02D.7   XUAT_1BYTE.BSERI
+02D     @DIV1616.@SCRATCH1
+F83     PSP_DATA
+FB4.6   C1OUT
+FB4.7   C2OUT
+FBB     CCP_2
+FBB     CCP_2_LOW
+FBC     CCP_2_HIGH
+FBE     CCP_1_LOW
+FBE     CCP_1
+FBF     CCP_1_HIGH
+FE1-FE2 @READ_PACKED_MEMORY.P1
+FE1-FE2 @WRITE_PACKED_MEMORY.P2
+FE9-FEA @READ_PROGRAM_MEMORY.P1
+FE9-FEA @WRITE_PACKED_MEMORY.P2
+FE9-FEA @WRITE_PROGRAM_MEMORY.P3
+FE9-FEA @READ_PACKED_MEMORY.P4
+FF6-FF8 @READ_PROGRAM_MEMORY.P1
+FF6-FF8 @WRITE_PROGRAM_MEMORY.P2
+
+ROM Allocation:
+000004  MA7DOAN.call
+000014  MA7DOAN.data
+000024  SET_UP_PORT_IC_CHOT
+000042  @delay_us1
+00005C  touch_present
+0000AA  touch_write_bit
+00011A  touch_write_byte
+000148  KHOI_TAO_DS18B20
+000176  @DIV1616
+0001B8  XUAT_1BYTE
+0001E2  MO_IC_74573_A_THONG_DL
+000212  XUAT_4LED_7DOAN_4SO
+00023C  XUAT_4LED_7DOAN_GIAIMA_XOA_SO0
+000364  touch_read_bit
+0003A0  touch_read_byte
+0003C2  @MUL1616
+0003E2  DOC_GIATRI_DS18B20
+00045E  @DIV88
+000486  MAIN
+000486  @cinit1
+0004A2  @cinit2
+
+Project Directory:
+    C:\Users\tsqua\OneDrive - student.mtsac.edu\Desktop\BAI_TAP_VXL_NEW_3\
+
+Project Files:
+    BAI_731_DS18B20A.c                                      [05-Aug-20 04:54  CRC=8ECCD809]
+    tv_pickit2_shift_1.c                                    [15-Jun-20 14:54  CRC=9A8C78EB]
+    ..\..\..\..\..\Program Files (x86)\PICC\Devices\18F4550.H [12-Nov-13 14:35  CRC=5337E248]
+    tv_pickit2_shift_ds18b20.c                              [15-Aug-20 13:11  CRC=AD0443CD]
+    ..\..\..\..\..\Program Files (x86)\PICC\Drivers\TOUCH.c [02-Mar-10 13:04  CRC=24D0ECE7]
+
+Source signature=733750D7
+
+Units:
+    BAI_731_DS18B20A (main)
+
+Compiler Settings:
+    Processor:      PIC18F4550
+    Pointer Size:   16
+    ADC Range:      0-1023
+    Opt Level:      9
+    Short,Int,Long: UNSIGNED: 1,8,16
+    Float,Double:   32,32
+
+Output Files:
+    XREF file:   BAI_731_DS18B20A.xsym
+    Errors:      BAI_731_DS18B20A.err
+    Ext Symbols: BAI_731_DS18B20A.esym
+    INHX32:      BAI_731_DS18B20A.hex
+    Symbols:     BAI_731_DS18B20A.sym
+    List:        BAI_731_DS18B20A.lst
+    Debug/COFF:  BAI_731_DS18B20A.cof
+    Project:     BAI_731_DS18B20A.ccspjt
+    Call Tree:   BAI_731_DS18B20A.tre
+    Statistics:  BAI_731_DS18B20A.STA

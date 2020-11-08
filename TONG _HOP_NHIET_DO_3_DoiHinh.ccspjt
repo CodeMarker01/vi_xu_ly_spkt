@@ -1,0 +1,28 @@
+[PROJECT]
+Target=TONG _HOP_NHIET_DO_3_DoiHinh.hex
+Processor_Text=PIC18F4550
+CCSVersion=5.015
+Compiler=PCH
+[Target Data]
+FileList=TONG _HOP_NHIET_DO_3_DoiHinh.c
+[Directories]
+Include=C:\Program Files (x86)\PICC\Devices\;C:\Program Files (x86)\PICC\Drivers\
+[TONG _HOP_NHIET_DO_3_DoiHinh.c]
+Type=4
+[mru-list]
+1=TONG _HOP_NHIET_DO_3_DoiHinh.c
+[Opened Files]
+1=Extra_004_BAI_GIANG_TUAN_4_BO_SUNG_2_HT_4_MODULE.c
+2=KIEMTRA_GIUAKI_cau_ABC_v2.c
+3=BTC4_BOXUNG_T2.c
+4=TEST_FINALEX_LM35_DS18B20_DS1307_REALTIME.c
+5=TONG _HOP_NHIET_DO.C
+6=KIEMTRA_CUOIKI.c
+7=TV_PICKIT2_SHIFT_LCD.C
+8=
+9=KIEMTRA_CUOIKI.c
+10=BAI_809_I2C_RT_LCD_TO_NHO_ledQuet.c
+11=
+[Units]
+Count=1
+1=TONG _HOP_NHIET_DO_3_DoiHinh (main)

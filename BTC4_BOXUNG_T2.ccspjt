@@ -1,0 +1,30 @@
+[PROJECT]
+Target=BTC4_BOXUNG_T2.hex
+Processor_Text=PIC18F4550
+CCSVersion=5.015
+Compiler=PCH
+[Target Data]
+FileList=BTC4_BOXUNG_T2.c
+[Directories]
+Include=C:\Program Files (x86)\PICC\Devices\;C:\Program Files (x86)\PICC\Drivers\
+[BTC4_BOXUNG_T2.c]
+Type=4
+[mru-list]
+1=BTC4_BOXUNG_T2.c
+[Opened Files]
+1=KIEM_TRA.c
+2=BTC4_BOXUNG_T2.c
+3=DEM_LEN_DEM_XUONG_V2.c
+4=demxung_hienthi_caitien.c
+5=tv_pickit2_shift_lcd.c
+6=BAI_672_TONGHOP_5_MODULE.c
+7=BAI_622_LCD_KEX4X4_DICH.c
+8=KIEMTRA_GIUAKI.c
+9=
+10=K:\label\S\SPKT\Year 3-Sem 2\TT_Vi_Xu_Li\BAI TAP MAU - ST5\CHUONG 3\BAI_3_23_ON_OFF_INV_CDOI_8LED.c
+11=K:\label\S\SPKT\Year 3-Sem 2\TT_Vi_Xu_Li\BAI TAP MAU - ST5\CHUONG 3\BAI_3_21_ON_OFF_8LED.c
+12=demxung_hienthi_caitien.c
+13=
+[Units]
+Count=1
+1=BTC4_BOXUNG_T2 (main)

@@ -1,0 +1,16 @@
+[PROJECT]
+Target=Extra_004_BAI_GIANG_TUAN_4_BO_SUNG_2_HT_4_MODULE.hex
+Processor_Text=PIC18F4550
+CCSVersion=5.015
+Compiler=PCH
+[Target Data]
+FileList=Extra_004_BAI_GIANG_TUAN_4_BO_SUNG_2_HT_4_MODULE.c
+[Directories]
+Include=C:\Program Files (x86)\PICC\Devices\;C:\Program Files (x86)\PICC\Drivers\
+[Extra_004_BAI_GIANG_TUAN_4_BO_SUNG_2_HT_4_MODULE.c]
+Type=4
+[mru-list]
+1=Extra_004_BAI_GIANG_TUAN_4_BO_SUNG_2_HT_4_MODULE.c
+[Units]
+Count=1
+1=Extra_004_BAI_GIANG_TUAN_4_BO_SUNG_2_HT_4_MODULE (main)

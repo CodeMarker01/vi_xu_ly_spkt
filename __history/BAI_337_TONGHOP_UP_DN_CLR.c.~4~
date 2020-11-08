@@ -1,0 +1,36 @@
+#include <tv_pickit2_shift_1.c>                                               
+#include <tv_pickit2_shift_key4x4_138.c>
+#include <tv_pickit2_shift_32led_don.c>
+
+unsigned INT8 mp;                                                   
+unsigned INT8 y=0;
+unsigned int8 dem=0;
+
+int CDNN(int1 pin)
+{
+   if( !input(pin) )
+   {
+      delay_ms(20);
+      if( !input(pin) ) while( !input(pin) );
+      return 1;
+   }
+   return 0;
+}
+
+void main()
+{
+   SET_UP_PORT_IC_CHOT();
+   set_tris_b(0x3c);
+   xuat_32led_don_4byte (0, 0, 0, 0);
+   while(1)
+   {
+     if (dem==0){};
+     if (dem==1){};
+     if (dem==2){};
+     if (dem==3){};
+     if (dem==4){};
+     if (dem==5){};
+     if (dem==6){};
+     
+   }
+}

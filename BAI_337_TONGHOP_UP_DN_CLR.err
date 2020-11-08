@@ -1,0 +1,8 @@
+>>> Warning 225 "BAI_337_TONGHOP_UP_DN_CLR.c" Line 5(11,15): Duplicate #define
+>>> Warning 225 "BAI_337_TONGHOP_UP_DN_CLR.c" Line 6(11,15): Duplicate #define
+>>> Warning 225 "BAI_337_TONGHOP_UP_DN_CLR.c" Line 7(12,16): Duplicate #define
+>>> Warning 203 "BAI_337_TONGHOP_UP_DN_CLR.c" Line 31(1,1): Condition always TRUE
+>>> Warning 202 "BAI_337_TONGHOP_UP_DN_CLR.c" Line 9(15,17): Variable never used:   mp
+      Memory usage:   ROM=7%      RAM=5% - 6%
+      0 Errors,  5 Warnings.
+Build Successful.

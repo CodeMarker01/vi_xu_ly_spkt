@@ -1,0 +1,355 @@
+000     @SCRATCH
+001     @SCRATCH
+001     _RETURN_
+002     @SCRATCH
+003     @SCRATCH
+004     @INTERRUPT_AREA
+005     @INTERRUPT_AREA
+006     @INTERRUPT_AREA
+007     @INTERRUPT_AREA
+008     @INTERRUPT_AREA
+009     @INTERRUPT_AREA
+00A     @INTERRUPT_AREA
+00B     @INTERRUPT_AREA
+00C     @INTERRUPT_AREA
+00D     @INTERRUPT_AREA
+00E     @INTERRUPT_AREA
+00F     @INTERRUPT_AREA
+010     @INTERRUPT_AREA
+011     @INTERRUPT_AREA
+012     @INTERRUPT_AREA
+013     @INTERRUPT_AREA
+014     @INTERRUPT_AREA
+015     @INTERRUPT_AREA
+016     TIN_HIEU_DK_74573_A
+016.2   G_LCDA
+016.4   G_32A
+016.6   G_4A
+017     TIN_HIEU_DK_74573_B
+017.2   G_RBDCB
+017.4   G_8B
+017.6   G_MTB
+018     DL_BTN
+019-01A RBDC
+019.0   STEP_MOTOR_ENABLE
+019.1   STEP_MOTOR_IN1
+019.2   STEP_MOTOR_IN2
+019.3   STEP_MOTOR_IN3
+019.4   STEP_MOTOR_IN4
+019.5   DC_ENABLE
+019.6   PWRKEY
+01A.0   BUZZER
+01A.1   TRIAC_1
+01A.2   TRIAC_2
+01A.3   RELAY_1
+01A.4   RELAY_2
+01B     DONVI4
+01C     CHUC4
+01D     TRAM4
+01E     NGAN4
+01F     LCDDATA
+020     LCDCONTROL
+021     GLCDDATA
+022     GLCDCONTROL
+023-02A LED_7DQ
+02B     TT8LED
+02C     LCD_CONTROL
+02C.0   LCD_E
+02C.1   LCD_RW
+02C.2   LCD_RS
+02C.3   LCD_P
+02D     NAM_DS13
+02E     THANG_DS13
+02F     NGAY_DS13
+030     THU_DS13
+031     GIO_DS13
+032     PHUT_DS13
+033     GIAY_DS13
+034     MA_DS13
+035     CONTROL_DS13
+036     GIAYTAM
+037     DS18AL
+038     DS18AH
+039     DS18A_TAM
+03A-03B DS18A
+03C     NGUYEN
+03D     TP
+03E     GLCD_CONTROL
+03E.0   GLCD_CS1
+03E.1   GLCD_CS2
+03E.2   GLCD_E
+03E.3   GLCD_RW
+03E.4   GLCD_RS
+03E.5   GLCD_P
+03F     DOC
+040     NGANG
+041-441 gdram_vdk
+442     MPT1
+443     MPT2
+444.0   TT_HINH
+444.1   TT_HT
+445     I
+446     dv_giay
+447     ch_giay
+448     ch_phut
+449     dv_phut
+44A     dv_gio
+44B     ch_gio
+44C     thu
+44D-44E TP_NG
+44F-450 TP_CH
+451-452 TP_DV
+453-454 DV
+455-456 CH
+457     MP
+458     BDN
+459     GTCDT
+45A     touch_write_byte.data
+45A.0   touch_present.present
+45A     SETUP_GLCD.GLCD_FUNCTION_SET_MODE
+45A     @I2C_WRITE_1.P1
+45A     glcd_rect.x1
+45A     touch_read_byte.I
+45A     KEY_NHAN.MAPHIM
+45A     LCD_HIENTHI_CHU_n_TOADO_XY.LCD_SO
+45A     GLCD_MAU_NEN.GLCD_COLOR
+45A     glcd_circle.x
+45A     @I2C_READ_1.P1
+45A     LCD_HIENTHI_CHU_C_TOADO_XY.LCD_SO
+45A     lcd_hienthi_so_z_toado_xy.LCD_SO
+45A     DOC_GIATRI_DS18B20.@SCRATCH1
+45A     GDRAM_VDK_TO_GDRAM_GLCD_ALL.@SCRATCH1
+45A     giaima_lcd_ds18b20.@SCRATCH1
+45A     HIEN_THI_IMAGE.@SCRATCH1
+45A     HT_4LED_7DOAN.@SCRATCH1
+45A     MAIN.@SCRATCH1
+45B     touch_write_byte.I
+45B     lcd_hienthi_so_z_toado_xy.x1
+45B     touch_read_byte.data
+45B     KEY_NHAN.HANG
+45B     glcd_rect.y1
+45B     GLCD_COMMAND.GLCD_DATA2
+45B     LCD_HIENTHI_CHU_C_TOADO_XY.x1
+45B     glcd_circle.Y
+45B-45C GLCD_MAU_NEN.d
+45B     LCD_HIENTHI_CHU_n_TOADO_XY.x1
+45B     @delay_ms1.P1
+45B     @DIV88.P2
+45B     @I2C_READ_1.@SCRATCH1
+45B     touch_present.@SCRATCH1
+45B     DOC_GIATRI_DS18B20.@SCRATCH2
+45B     GDRAM_VDK_TO_GDRAM_GLCD_ALL.@SCRATCH2
+45B     HT_4LED_7DOAN.@SCRATCH2
+45C     @delay_us1.P1
+45C     XUAT_4LED_7DOAN_4SO.BL743
+45C     lcd_hienthi_so_z_toado_xy.y1
+45C     glcd_circle.radius
+45C     LCD_HIENTHI_CHU_C_TOADO_XY.y1
+45C     LCD_HIENTHI_CHU_n_TOADO_XY.y1
+45C     glcd_rect.x2
+45C.0   touch_read_bit.data
+45C     KEY_NHAN.COT
+45C     @DIV88.P1
+45C     @I2C_READ_1.@SCRATCH2
+45C     touch_write_byte.@SCRATCH1
+45C     GDRAM_VDK_TO_GDRAM_GLCD_ALL.@SCRATCH3
+45D     GLCD_DATA.GLCD_DATA3
+45D     glcd_circle.fill
+45D     touch_write_bit.data
+45D     glcd_rect.y2
+45D     XUAT_4LED_7DOAN_4SO.BL742
+45D     GLCD_MAU_NEN.@SCRATCH1
+45D     KEY_NHAN.@SCRATCH1
+45D     LCD_HIENTHI_CHU_C_TOADO_XY.@SCRATCH1
+45D     LCD_HIENTHI_CHU_n_TOADO_XY.@SCRATCH1
+45D     lcd_hienthi_so_z_toado_xy.@SCRATCH1
+45D     @DIV88.@SCRATCH1
+45E     glcd_circle.color
+45E     glcd_rect.fill
+45E     LCD_GOTO_XY.x
+45E     LCD_DATA.LCD_DATA_X
+45E     XUAT_4LED_7DOAN_4SO.BL741
+45E     GLCD_XUAT_8BIT.GLCD_DATA1
+45E     GLCD_MAU_NEN.@SCRATCH2
+45E     LCD_HIENTHI_CHU_C_TOADO_XY.@SCRATCH2
+45E     LCD_HIENTHI_CHU_n_TOADO_XY.@SCRATCH2
+45E     lcd_hienthi_so_z_toado_xy.@SCRATCH2
+45F     glcd_circle.a
+45F     XUAT_4LED_7DOAN_4SO.BL740
+45F     glcd_rect.color
+45F     XUAT_GLCD128X64.GLCD_SIGNAL
+45F     LCD_GOTO_XY.Y
+45F     GLCD_MAU_NEN.@SCRATCH3
+460     XUAT_GLCD128X64.GLCD_INS_HTHI
+460     glcd_circle.b
+460     glcd_rect.I
+460     LCD_GOTO_XY.@SCRATCH1
+460     GLCD_MAU_NEN.@SCRATCH4
+461     glcd_circle.P
+461     LCD_COMMAND.LCD_DATA_X
+461     glcd_rect.xmin
+462     glcd_rect.xmax
+462     LCD_XUAT_8BIT.LCD_DATA_X
+462     glcd_circle.@SCRATCH1
+463     XUAT_LCD20X4.LCD_SIGNAL
+463     @MUL88.P1
+463     glcd_rect.ymin
+463     glcd_circle.@SCRATCH2
+464     @MUL88.P1
+464     XUAT_LCD20X4.LCD_INS_HTHI
+464     glcd_rect.ymax
+464     glcd_circle.@SCRATCH3
+465     XUAT_1BYTE.BYTEXUAT
+465     glcd_circle.@SCRATCH4
+466     glcd_line.x1
+466     XUAT_1BYTE.SB
+467     XUAT_1BYTE.x
+467     glcd_line.y1
+467.7   XUAT_1BYTE.BSERI
+468     glcd_line.x2
+469     glcd_line.y2
+46A     glcd_line.color
+46B-46C glcd_line.dy
+46D-46E glcd_line.dx
+46F     glcd_line.addx
+470     glcd_line.addy
+471-472 glcd_line.P
+473-474 glcd_line.diff
+475     glcd_line.I
+476     glcd_pixel.x
+476     glcd_line.@SCRATCH1
+477     glcd_pixel.Y
+478     glcd_pixel.color
+479     glcd_pixel.b
+47A-47B @MUL1616.P1
+47A     glcd_pixel.@SCRATCH1
+47B     glcd_pixel.@SCRATCH2
+47C-47D @MUL1616.P1
+47E     @MUL1616.@SCRATCH1
+F83     PSP_DATA
+FB4.6   C1OUT
+FB4.7   C2OUT
+FBB     CCP_2
+FBB     CCP_2_LOW
+FBC     CCP_2_HIGH
+FBE     CCP_1_LOW
+FBE     CCP_1
+FBF     CCP_1_HIGH
+FE1-FE2 @READ_PACKED_MEMORY.P1
+FE1-FE2 @WRITE_PACKED_MEMORY.P2
+FE9-FEA @READ_PACKED_MEMORY.P1
+FE9-FEA @READ_PROGRAM_MEMORY.P2
+FE9-FEA @WRITE_PROGRAM_MEMORY.P3
+FE9-FEA @WRITE_PACKED_MEMORY.P4
+FF6-FF8 @WRITE_PROGRAM_MEMORY.P1
+FF6-FF8 @READ_PROGRAM_MEMORY.P2
+
+ROM Allocation:
+000096  MA7DOAN.call
+0000B0  MA7DOAN.data
+0000C0  LCD_SO_X.call
+0000DA  LCD_SO_X.data
+000152  LCD_MA_8DOAN.call
+00016C  LCD_MA_8DOAN.data
+0001AC  LCD_VITRI.call
+0001C6  LCD_VITRI.data
+0001CA  MAQUETKEY.call
+0001E4  MAQUETKEY.data
+0001E8  LCD_CHU_C.call
+000202  LCD_CHU_C.data
+000208  LCD_CHU_n.call
+000222  LCD_CHU_n.data
+000228  INTERRUPT_TIMER1
+00023C  SET_UP_PORT_IC_CHOT
+00025A  XUAT_1BYTE
+000288  MO_IC_74573_A_THONG_DL
+0002B6  XUAT_GLCD_LCD
+0002E0  XUAT_LCD20X4
+0002F4  LCD_XUAT_8BIT
+00030E  LCD_COMMAND
+000324  @delay_ms1
+00034C  SETUP_LCD
+0003A8  @I2C_WRITE_1
+0003FA  @I2C_READ_1
+000446  DOC_THOI_GIAN_TU_REALTIME
+000528  @delay_us1
+000548  touch_present
+0005A2  touch_write_bit
+000616  touch_write_byte
+00064C  KHOI_TAO_DS18B20
+000696  LCD_DATA
+0006AC  THIET_LAP_THOI_GIAN_HIEN_TAI
+0006D4  NAP_THOI_GIAN_HTAI_VAO_DS13B07
+000764  XUAT_GLCD128X64
+000778  GLCD_XUAT_8BIT
+000792  GLCD_COMMAND
+00079C  SETUP_GLCD
+0007F4  @MUL1616
+000816  GLCD_MAU_NEN
+000890  @DIV88
+0008BC  XUAT_4LED_7DOAN_4SO
+0008E8  HT_4LED_7DOAN
+000952  touch_read_bit
+000992  touch_read_byte
+0009BC  DOC_GIATRI_DS18B20
+000A52  giaima_hienthi_to
+000A8A  LCD_GOTO_XY
+000AAE  @MUL88
+000AFC  lcd_hienthi_so_z_toado_xy
+000B72  LCD_HIENTHI_CHU_C_TOADO_XY
+000BEA  LCD_HIENTHI_CHU_n_TOADO_XY
+000C62  HT_DS1307_to
+000CBE  giaima_lcd_ds18b20
+000D50  GLCD_DATA
+000D5A  hienthi_glcd
+000DA4  glcd_pixel
+000EB0  glcd_line
+000FE6  glcd_circle
+0011F6  glcd_rect
+0012B8  GDRAM_VDK_TO_GDRAM_GLCD_ALL
+0013A4  HIEN_THI_IMAGE
+001430  KEY_NHAN
+0014BA  KEY_4X4_DW
+0014F6  @cinit1
+0014F6  MAIN
+001520  @cinit2
+
+Project Directory:
+    C:\Users\tsqua\OneDrive - student.mtsac.edu\Desktop\BAI_TAP_VXL_NEW_3\
+
+Project Files:
+    KIEMTRA_CUOIKI.c                                        [17-Aug-20 16:09  CRC=07112B4D]
+    tv_pickit2_shift_1.c                                    [15-Jun-20 14:54  CRC=9A8C78EB]
+    ..\..\..\..\..\Program Files (x86)\PICC\Devices\18F4550.H [12-Nov-13 14:35  CRC=5337E248]
+    TV_PICKIT2_SHIFT_DS13B07_I2C.c                          [17-Aug-20 15:29  CRC=C832D496]
+    TV_PICKIT2_SHIFT_LCD.c                                  [16-Aug-20 23:43  CRC=84024CF2]
+    tv_pickit2_shift_ds18b20.c                              [17-Aug-20 15:31  CRC=4332BC44]
+    ..\..\..\..\..\Program Files (x86)\PICC\Drivers\TOUCH.c [02-Mar-10 13:04  CRC=24D0ECE7]
+    tv_pickit2_shift_glcd128x64.c                           [26-Jun-15 16:55  CRC=DA2DF7A2]
+    ..\..\..\..\..\Program Files (x86)\PICC\Drivers\graphics.c [06-Jul-10 08:49  CRC=70BB89DE]
+    TV_PICKIT2_SHIFT_KEY4X4_138.C                           [25-May-20 14:18  CRC=9632A510]
+
+Source signature=205D1CD3
+
+Units:
+    KIEMTRA_CUOIKI (main)
+
+Compiler Settings:
+    Processor:      PIC18F4550
+    Pointer Size:   16
+    ADC Range:      0-1023
+    Opt Level:      9
+    Short,Int,Long: UNSIGNED: 1,8,16
+    Float,Double:   32,32
+
+Output Files:
+    XREF file:   KIEMTRA_CUOIKI.xsym
+    Errors:      KIEMTRA_CUOIKI.err
+    Ext Symbols: KIEMTRA_CUOIKI.esym
+    INHX32:      KIEMTRA_CUOIKI.hex
+    Symbols:     KIEMTRA_CUOIKI.sym
+    List:        KIEMTRA_CUOIKI.lst
+    Debug/COFF:  KIEMTRA_CUOIKI.cof
+    Project:     KIEMTRA_CUOIKI.ccspjt
+    Call Tree:   KIEMTRA_CUOIKI.tre
+    Statistics:  KIEMTRA_CUOIKI.STA

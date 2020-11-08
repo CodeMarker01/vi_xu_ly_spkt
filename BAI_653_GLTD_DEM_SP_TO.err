@@ -1,0 +1,6 @@
+>>> Warning 202 "BAI_653_GLTD_DEM_SP_TO.c" Line 7(15,24): Variable never used:   CH_number
+>>> Warning 202 "BAI_653_GLTD_DEM_SP_TO.c" Line 7(26,35): Variable never used:   TR_number
+>>> Warning 202 "BAI_653_GLTD_DEM_SP_TO.c" Line 7(37,46): Variable never used:   DV_number
+      Memory usage:   ROM=4%      RAM=52% - 52%
+      0 Errors,  3 Warnings.
+Build Successful.

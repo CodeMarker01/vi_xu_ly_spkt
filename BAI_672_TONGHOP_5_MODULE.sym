@@ -1,0 +1,209 @@
+000     @SCRATCH
+001     @SCRATCH
+001     _RETURN_
+002     @SCRATCH
+003     @SCRATCH
+004     TIN_HIEU_DK_74573_A
+004.2   G_LCDA
+004.4   G_32A
+004.6   G_4A
+005     TIN_HIEU_DK_74573_B
+005.2   G_RBDCB
+005.4   G_8B
+005.6   G_MTB
+006     DL_BTN
+007.0   STEP_MOTOR_ENABLE
+007-008 RBDC
+007.1   STEP_MOTOR_IN1
+007.2   STEP_MOTOR_IN2
+007.3   STEP_MOTOR_IN3
+007.4   STEP_MOTOR_IN4
+007.5   DC_ENABLE
+007.6   PWRKEY
+008.0   BUZZER
+008.1   TRIAC_1
+008.2   TRIAC_2
+008.3   RELAY_1
+008.4   RELAY_2
+009     DONVI4
+00A     CHUC4
+00B     TRAM4
+00C     NGAN4
+00D     LCDDATA
+00E     LCDCONTROL
+00F     GLCDDATA
+010     GLCDCONTROL
+011-018 LED_7DQ
+019     TT8LED
+01A.0   GLCD_CS1
+01A     GLCD_CONTROL
+01A.1   GLCD_CS2
+01A.2   GLCD_E
+01A.3   GLCD_RW
+01A.4   GLCD_RS
+01A.5   GLCD_P
+01B     DOC
+01C     NGANG
+01D-41D gdram_vdk
+41E     T0
+41F     T0_TAM
+420     TT_HT
+421     TR
+422     CH
+423     DV
+424     SETUP_GLCD.GLCD_FUNCTION_SET_MODE
+424     glcd_rect.x1
+424     GIAI_MA_GLCD.T0
+424     glcd_circle.x
+424     GLCD_MAU_NEN.GLCD_COLOR
+424     GDRAM_VDK_TO_GDRAM_GLCD_ALL.@SCRATCH1
+424     @PSTRINGC_812.@SCRATCH1
+424     PHIM_NHAN.@SCRATCH1
+425     glcd_rect.y1
+425     GLCD_COMMAND.GLCD_DATA2
+425-426 GLCD_MAU_NEN.d
+425     glcd_circle.y
+425     @delay_ms1.P1
+425     GDRAM_VDK_TO_GDRAM_GLCD_ALL.@SCRATCH2
+425     GIAI_MA_GLCD.@SCRATCH1
+425     @PSTRINGC_812.@SCRATCH2
+426     glcd_circle.radius
+426     glcd_rect.x2
+426     @DIV88.P1
+426     GDRAM_VDK_TO_GDRAM_GLCD_ALL.@SCRATCH3
+427     GLCD_DATA.GLCD_DATA3
+427     glcd_circle.fill
+427     glcd_rect.y2
+427     @DIV88.P1
+427     GLCD_MAU_NEN.@SCRATCH1
+428     glcd_circle.color
+428     GLCD_XUAT_8BIT.GLCD_DATA1
+428     glcd_rect.fill
+428     GLCD_MAU_NEN.@SCRATCH2
+428     @DIV88.@SCRATCH1
+429     glcd_rect.color
+429     XUAT_GLCD128X64.GLCD_SIGNAL
+429     glcd_circle.a
+429     GLCD_MAU_NEN.@SCRATCH3
+42A     glcd_circle.b
+42A     XUAT_GLCD128X64.GLCD_INS_HTHI
+42A     glcd_rect.I
+42A     GLCD_MAU_NEN.@SCRATCH4
+42B     glcd_circle.P
+42B     glcd_rect.xmin
+42B     XUAT_1BYTE.BYTEXUAT
+42C     XUAT_1BYTE.SB
+42C     glcd_rect.xmax
+42C     glcd_circle.@SCRATCH1
+42D     @MUL88.P1
+42D     XUAT_1BYTE.x
+42D     glcd_rect.ymin
+42D.7   XUAT_1BYTE.BSERI
+42D     glcd_circle.@SCRATCH2
+42E     glcd_rect.ymax
+42E     @MUL88.P1
+42E     glcd_circle.@SCRATCH3
+42F     glcd_circle.@SCRATCH4
+430     glcd_line.x1
+431     glcd_line.y1
+432     glcd_line.x2
+433     glcd_line.y2
+434     glcd_line.color
+435-436 glcd_line.dy
+437-438 glcd_line.dx
+439     glcd_line.addx
+43A     glcd_line.addy
+43B-43C glcd_line.P
+43D-43E glcd_line.diff
+43F     glcd_line.I
+440     glcd_pixel.x
+440     glcd_line.@SCRATCH1
+441     glcd_pixel.y
+442     glcd_pixel.color
+443     glcd_pixel.b
+444-445 @MUL1616.P1
+444     glcd_pixel.@SCRATCH1
+445     glcd_pixel.@SCRATCH2
+446-447 @MUL1616.P1
+448     @MUL1616.@SCRATCH1
+F83     PSP_DATA
+FB4.6   C1OUT
+FB4.7   C2OUT
+FBB     CCP_2_LOW
+FBB     CCP_2
+FBC     CCP_2_HIGH
+FBE     CCP_1_LOW
+FBE     CCP_1
+FBF     CCP_1_HIGH
+FE1-FE2 @READ_PACKED_MEMORY.P1
+FE1-FE2 @WRITE_PACKED_MEMORY.P2
+FE9-FEA @WRITE_PROGRAM_MEMORY.P1
+FE9-FEA @READ_PACKED_MEMORY.P2
+FE9-FEA @READ_PROGRAM_MEMORY.P3
+FE9-FEA @WRITE_PACKED_MEMORY.P4
+FF6-FF8 @WRITE_PROGRAM_MEMORY.P1
+FF6-FF8 @READ_PROGRAM_MEMORY.P2
+
+ROM Allocation:
+000004  @const952.call
+00000C  SET_UP_PORT_IC_CHOT
+00002A  XUAT_1BYTE
+000058  MO_IC_74573_A_THONG_DL
+000088  XUAT_GLCD_LCD
+0000B4  XUAT_GLCD128X64
+0000C8  GLCD_XUAT_8BIT
+0000E2  GLCD_COMMAND
+0000EC  @delay_ms1
+000114  SETUP_GLCD
+00016C  @MUL1616
+00018E  GLCD_MAU_NEN
+000208  glcd_pixel
+000314  glcd_line
+00044A  @MUL88
+000498  glcd_circle
+0006A8  GLCD_DATA
+0006B2  GDRAM_VDK_TO_GDRAM_GLCD_ALL
+000796  @DIV88
+0007C2  GIAI_MA_GLCD
+000826  @PSTRINGC_812
+000848  GLCD_HIENTHI_T0
+000870  glcd_rect
+000934  PHIM_NHAN
+0009CA  MAIN
+0009CA  @cinit1
+0009EE  @cinit2
+
+Project Directory:
+    C:\Users\tsqua\OneDrive - student.mtsac.edu\Desktop\BAI_TAP_VXL_NEW_3\
+
+Project Files:
+    BAI_672_TONGHOP_5_MODULE.c                              [05-Jul-20 19:23  CRC=23099F48]
+    TV_PICKIT2_SHIFT_1.C                                    [15-Jun-20 14:54  CRC=9A8C78EB]
+    ..\..\..\..\..\Program Files (x86)\PICC\Devices\18F4550.H [12-Nov-13 14:35  CRC=5337E248]
+    TV_PICKIT2_SHIFT_GLCD128X64.C                           [26-Jun-15 16:55  CRC=DA2DF7A2]
+    ..\..\..\..\..\Program Files (x86)\PICC\Drivers\GRAPHICS.C [06-Jul-10 08:49  CRC=70BB89DE]
+
+Source signature=CC7305D9
+
+Units:
+    BAI_672_TONGHOP_5_MODULE (main)
+
+Compiler Settings:
+    Processor:      PIC18F4550
+    Pointer Size:   16
+    ADC Range:      0-1023
+    Opt Level:      9
+    Short,Int,Long: UNSIGNED: 1,8,16
+    Float,Double:   32,32
+
+Output Files:
+    XREF file:   BAI_672_TONGHOP_5_MODULE.xsym
+    Errors:      BAI_672_TONGHOP_5_MODULE.err
+    Ext Symbols: BAI_672_TONGHOP_5_MODULE.esym
+    INHX32:      BAI_672_TONGHOP_5_MODULE.hex
+    Symbols:     BAI_672_TONGHOP_5_MODULE.sym
+    List:        BAI_672_TONGHOP_5_MODULE.lst
+    Debug/COFF:  BAI_672_TONGHOP_5_MODULE.cof
+    Project:     BAI_672_TONGHOP_5_MODULE.ccspjt
+    Call Tree:   BAI_672_TONGHOP_5_MODULE.tre
+    Statistics:  BAI_672_TONGHOP_5_MODULE.STA

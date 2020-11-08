@@ -1,0 +1,24 @@
+[PROJECT]
+Target=BAI_504_HIENTHI_8SO_CACH3.hex
+Processor_Text=PIC18F4550
+CCSVersion=5.015
+Compiler=PCH
+[Target Data]
+FileList=BAI_504_HIENTHI_8SO_CACH3.c
+[Directories]
+Include=C:\Program Files (x86)\PICC\Devices\;C:\Program Files (x86)\PICC\Drivers\
+[BAI_504_HIENTHI_8SO_CACH3.c]
+Type=4
+[mru-list]
+1=BAI_504_HIENTHI_8SO_CACH3.c
+[Opened Files]
+1=TV_PICKIT2_SHIFT_1.c
+2=BAI_501_HIENTHI_8SO.c
+3=BAI_413_DEM_XUNG_T0_XOA_SO0_VN_CT.c
+4=BAI_501_HIENTHI_8SO.c
+5=BAI_503_HIENTHI_8SO_CACH2.c
+6=BAI_504_HIENTHI_8SO_CACH3.c
+7=
+[Units]
+Count=1
+1=BAI_504_HIENTHI_8SO_CACH3 (main)

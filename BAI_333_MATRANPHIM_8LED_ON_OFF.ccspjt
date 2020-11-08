@@ -1,0 +1,23 @@
+[PROJECT]
+Target=BAI_333_MATRANPHIM_8LED_ON_OFF.hex
+Processor_Text=PIC18F4550
+CCSVersion=5.015
+Compiler=PCH
+[Target Data]
+FileList=BAI_333_MATRANPHIM_8LED_ON_OFF.c
+[Directories]
+Include=C:\Program Files (x86)\PICC\Devices\;C:\Program Files (x86)\PICC\Drivers\
+[BAI_333_MATRANPHIM_8LED_ON_OFF.c]
+Type=4
+[mru-list]
+1=BAI_333_MATRANPHIM_8LED_ON_OFF.c
+[Opened Files]
+1=BAI_3_01_CHOPTAT_8LED.c
+2=TV_PICKIT2_SHIFT_1.c
+3=BAI_332_MATRANPHIM_LEDDON.c
+4=tv_pickit2_shift_key4x4_138.c
+5=BAI_334_MATRANPHIM_8LED_16_BTN_ON_OFF.c
+6=
+[Units]
+Count=1
+1=BAI_333_MATRANPHIM_8LED_ON_OFF (main)

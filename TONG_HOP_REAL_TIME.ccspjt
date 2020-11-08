@@ -1,0 +1,16 @@
+[PROJECT]
+Target=TONG_HOP_REAL_TIME.hex
+Processor_Text=PIC18F4550
+CCSVersion=5.015
+Compiler=PCH
+[Target Data]
+FileList=TONG_HOP_REAL_TIME.c
+[Directories]
+Include=C:\Program Files (x86)\PICC\Devices\;C:\Program Files (x86)\PICC\Drivers\
+[TONG_HOP_REAL_TIME.c]
+Type=4
+[mru-list]
+1=TONG_HOP_REAL_TIME.c
+[Units]
+Count=1
+1=TONG_HOP_REAL_TIME (main)

@@ -1,0 +1,65 @@
+
+ROM used:   2280/32768 (7%)
+            2280/32768 (7%) including unused fragments
+
+            1.0 Average locations per line
+            4.5 Average locations per statement
+
+RAM used:   1054/2048 (51%) at main() level
+            1091/2048 (53%) worst case
+
+Stack used: 6 worst case (6 in main + 0 for interrupts)
+Stack size: 31
+
+Lines Stmts  %   Files
+----- ----- ---  -----
+   17     9   2  BAI_663_GLCD_DT_DT.c
+  702   244  48  TV_PICKIT2_SHIFT_1.C
+  837     0   0  ..\..\..\..\..\Program Files (x86)\PICC\Devices\18F4550.H
+  240    88  17  TV_PICKIT2_SHIFT_GLCD128X64.C
+  540   163  32  ..\..\..\..\..\Program Files (x86)\PICC\Drivers\GRAPHICS.C
+----- -----
+ 2336   504 Total
+
+Page ROM  %  RAM   Vol Diff  Functions:
+---- --- --- ---   --- ----  ----------
+0     42   1    1             @delay_ms1
+0     46   1    3   271  4.3  XUAT_1BYTE
+0     30   1    0   152  1.8  SET_UP_PORT_IC_CHOT
+0     48   1    0   119  1.7  MO_IC_74573_A_THONG_DL
+0     44   1    0   172  1.8  XUAT_GLCD_LCD
+0     20   0    2    80  2.7  XUAT_GLCD128X64
+0     26   1    1   102  2.1  GLCD_XUAT_8BIT
+0     10   0    1    43  1.5  GLCD_COMMAND
+0     10   0    1    43  1.5  GLCD_DATA
+0     90   2    1   292  1.7  SETUP_GLCD
+0    124   3    7   338  5.1  GLCD_MAU_NEN
+0     34   1    5             @MUL1616
+0    268   6    6   510  8.0  glcd_pixel
+0    230   5    3   447  5.2  GDRAM_VDK_TO_GDRAM_GLCD_ALL
+0    310   7   17  1519  9.2  glcd_line
+0    196   4    6  1071  6.1  glcd_rect
+0    530  12   12  1846  8.8  glcd_circle
+0     78   2    2   450  4.1  @MUL88
+0    140   3    0   293  2.3  MAIN
+ Inline         0   374  4.1  @cinit1
+
+Program metrics:
+    Functions               18
+    Statements              504
+    Comments                573
+    Volume (V)              13169
+    Difficulty (D)          73.7
+    Effort to implement (E) 970557
+    Time to implement (T)   14 hours, 59 minutes
+    Est Delivered Bugs (B)  3
+    Cyclomatic Complexity   28
+    Maintainability (MI)    114
+
+ Segment     Used  Free
+-----------  ----  ----
+00000-00002     4  0  
+00004-07FFE  2276  30488  
+
+
+

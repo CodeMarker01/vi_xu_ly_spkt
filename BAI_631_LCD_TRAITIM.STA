@@ -1,0 +1,62 @@
+
+ROM used:   740/32768 (2%)
+            740/32768 (2%) including unused fragments
+
+            0.4 Average locations per line
+            2.5 Average locations per statement
+
+RAM used:   32/2048 (2%) at main() level
+            41/2048 (2%) worst case
+
+Stack used: 6 worst case (6 in main + 0 for interrupts)
+Stack size: 31
+
+Lines Stmts  %   Files
+----- ----- ---  -----
+   39    24   8  BAI_631_LCD_TRAITIM.c
+  702   244  83  TV_PICKIT2_SHIFT_1.c
+  837     0   0  ..\..\..\..\..\Program Files (x86)\PICC\Devices\18F4550.H
+   87    25   9  TV_PICKIT2_SHIFT_LCD.c
+----- -----
+ 1665   293 Total
+
+Page ROM  %  RAM   Vol Diff  Functions:
+---- --- --- ---   --- ----  ----------
+0     40   3    1             @delay_ms1
+0     42   3    3   271  4.3  XUAT_1BYTE
+0     30   2    0   152  1.8  SET_UP_PORT_IC_CHOT
+0     48   3    0   119  1.7  MO_IC_74573_A_THONG_DL
+0     44   3    0   172  1.8  XUAT_GLCD_LCD
+0     16   1    2    80  2.7  XUAT_LCD20X4
+0     26   2    1   102  2.1  LCD_XUAT_8BIT
+0     22   1    1    61  1.6  LCD_COMMAND
+0     22   1    1    61  1.6  LCD_DATA
+0     72   5    0   245  1.8  SETUP_LCD
+0     20   1    0  1030  6.7  @const823
+0     26   2    3   147  3.7  LCD_GOTO_XY
+0     24   2    0    29  1.2  @const828
+0     24   2    0   361  4.5  @const831
+0    228  15    1   669  4.7  MAIN
+0     18   1    0   295  3.7  @const841
+0     34   2    2   252  3.2  @PSTRINGC_810
+ Inline         0   209  2.6  @cinit1
+
+Program metrics:
+    Functions               17
+    Statements              293
+    Comments                347
+    Volume (V)              7301
+    Difficulty (D)          50.3
+    Effort to implement (E) 367343
+    Time to implement (T)   5 hours, 40 minutes
+    Est Delivered Bugs (B)  2
+    Cyclomatic Complexity   16
+    Maintainability (MI)    126
+
+ Segment     Used  Free
+-----------  ----  ----
+00000-00002     4  0  
+00004-07FFE   736  32028  
+
+
+

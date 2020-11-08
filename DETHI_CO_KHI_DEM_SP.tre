@@ -1,0 +1,44 @@
+ÀÄOneDrive - student
+   ÀÄMAIN  0/266  Ram=1
+      ÃÄ@cinit1  (Inline)  Ram=0
+      ÃÄSET_UP_PORT_IC_CHOT  0/30  Ram=0
+      ÃÄXUAT_4LED_7DOAN_4SO  0/42  Ram=4
+      ³  ÃÄXUAT_1BYTE  0/42  Ram=3
+      ³  ÃÄXUAT_1BYTE  0/42  Ram=3
+      ³  ÃÄXUAT_1BYTE  0/42  Ram=3
+      ³  ÃÄXUAT_1BYTE  0/42  Ram=3
+      ³  ÀÄMO_IC_74573_A_THONG_DL  0/48  Ram=0
+      ÃÄCDNN  0/126  Ram=1
+      ³  ÃÄ@WRITEBITA  0/62  Ram=6
+      ³  ÃÄ@READBITA  0/46  Ram=5
+      ³  ÃÄ@delay_ms1  0/38  Ram=1
+      ³  ÃÄ@WRITEBITA  0/62  Ram=6
+      ³  ÃÄ@READBITA  0/46  Ram=5
+      ³  ÃÄ@WRITEBITA  0/62  Ram=6
+      ³  ÀÄ@READBITA  0/46  Ram=5
+      ÃÄXUAT_4LED_7DOAN_4SO  0/42  Ram=4
+      ³  ÀÄ*
+      ÃÄ@delay_ms1  0/38  Ram=1
+      ÃÄXUAT_4LED_7DOAN_4SO  0/42  Ram=4
+      ³  ÀÄ*
+      ÃÄ@delay_ms1  0/38  Ram=1
+      ÃÄCDNN  0/126  Ram=1
+      ³  ÀÄ*
+      ÃÄGIAI_MA_HIEN_THI  0/188  Ram=5
+      ³  ÃÄ@DIV1616  0/66  Ram=5
+      ³  ÃÄ@const686  0/32  Ram=0
+      ³  ÃÄ@DIV1616  0/66  Ram=5
+      ³  ÃÄ@DIV1616  0/66  Ram=5
+      ³  ÃÄ@const686  0/32  Ram=0
+      ³  ÃÄ@DIV1616  0/66  Ram=5
+      ³  ÃÄ@const686  0/32  Ram=0
+      ³  ÀÄXUAT_4LED_7DOAN_3SO  0/20  Ram=3
+      ³     ÀÄXUAT_4LED_7DOAN_4SO  0/42  Ram=4
+      ³        ÀÄ*
+      ÃÄ@DIV88  0/42  Ram=3
+      ÃÄXUAT_4LED_7DOAN_4SO  0/42  Ram=4
+      ³  ÀÄ*
+      ÃÄ@delay_ms1  0/38  Ram=1
+      ÃÄGIAI_MA_HIEN_THI  0/188  Ram=5
+      ³  ÀÄ*
+      ÀÄ@delay_ms1  0/38  Ram=1

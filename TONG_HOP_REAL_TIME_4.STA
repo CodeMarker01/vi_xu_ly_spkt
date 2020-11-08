@@ -1,0 +1,102 @@
+
+ROM used:   5194/32768 (16%)
+            5194/32768 (16%) including unused fragments
+
+            1.9 Average locations per line
+            7.3 Average locations per statement
+
+RAM used:   1093/2048 (53%) at main() level
+            1139/2048 (56%) worst case
+
+Stack used: 16 worst case (8 in main + 8 for interrupts)
+Stack size: 31
+
+Lines Stmts  %   Files
+----- ----- ---  -----
+  213   126  18  TONG_HOP_REAL_TIME_4.c
+  702   244  34  tv_pickit2_shift_1.c
+  837     0   0  ..\..\..\..\..\Program Files (x86)\PICC\Devices\18F4550.H
+  121    62   9  TV_PICKIT2_SHIFT_DS13B07_I2C.c
+   99    25   4  TV_PICKIT2_SHIFT_LCD.c
+  240    88  12  tv_pickit2_shift_glcd128x64.c
+  540   163  23  ..\..\..\..\..\Program Files (x86)\PICC\Drivers\graphics.c
+----- -----
+ 2752   708 Total
+
+Page ROM  %  RAM   Vol Diff  Functions:
+---- --- --- ---   --- ----  ----------
+0     76   1    3             @I2C_READ_1
+0     82   1    1             @I2C_WRITE_1
+0     40   0    1             @delay_ms1
+0     32   0    1             @delay_us1
+0     42   0    0             @const686
+0     46   0    3   271  4.3  XUAT_1BYTE
+0     30   0    0   152  1.8  SET_UP_PORT_IC_CHOT
+0     46   0    0   119  1.7  MO_IC_74573_A_THONG_DL
+0     46   0    0   119  1.7  MO_IC_74573_B_THONG_DL
+0     42   0    0   172  1.8  XUAT_GLCD_LCD
+0     32   0    2    80  2.7  XUAT_LCD20X4
+0     20   0    2    80  2.7  XUAT_GLCD128X64
+0     50   0    3   172  2.7  XUAT_8LED_7DOAN_QUET_1
+0     12   0    0    25  1.2  XUAT_8LED_7DOAN_QUET_TAT_LED
+0     42   0    0             @const753
+0     70   1    3   190  3.1  XUAT_8LED_7DOAN_QUET_2
+0     26   0    1   102  2.1  LCD_XUAT_8BIT
+0     22   0    1    61  1.6  LCD_COMMAND
+0     22   0    1    61  1.6  LCD_DATA
+0     92   1    0   245  1.8  SETUP_LCD
+0    146   1    0             @const813
+0     90   1    0             @const817
+0     30   0    0             @const823
+0     36   0    3   147  3.7  LCD_GOTO_XY
+0     40   0    0   174  1.8  THIET_LAP_THOI_GIAN_HIEN_TAI
+0    144   1    0   253  1.4  NAP_THOI_GIAN_HTAI_VAO_DS13B07
+0    226   2    0   351  1.9  DOC_THOI_GIAN_TU_REALTIME
+0     26   0    1   102  2.1  GLCD_XUAT_8BIT
+0     10   0    1    43  1.5  GLCD_COMMAND
+0     10   0    1    43  1.5  GLCD_DATA
+0    136   1    1   292  1.7  SETUP_GLCD
+0    134   1    7   338  5.1  GLCD_MAU_NEN
+0     34   0    5             @MUL1616
+0    296   3    6   510  8.0  glcd_pixel
+0    228   2    3   447  5.2  GDRAM_VDK_TO_GDRAM_GLCD_ALL
+0    310   3   17  1519  9.2  glcd_line
+0    194   2    6  1071  6.1  glcd_rect
+0    528   5   12  1846  8.8  glcd_circle
+0     78   1    2  1519  9.2  @MUL88
+0     68   1    1   151  3.9  HIEN_THI_8LED_7DOAN_QUET_ALL1
+0     16   0    0    32  1.2  NGAT_TIMER3
+0     40   0    0   138  3.3  TRON_VUONG
+0    186   2    1   406  3.3  giai_ma_gan_cho_8led_quet
+0    118   1    5   255  5.5  lcd_hienthi_so_z_toado_xy
+0     50   0    0   179  2.7  giaima_hienthi_to
+0    170   2    0   402  1.8  HT_DS1307_to
+0      4   0    0   255  5.5  @const1000
+0     32   0    2   179  2.7  @PSTRINGC_810
+0      6   0    0  1963  8.4  @const1002
+0      6   0    0             @const1003
+0      4   0    0             @const1005
+0    782   8    1  2013  9.4  MAIN
+ Inline         0   763  4.8  @cinit1
+
+Program metrics:
+    Functions               41
+    Statements              708
+    Comments                671
+    Volume (V)              31001
+    Difficulty (D)          154.2
+    Effort to implement (E) 4780201
+    Time to implement (T)   73 hours, 46 minutes
+    Est Delivered Bugs (B)  9
+    Cyclomatic Complexity   48
+    Maintainability (MI)    89
+
+ Segment     Used  Free
+-----------  ----  ----
+00000-00002     4  0  
+00004-00006     0  4  
+00008-00094   142  0  
+00096-07FFE  5048  27570  
+
+
+

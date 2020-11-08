@@ -1,0 +1,77 @@
+ÀÄOneDrive - student
+   ÃÄMAIN  0/396  Ram=1
+   ³  ÃÄ@cinit1  (Inline)  Ram=0
+   ³  ÃÄSET_UP_PORT_IC_CHOT  0/30  Ram=0
+   ³  ÃÄXUAT_4LED_7DOAN_4SO  0/42  Ram=4
+   ³  ³  ÃÄXUAT_1BYTE  0/42  Ram=3
+   ³  ³  ÃÄXUAT_1BYTE  0/42  Ram=3
+   ³  ³  ÃÄXUAT_1BYTE  0/42  Ram=3
+   ³  ³  ÃÄXUAT_1BYTE  0/42  Ram=3
+   ³  ³  ÀÄMO_IC_74573_A_THONG_DL  0/48  Ram=0
+   ³  ÃÄCDNN  0/126  Ram=1
+   ³  ³  ÃÄ@WRITEBITA  0/62  Ram=6
+   ³  ³  ÃÄ@READBITA  0/46  Ram=5
+   ³  ³  ÃÄ@delay_ms1  0/38  Ram=1
+   ³  ³  ÃÄ@WRITEBITA  0/62  Ram=6
+   ³  ³  ÃÄ@READBITA  0/46  Ram=5
+   ³  ³  ÃÄ@WRITEBITA  0/62  Ram=6
+   ³  ³  ÀÄ@READBITA  0/46  Ram=5
+   ³  ÃÄXUAT_4LED_7DOAN_GIAIMA_XOA_SO0  0/294  Ram=5
+   ³  ³  ÃÄ@DIV1616  0/66  Ram=5
+   ³  ³  ÃÄ@const686  0/42  Ram=0
+   ³  ³  ÃÄ@DIV1616  0/66  Ram=5
+   ³  ³  ÃÄ@DIV1616  0/66  Ram=5
+   ³  ³  ÃÄ@const686  0/42  Ram=0
+   ³  ³  ÃÄ@DIV1616  0/66  Ram=5
+   ³  ³  ÃÄ@DIV1616  0/66  Ram=5
+   ³  ³  ÃÄ@const686  0/42  Ram=0
+   ³  ³  ÃÄ@DIV1616  0/66  Ram=5
+   ³  ³  ÃÄ@DIV1616  0/66  Ram=5
+   ³  ³  ÃÄ@const686  0/42  Ram=0
+   ³  ³  ÀÄXUAT_4LED_7DOAN_4SO  0/42  Ram=4
+   ³  ³     ÀÄ*
+   ³  ÃÄCDNN  0/126  Ram=1
+   ³  ³  ÀÄ*
+   ³  ÃÄXUAT_4LED_7DOAN_GIAIMA_XOA_SO0  0/294  Ram=5
+   ³  ³  ÀÄ*
+   ³  ÃÄ@DIV88  0/40  Ram=3
+   ³  ÃÄXUAT_4LED_7DOAN_4SO  0/42  Ram=4
+   ³  ³  ÀÄ*
+   ³  ÃÄ@delay_ms1  0/38  Ram=1
+   ³  ÃÄXUAT_4LED_7DOAN_GIAIMA_XOA_SO0  0/294  Ram=5
+   ³  ³  ÀÄ*
+   ³  ÃÄ@delay_ms1  0/38  Ram=1
+   ³  ÃÄGIAI_MA_DEM_TIMER  0/310  Ram=4
+   ³  ³  ÃÄ@DIV88  0/40  Ram=3
+   ³  ³  ÃÄ@const686  0/42  Ram=0
+   ³  ³  ÃÄ@DIV88  0/40  Ram=3
+   ³  ³  ÃÄ@const686  0/42  Ram=0
+   ³  ³  ÃÄ@DIV88  0/40  Ram=3
+   ³  ³  ÃÄ@const686  0/42  Ram=0
+   ³  ³  ÃÄ@DIV88  0/40  Ram=3
+   ³  ³  ÃÄ@const686  0/42  Ram=0
+   ³  ³  ÃÄXUAT_4LED_7DOAN_4SO  0/42  Ram=4
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄ@DIV88  0/40  Ram=3
+   ³  ³  ÃÄ@const686  0/42  Ram=0
+   ³  ³  ÃÄ@DIV88  0/40  Ram=3
+   ³  ³  ÃÄ@const686  0/42  Ram=0
+   ³  ³  ÃÄ@DIV88  0/40  Ram=3
+   ³  ³  ÃÄ@const686  0/42  Ram=0
+   ³  ³  ÃÄ@DIV88  0/40  Ram=3
+   ³  ³  ÃÄ@const686  0/42  Ram=0
+   ³  ³  ÃÄ@DIV88  0/40  Ram=3
+   ³  ³  ÃÄ@const686  0/42  Ram=0
+   ³  ³  ÃÄ@DIV88  0/40  Ram=3
+   ³  ³  ÀÄ@const686  0/42  Ram=0
+   ³  ÃÄGIAI_MA_DEM_TIMER  0/310  Ram=4
+   ³  ³  ÀÄ*
+   ³  ÃÄCDNN  0/126  Ram=1
+   ³  ³  ÀÄ*
+   ³  ÃÄXUAT_4LED_7DOAN_4SO  0/42  Ram=4
+   ³  ³  ÀÄ*
+   ³  ÃÄ@delay_ms1  0/38  Ram=1
+   ³  ÃÄXUAT_4LED_7DOAN_4SO  0/42  Ram=4
+   ³  ³  ÀÄ*
+   ³  ÀÄ@delay_ms1  0/38  Ram=1
+   ÀÄINTERRUPT_TIMER1  0/16  Ram=0

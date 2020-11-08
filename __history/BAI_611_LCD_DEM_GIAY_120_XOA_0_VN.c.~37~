@@ -1,0 +1,57 @@
+
+#INCLUDE <TV_PICKIT2_SHIFT_1.C>
+#INCLUDE <TV_PICKIT2_SHIFT_LCD.C>
+
+SIGNED INT8 GIAY;
+signed char DV, CH, TR;
+
+VOID LCD_HIENTHI_DONGHO()
+{
+   LCD_GOTO_XY (0, 15) ;
+   DELAY_US (20);
+   TR = LCD_DATA (GIAY / 100 + 0X30) ;
+   
+   CH = LCD_DATA (GIAY / 10 + 0X30) ;
+   
+   DV = LCD_DATA (GIAY % 10 + 0X30) ;
+   
+   if(TR==0x30)
+   {
+      TR = " ";
+      if (CH==0x30)
+      {
+         CH=" ";
+      }
+   }
+
+//!   IF (GIAY < 10)
+//!   {
+//!      LCD_GOTO_XY (0, 15) ;
+//!      LCD_DATA ("  ");
+//!   }
+//!   
+//!   else IF (GIAY < 100)
+//!   {
+//!      LCD_GOTO_XY (0, 15) ;
+//!      LCD_DATA (" ") ;
+//!   }
+   
+}
+
+VOID MAIN()
+{
+   SET_UP_PORT_IC_CHOT ();
+   SETUP_LCD ();
+   LCD_GOTO_XY (0, 0) ;
+   LCD_DATA ("DONG HO:");
+   GIAY = 100;
+
+   WHILE (TRUE)
+   {
+      LCD_HIENTHI_DONGHO ();
+      DELAY_MS (300);
+      GIAY++;
+      IF (GIAY == 150) GIAY = 100;
+   }
+}
+

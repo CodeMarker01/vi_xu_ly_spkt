@@ -1,0 +1,8 @@
+>>> Warning 225 "BAI_614_LCD_GIO_PHUT_GIAY_TIMER_3_BUTTON.c" Line 5(12,37): Duplicate #define
+>>> Warning 225 "BAI_614_LCD_GIO_PHUT_GIAY_TIMER_3_BUTTON.c" Line 6(12,21): Duplicate #define
+>>> Warning 225 "BAI_614_LCD_GIO_PHUT_GIAY_TIMER_3_BUTTON.c" Line 8(13,21): Duplicate #define
+--- Info 300 "BAI_614_LCD_GIO_PHUT_GIAY_TIMER_3_BUTTON.c" Line 10(22,25): More info:   First Declaration of GIO
+*** Error 31 "BAI_614_LCD_GIO_PHUT_GIAY_TIMER_3_BUTTON.c" Line 11(13,16): Identifier is already used in this scope
+*** Error 48 "BAI_614_LCD_GIO_PHUT_GIAY_TIMER_3_BUTTON.c" Line 11(18,22): Expecting a (
+*** Error 48 "BAI_614_LCD_GIO_PHUT_GIAY_TIMER_3_BUTTON.c" Line 11(24,28): Expecting a (
+*** Error 48 "BAI_614_LCD_GIO_PHUT_GIAY_TIMER_3_BUTTON.c" Line 11(30,33): Expecting a (
